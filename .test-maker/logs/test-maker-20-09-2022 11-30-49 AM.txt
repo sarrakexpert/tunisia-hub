@@ -1,0 +1,251 @@
+[info] [2022-09-20T09:30:49.642Z]
+
+Starting Test Maker 7.5.2
+
+[info] [2022-09-20T09:30:49.661Z]
+Loading Test Maker System Modules
+[info] [2022-09-20T09:30:49.661Z]
+- Loading Test Maker Plugins
+[info] [2022-09-20T09:30:49.834Z]
+- Loading Test Maker Reporters:
+[info] [2022-09-20T09:30:49.834Z]
+- Loading Test Maker Adapters:
+[info] [2022-09-20T09:30:50.480Z]
+  - playwright
+[info] [2022-09-20T09:30:50.480Z]
+    - Loading Client: chrome
+[info] [2022-09-20T09:30:50.498Z]
+
+Debugging is enabled for enabled
+[info] [2022-09-20T09:30:50.500Z]
+Test Maker Debugger is Active
+You can use the following keys in the terminal:
+'d' - activate/deactivate debugger.
+'f' - to continue the process.
+
+[info] [2022-09-20T09:30:51.162Z]
+
+- Deleting Old Reporters Files
+[info] [2022-09-20T09:30:51.193Z]
+- Compiling Spec Files
+
+[2022-09-20T09:30:51.683Z]
+asset vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 128 KiB [compared for emit] (id hint: vendors) 1 related asset
+asset ./src/specs/exemple-spec.js 21.1 KiB [emitted] (name: ./src/specs/exemple-spec) 1 related asset
+Entrypoint ./src/specs/exemple-spec 149 KiB (166 KiB) = vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 128 KiB ./src/specs/exemple-spec.js 21.1 KiB 2 auxiliary assets
+webpack compiled successfully
+[2022-09-20T09:30:51.871Z]
+Task started On Tuesday 20-Sep-2022 At 11:30:51:871 GMT+02:00
+[2022-09-20T09:30:51.872Z]
+Running tests in the following Clients:
+- chrome
+
+[2022-09-20T09:30:53.050Z]
+▶ Feature : Start ------------------
+[2022-09-20T09:30:53.051Z]
+ Name      : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Tuesday 20-Sep-2022 At 11:30:53:045 GMT+02:00
+
+[2022-09-20T09:30:53.052Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T09:30:53.054Z]
+▶ Before Feature : Start -------------------------
+[2022-09-20T09:30:53.055Z]
+ Feature Name: Gain Access
+ Retries     : 0
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ File        : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time  : Tuesday 20-Sep-2022 At 11:30:53:053 GMT+02:00
+
+[2022-09-20T09:30:53.055Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T09:30:53.920Z]
+ⓧ Before Feature : Done ------------------------
+[2022-09-20T09:30:53.922Z]
+ Feature Name: Gain Access
+ Retries     : 0
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ File        : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time  : Tuesday 20-Sep-2022 At 11:30:53:053 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 11:30:53:099 GMT+02:00
+ Duration    : 00:00:00.046
+[2022-09-20T09:30:53.922Z]
+
+ -----Error Details -----
+[2022-09-20T09:30:53.926Z]
+   Message     : Cannot read properties of undefined (reading 'assignOperator')
+   Code        : 2020
+   Type        : TypeError
+   Node        : v16.13.0
+   Phase       : Before Feature
+   Time        : Tuesday 20-Sep-2022 At 11:30:53:056 GMT+02:00
+   Adapter     : playwright
+   Client      : Chrome 101.0.4951.15 / Windows 10
+   Error Source: 
+  
+  at D:/tunisia-hub/src/specs/exemple-spec.ts
+  
+    10 |     //common part for all the scenarios available per the feature
+    11 |     
+  > 12 |     operator = await runInfo?.configuration.extra.operatorsManager.assignOperator('dev');
+       |                                                                    ^
+    13 |     //we need to pass the runInfo parameter to the login method to
+    14 |     // get all current configurations (environment, timeout etc)
+  
+  
+   Stack Trace : 
+  
+      at _0x52e80b.beforeHook (D:\tunisia-hub\src\specs\exemple-spec.ts:12:68)
+      at _0x52e80b.runBeforeHook (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:216:30)
+      at phaseFn (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:181:49)
+      at _0x3221a8.run (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\phase-manager.ts:101:28)
+      at _0x52e80b.run (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:180:9)
+      at D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:141:21
+      at _0x52e80b.runFn (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:137:13)
+      at D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:183:49
+      at _0x2012bc (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\node_modules\.pnpm\p-queue@6.6.2\node_modules\p-queue\dist\index.js:163:1)
+  
+  
+[2022-09-20T09:30:53.927Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T09:30:53.929Z]
+▶ Scenario : Skipped ---------------------
+[2022-09-20T09:30:53.930Z]
+ Name      : Gain Access
+ Feature   : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Tuesday 20-Sep-2022 At 11:30:53:927 GMT+02:00
+
+[2022-09-20T09:30:53.931Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T09:30:53.933Z]
+▶ Given : Skipped ------------------
+[2022-09-20T09:30:53.934Z]
+ Name      : I log in as a dev user
+ Scenario  : Gain Access
+ Feature   : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Tuesday 20-Sep-2022 At 11:30:53:932 GMT+02:00
+
+[2022-09-20T09:30:53.935Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T09:30:53.937Z]
+▶ Then : Skipped -----------------
+[2022-09-20T09:30:53.938Z]
+ Name      : Reprogrammation Demarche
+ Scenario  : Gain Access
+ Feature   : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Tuesday 20-Sep-2022 At 11:30:53:936 GMT+02:00
+
+[2022-09-20T09:30:53.939Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T09:30:53.940Z]
+▶ After Feature : Start ------------------------
+[2022-09-20T09:30:53.941Z]
+ Feature Name: Gain Access
+ Retries     : 0
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ File        : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time  : Tuesday 20-Sep-2022 At 11:30:53:940 GMT+02:00
+
+[2022-09-20T09:30:53.942Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T09:30:54.028Z]
+ⓧ After Feature : Done -----------------------
+[2022-09-20T09:30:54.029Z]
+ Feature Name: Gain Access
+ Retries     : 0
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ File        : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time  : Tuesday 20-Sep-2022 At 11:30:53:940 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 11:30:53:948 GMT+02:00
+ Duration    : 00:00:00.008
+[2022-09-20T09:30:54.029Z]
+
+ -----Error Details -----
+[2022-09-20T09:30:54.031Z]
+   Message     : Cannot read properties of undefined (reading 'unAssignOperator')
+   Code        : 2020
+   Type        : TypeError
+   Node        : v16.13.0
+   Phase       : After Feature
+   Time        : Tuesday 20-Sep-2022 At 11:30:53:943 GMT+02:00
+   Adapter     : playwright
+   Client      : Chrome 101.0.4951.15 / Windows 10
+   Error Source: 
+  
+  at D:/tunisia-hub/src/specs/exemple-spec.ts
+  
+    17 |     })
+    18 |     .after(async (_I: Controller, runInfo?: TestRunInfo) => {
+  > 19 |     await runInfo?.configuration.extra.operatorsManager.unAssignOperator('dev', operator.username);
+       |                                                         ^
+    20 |     await pega.logoff();
+    21 |     })
+  
+  
+   Stack Trace : 
+  
+      at _0x52e80b.afterHook (D:\tunisia-hub\src\specs\exemple-spec.ts:19:57)
+      at _0x52e80b.runAfterHook (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:257:29)
+  
+  
+[2022-09-20T09:30:54.032Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T09:30:54.033Z]
+ⓧ Feature : Done -----------------
+[2022-09-20T09:30:54.034Z]
+ Name      : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Tuesday 20-Sep-2022 At 11:30:53:045 GMT+02:00
+ End Time  : Tuesday 20-Sep-2022 At 11:30:54:033 GMT+02:00
+ Duration  : 00:00:00.985
+[2022-09-20T09:30:54.035Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T09:30:54.035Z]
+▶ Finished 1 of 1 Implemented Features 
+[2022-09-20T09:30:54.035Z]
+
+
+[2022-09-20T09:30:54.086Z]
+
+  ┌─────────────────────────┬─────────────────────┬─────────────────────┬─────────┬─────────┐
+  │         Feature         │      Scenarios      │        Steps        │ Duratio │ Status  │
+  │                         │                     │                     │    n    │         │
+  ├─────────────────────────┼─────────────────────┼─────────────────────┼─────────┼─────────┤
+  │       Gain Access       │      Passed: 0      │      Passed: 0      │ 00:00:0 │ failed  │
+  │ src/specs/exemple-spec. │      Failed: 0      │      Failed: 0      │  0.988  │         │
+  │           ts            │     Skipped: 1      │     Skipped: 2      │         │         │
+  │                         │    Undefined: 0     │    Undefined: 0     │         │         │
+  │                         │                     │                     │         │         │
+  └─────────────────────────┴─────────────────────┴─────────────────────┴─────────┴─────────┘

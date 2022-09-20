@@ -1,0 +1,1148 @@
+[info] [2022-09-20T10:14:19.057Z]
+
+Starting Test Maker 7.5.2
+
+[info] [2022-09-20T10:14:19.074Z]
+Loading Test Maker System Modules
+[info] [2022-09-20T10:14:19.074Z]
+- Loading Test Maker Plugins
+[info] [2022-09-20T10:14:19.234Z]
+- Loading Test Maker Reporters:
+[info] [2022-09-20T10:14:19.234Z]
+- Loading Test Maker Adapters:
+[info] [2022-09-20T10:14:19.824Z]
+  - playwright
+[info] [2022-09-20T10:14:19.825Z]
+    - Loading Client: chrome
+[info] [2022-09-20T10:14:19.841Z]
+
+Debugging is enabled for enabled
+[info] [2022-09-20T10:14:19.842Z]
+Test Maker Debugger is Active
+You can use the following keys in the terminal:
+'d' - activate/deactivate debugger.
+'f' - to continue the process.
+
+[info] [2022-09-20T10:14:20.426Z]
+
+- Deleting Old Reporters Files
+[info] [2022-09-20T10:14:20.453Z]
+- Compiling Spec Files
+
+[2022-09-20T10:14:20.939Z]
+asset vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 128 KiB [compared for emit] (id hint: vendors) 1 related asset
+asset ./src/specs/exemple-spec.js 18.2 KiB [emitted] (name: ./src/specs/exemple-spec) 1 related asset
+Entrypoint ./src/specs/exemple-spec 146 KiB (159 KiB) = vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 128 KiB ./src/specs/exemple-spec.js 18.2 KiB 2 auxiliary assets
+webpack compiled successfully
+[2022-09-20T10:14:21.101Z]
+Task started On Tuesday 20-Sep-2022 At 12:14:21:101 GMT+02:00
+[2022-09-20T10:14:21.102Z]
+Running tests in the following Clients:
+- chrome
+
+[2022-09-20T10:14:22.278Z]
+▶ Feature : Start ------------------
+[2022-09-20T10:14:22.279Z]
+ Name      : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Tuesday 20-Sep-2022 At 12:14:22:275 GMT+02:00
+
+[2022-09-20T10:14:22.281Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:22.283Z]
+▶ Before Feature : Start -------------------------
+[2022-09-20T10:14:22.284Z]
+ Feature Name: Gain Access
+ Retries     : 0
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ File        : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time  : Tuesday 20-Sep-2022 At 12:14:22:282 GMT+02:00
+
+[2022-09-20T10:14:22.285Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:22.289Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T10:14:22.424Z]
+ Type        : Method
+ Name        : I.goto("https://pega870-web-tnhubcosmosreact.dev.k-expert.com/prweb/app/simbafw/CWRZzxAkMqIuoiZieh-_tw*/!STANDARD?pyActivity=%40baseclass.pzProcessURLInWindow&pyPreActivity=Embed-PortalLayout.RedirectAndRun&ThreadName=OpenPortal_UserPortal&Location=pyActivity%3DData-Portal.ShowSelectedPortal%26portal%3DUserPortal%26Name%3D%20UserPortal%26pzSkinName%3D%26developer%3Dfalse%26ThreadName%3DOpenPortal_UserPortal%26launchPortal%3Dtrue%26mSessionThreadName%3DOpenPortal_UserPortal_MTSP2&bPurgeTargetThread=true&target=popup&portalThreadName=STANDARD&portalName=Developer&pzHarnessID=HID779D62F0E5FA04CFABB2D556CCD1CB6A")
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:14:22:286 GMT+02:00
+ File        : D:/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 62 |         await I.goto(url);
+     |               ^
+[2022-09-20T10:14:22.424Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:23.687Z]
+✔ Controller Action : Done ---------------------------
+[2022-09-20T10:14:23.728Z]
+ Type        : Method
+ Name        : I.goto("https://pega870-web-tnhubcosmosreact.dev.k-expert.com/prweb/app/simbafw/CWRZzxAkMqIuoiZieh-_tw*/!STANDARD?pyActivity=%40baseclass.pzProcessURLInWindow&pyPreActivity=Embed-PortalLayout.RedirectAndRun&ThreadName=OpenPortal_UserPortal&Location=pyActivity%3DData-Portal.ShowSelectedPortal%26portal%3DUserPortal%26Name%3D%20UserPortal%26pzSkinName%3D%26developer%3Dfalse%26ThreadName%3DOpenPortal_UserPortal%26launchPortal%3Dtrue%26mSessionThreadName%3DOpenPortal_UserPortal_MTSP2&bPurgeTargetThread=true&target=popup&portalThreadName=STANDARD&portalName=Developer&pzHarnessID=HID779D62F0E5FA04CFABB2D556CCD1CB6A")
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:14:22:286 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:14:23:687 GMT+02:00
+ Duration    : 00:00:01.401
+ File        : D:/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 62 |         await I.goto(url);
+     |               ^
+[2022-09-20T10:14:23.729Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:23.735Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T10:14:23.751Z]
+ Type        : Method
+ Name        : I.click(Selector("#txtUserID",{
+    timeout: 11111,
+    interval: 50,
+    retries: 222,
+    assertionTimeout: 15555,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:14:23:731 GMT+02:00
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 17 |         await I.click(Selector('#txtUserID', this.actualOptions))
+     |               ^
+[2022-09-20T10:14:23.752Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:23.756Z]
+▶ Selector  : Start --------------------
+[2022-09-20T10:14:23.758Z]
+ Init        : Selector("#txtUserID")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:14:23:755 GMT+02:00
+
+[2022-09-20T10:14:23.759Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:23.790Z]
+✔ Selector  : Done -------------------
+[2022-09-20T10:14:23.792Z]
+ Init        : Selector("#txtUserID")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:14:23:755 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:14:23:789 GMT+02:00
+ Duration    : 00:00:00.034
+
+[2022-09-20T10:14:23.793Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:23.849Z]
+✔ Controller Action : Done ---------------------------
+[2022-09-20T10:14:23.857Z]
+ Type        : Method
+ Name        : I.click(Selector("#txtUserID",{
+    timeout: 11111,
+    interval: 50,
+    retries: 222,
+    assertionTimeout: 15555,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:14:23:731 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:14:23:849 GMT+02:00
+ Duration    : 00:00:00.118
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 17 |         await I.click(Selector('#txtUserID', this.actualOptions))
+     |               ^
+[2022-09-20T10:14:23.857Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:23.861Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T10:14:23.867Z]
+ Type        : Method
+ Name        : I.fillField(Selector("#txtUserID",{
+    timeout: 10000,
+    retries: "INFINITELY"
+}),"Sarra.bech")
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:14:23:731 GMT+02:00
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 18 |             .fillField(Selector('#txtUserID'), username);
+     |              ^
+[2022-09-20T10:14:23.868Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:23.868Z]
+▶ Selector  : Start --------------------
+[2022-09-20T10:14:23.870Z]
+ Init        : Selector("#txtUserID")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:14:23:868 GMT+02:00
+
+[2022-09-20T10:14:23.871Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:23.882Z]
+✔ Selector  : Done -------------------
+[2022-09-20T10:14:23.884Z]
+ Init        : Selector("#txtUserID")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:14:23:868 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:14:23:882 GMT+02:00
+ Duration    : 00:00:00.014
+
+[2022-09-20T10:14:23.885Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:23.926Z]
+✔ Controller Action : Done ---------------------------
+[2022-09-20T10:14:23.932Z]
+ Type        : Method
+ Name        : I.fillField(Selector("#txtUserID",{
+    timeout: 10000,
+    retries: "INFINITELY"
+}),"Sarra.bech")
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:14:23:731 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:14:23:925 GMT+02:00
+ Duration    : 00:00:00.194
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 18 |             .fillField(Selector('#txtUserID'), username);
+     |              ^
+[2022-09-20T10:14:23.933Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:23.937Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T10:14:23.944Z]
+ Type        : Method
+ Name        : I.click(Selector("#txtPassword",{
+    timeout: 11111,
+    interval: 50,
+    retries: 222,
+    assertionTimeout: 15555,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:14:23:933 GMT+02:00
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 24 |         await I.click(Selector('#txtPassword', this.actualOptions))
+     |               ^
+[2022-09-20T10:14:23.945Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:23.946Z]
+▶ Selector  : Start --------------------
+[2022-09-20T10:14:23.948Z]
+ Init        : Selector("#txtPassword")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:14:23:945 GMT+02:00
+
+[2022-09-20T10:14:23.949Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:23.958Z]
+✔ Selector  : Done -------------------
+[2022-09-20T10:14:23.959Z]
+ Init        : Selector("#txtPassword")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:14:23:945 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:14:23:957 GMT+02:00
+ Duration    : 00:00:00.012
+
+[2022-09-20T10:14:23.960Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:24.067Z]
+▶ Selector  : Start --------------------
+[2022-09-20T10:14:24.070Z]
+ Init        : Selector("#txtPassword")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:14:24:067 GMT+02:00
+
+[2022-09-20T10:14:24.070Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:24.076Z]
+✔ Selector  : Done -------------------
+[2022-09-20T10:14:24.078Z]
+ Init        : Selector("#txtPassword")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:14:24:067 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:14:24:075 GMT+02:00
+ Duration    : 00:00:00.008
+
+[2022-09-20T10:14:24.078Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:24.117Z]
+✔ Controller Action : Done ---------------------------
+[2022-09-20T10:14:24.127Z]
+ Type        : Method
+ Name        : I.click(Selector("#txtPassword",{
+    timeout: 11111,
+    interval: 50,
+    retries: 222,
+    assertionTimeout: 15555,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:14:23:933 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:14:24:117 GMT+02:00
+ Duration    : 00:00:00.184
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 24 |         await I.click(Selector('#txtPassword', this.actualOptions))
+     |               ^
+[2022-09-20T10:14:24.128Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:24.139Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T10:14:24.149Z]
+ Type        : Method
+ Name        : I.fillField(Selector("#txtPassword",{
+    timeout: 10000,
+    retries: "INFINITELY"
+}),"Rules!12345!")
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:14:23:933 GMT+02:00
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 25 |             .fillField(Selector('#txtPassword'), password);
+     |              ^
+[2022-09-20T10:14:24.151Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:24.153Z]
+▶ Selector  : Start --------------------
+[2022-09-20T10:14:24.156Z]
+ Init        : Selector("#txtPassword")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:14:24:152 GMT+02:00
+
+[2022-09-20T10:14:24.157Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:24.187Z]
+✔ Selector  : Done -------------------
+[2022-09-20T10:14:24.190Z]
+ Init        : Selector("#txtPassword")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:14:24:152 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:14:24:187 GMT+02:00
+ Duration    : 00:00:00.035
+
+[2022-09-20T10:14:24.192Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:24.235Z]
+✔ Controller Action : Done ---------------------------
+[2022-09-20T10:14:24.241Z]
+ Type        : Method
+ Name        : I.fillField(Selector("#txtPassword",{
+    timeout: 10000,
+    retries: "INFINITELY"
+}),"Rules!12345!")
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:14:23:933 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:14:24:235 GMT+02:00
+ Duration    : 00:00:00.302
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 25 |             .fillField(Selector('#txtPassword'), password);
+     |              ^
+[2022-09-20T10:14:24.242Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:24.245Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T10:14:24.255Z]
+ Type        : Method
+ Name        : I.click(Selector("#sub",{
+    timeout: 11111,
+    interval: 50,
+    retries: 222,
+    assertionTimeout: 15555,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:14:24:242 GMT+02:00
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 31 |         await I.click(Selector('#sub', this.actualOptions));
+     |               ^
+[2022-09-20T10:14:24.256Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:24.257Z]
+▶ Selector  : Start --------------------
+[2022-09-20T10:14:24.259Z]
+ Init        : Selector("#sub")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:14:24:257 GMT+02:00
+
+[2022-09-20T10:14:24.260Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:24.269Z]
+✔ Selector  : Done -------------------
+[2022-09-20T10:14:24.271Z]
+ Init        : Selector("#sub")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:14:24:257 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:14:24:269 GMT+02:00
+ Duration    : 00:00:00.012
+
+[2022-09-20T10:14:24.272Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:26.125Z]
+✔ Controller Action : Done ---------------------------
+[2022-09-20T10:14:26.134Z]
+ Type        : Method
+ Name        : I.click(Selector("#sub",{
+    timeout: 11111,
+    interval: 50,
+    retries: 222,
+    assertionTimeout: 15555,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:14:24:242 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:14:26:125 GMT+02:00
+ Duration    : 00:00:01.883
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 31 |         await I.click(Selector('#sub', this.actualOptions));
+     |               ^
+[2022-09-20T10:14:26.135Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:26.136Z]
+✔ Before Feature : Done ------------------------
+[2022-09-20T10:14:26.137Z]
+ Feature Name: Gain Access
+ Retries     : 0
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ File        : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time  : Tuesday 20-Sep-2022 At 12:14:22:282 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:14:26:135 GMT+02:00
+ Duration    : 00:00:03.853
+[2022-09-20T10:14:26.138Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:26.139Z]
+▶ Scenario : Start -------------------
+[2022-09-20T10:14:26.140Z]
+ Name      : Gain Access
+ Feature   : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Tuesday 20-Sep-2022 At 12:14:26:139 GMT+02:00
+
+[2022-09-20T10:14:26.141Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:26.143Z]
+▶ Given : Start ----------------
+[2022-09-20T10:14:26.144Z]
+ Name      : Gain Access Case
+ Scenario  : Gain Access
+ Feature   : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Tuesday 20-Sep-2022 At 12:14:26:142 GMT+02:00
+
+[2022-09-20T10:14:26.145Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:26.327Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T10:14:26.335Z]
+ Type        : Method
+ Name        : I.switchToMainFrame()
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:14:26:325 GMT+02:00
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/frame.ts
+ Source      : 
+> 68 |         await I.switchToMainFrame();
+     |               ^
+[2022-09-20T10:14:26.336Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:26.337Z]
+✔ Controller Action : Done ---------------------------
+[2022-09-20T10:14:26.342Z]
+ Type        : Method
+ Name        : I.switchToMainFrame()
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:14:26:325 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:14:26:336 GMT+02:00
+ Duration    : 00:00:00.011
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/frame.ts
+ Source      : 
+> 68 |         await I.switchToMainFrame();
+     |               ^
+[2022-09-20T10:14:26.342Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:26.345Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T10:14:26.348Z]
+ Type        : Method
+ Name        : I.resizeWindow(1600,900)
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:14:26:343 GMT+02:00
+ File        : D:/tunisia-hub/src/model/case.ts
+ Source      : 
+> 6 |         await I.resizeWindow(1600, 900);
+    |               ^
+[2022-09-20T10:14:26.349Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:26.373Z]
+✔ Controller Action : Done ---------------------------
+[2022-09-20T10:14:26.380Z]
+ Type        : Method
+ Name        : I.resizeWindow(1600,900)
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:14:26:343 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:14:26:371 GMT+02:00
+ Duration    : 00:00:00.028
+ File        : D:/tunisia-hub/src/model/case.ts
+ Source      : 
+> 6 |         await I.resizeWindow(1600, 900);
+    |               ^
+[2022-09-20T10:14:26.381Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:26.387Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T10:14:26.398Z]
+ Type        : Method
+ Name        : I.hover("//*[@class="menu-item-icon-imageclass pi pi-plus"]")
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:14:26:381 GMT+02:00
+ File        : D:/tunisia-hub/src/model/case.ts
+ Source      : 
+> 7 |          await I.hover(`//*[@class="menu-item-icon-imageclass pi pi-plus"]`)
+    |                ^
+[2022-09-20T10:14:26.399Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:26.401Z]
+▶ Selector  : Start --------------------
+[2022-09-20T10:14:26.404Z]
+ Init        : Selector("//*[@class="menu-item-icon-imageclass pi pi-plus"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:14:26:400 GMT+02:00
+
+[2022-09-20T10:14:26.405Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:28.164Z]
+✔ Selector  : Done -------------------
+[2022-09-20T10:14:28.165Z]
+ Init        : Selector("//*[@class="menu-item-icon-imageclass pi pi-plus"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:14:26:400 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:14:28:163 GMT+02:00
+ Duration    : 00:00:01.763
+
+[2022-09-20T10:14:28.166Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:28.224Z]
+✔ Controller Action : Done ---------------------------
+[2022-09-20T10:14:28.228Z]
+ Type        : Method
+ Name        : I.hover("//*[@class="menu-item-icon-imageclass pi pi-plus"]")
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:14:26:381 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:14:28:224 GMT+02:00
+ Duration    : 00:00:01.843
+ File        : D:/tunisia-hub/src/model/case.ts
+ Source      : 
+> 7 |          await I.hover(`//*[@class="menu-item-icon-imageclass pi pi-plus"]`)
+    |                ^
+[2022-09-20T10:14:28.228Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:28.233Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T10:14:28.237Z]
+ Type        : Method
+ Name        : I.click("//*[@class="menu-item-icon-imageclass pi pi-plus"]")
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:14:26:381 GMT+02:00
+ File        : D:/tunisia-hub/src/model/case.ts
+ Source      : 
+> 8 |          .click(`//*[@class="menu-item-icon-imageclass pi pi-plus"]`);   
+    |           ^
+[2022-09-20T10:14:28.238Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:28.239Z]
+▶ Selector  : Start --------------------
+[2022-09-20T10:14:28.241Z]
+ Init        : Selector("//*[@class="menu-item-icon-imageclass pi pi-plus"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:14:28:239 GMT+02:00
+
+[2022-09-20T10:14:28.241Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:28.248Z]
+✔ Selector  : Done -------------------
+[2022-09-20T10:14:28.250Z]
+ Init        : Selector("//*[@class="menu-item-icon-imageclass pi pi-plus"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:14:28:239 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:14:28:248 GMT+02:00
+ Duration    : 00:00:00.009
+
+[2022-09-20T10:14:28.250Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:28.309Z]
+✔ Controller Action : Done ---------------------------
+[2022-09-20T10:14:28.313Z]
+ Type        : Method
+ Name        : I.click("//*[@class="menu-item-icon-imageclass pi pi-plus"]")
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:14:26:381 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:14:28:309 GMT+02:00
+ Duration    : 00:00:01.928
+ File        : D:/tunisia-hub/src/model/case.ts
+ Source      : 
+> 8 |          .click(`//*[@class="menu-item-icon-imageclass pi pi-plus"]`);   
+    |           ^
+[2022-09-20T10:14:28.314Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:28.321Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T10:14:28.327Z]
+ Type        : Method
+ Name        : I.click("//li[@title="Gain Access"]")
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:14:28:315 GMT+02:00
+ File        : D:/tunisia-hub/src/model/case.ts
+ Source      : 
+> 9 |         await I.click(`//li[@title="${title}"]`);
+    |               ^
+[2022-09-20T10:14:28.328Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:28.330Z]
+▶ Selector  : Start --------------------
+[2022-09-20T10:14:28.332Z]
+ Init        : Selector("//li[@title="Gain Access"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:14:28:329 GMT+02:00
+
+[2022-09-20T10:14:28.333Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:28.341Z]
+✔ Selector  : Done -------------------
+[2022-09-20T10:14:28.343Z]
+ Init        : Selector("//li[@title="Gain Access"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:14:28:329 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:14:28:341 GMT+02:00
+ Duration    : 00:00:00.012
+
+[2022-09-20T10:14:28.344Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:28.444Z]
+✔ Controller Action : Done ---------------------------
+[2022-09-20T10:14:28.448Z]
+ Type        : Method
+ Name        : I.click("//li[@title="Gain Access"]")
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:14:28:315 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:14:28:444 GMT+02:00
+ Duration    : 00:00:00.129
+ File        : D:/tunisia-hub/src/model/case.ts
+ Source      : 
+> 9 |         await I.click(`//li[@title="${title}"]`);
+    |               ^
+[2022-09-20T10:14:28.449Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:14:28.449Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T10:14:28.454Z]
+ Type        : Method
+ Name        : I.debugger()
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:14:28:449 GMT+02:00
+ File        : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Source      : 
+> 26 |        await I.debugger()
+     |        ^
+[2022-09-20T10:14:28.455Z]
+-----------------------------------------------------------------------------------------------
+
+[info] [2022-09-20T10:14:28.456Z]
+❯ Test Maker Debugger Is Active, press 'f' if you want continue.
+
+[info] [2022-09-20T10:15:39.777Z]
+Test Maker Debugger is Inactive
+You can use the following keys in the terminal:
+'d' - activate/deactivate debugger.
+'f' - to continue the process.
+

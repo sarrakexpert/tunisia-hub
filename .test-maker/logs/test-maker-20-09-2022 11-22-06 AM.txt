@@ -1,0 +1,253 @@
+[info] [2022-09-20T09:22:06.954Z]
+
+Starting Test Maker 7.5.2
+
+[info] [2022-09-20T09:22:06.992Z]
+Loading Test Maker System Modules
+[info] [2022-09-20T09:22:06.992Z]
+- Loading Test Maker Plugins
+[info] [2022-09-20T09:22:07.436Z]
+- Loading Test Maker Reporters:
+[info] [2022-09-20T09:22:07.436Z]
+- Loading Test Maker Adapters:
+[info] [2022-09-20T09:22:08.593Z]
+  - playwright
+[info] [2022-09-20T09:22:08.593Z]
+    - Loading Client: chrome
+[info] [2022-09-20T09:22:08.620Z]
+
+Debugging is enabled for enabled
+[info] [2022-09-20T09:22:08.622Z]
+Test Maker Debugger is Active
+You can use the following keys in the terminal:
+'d' - activate/deactivate debugger.
+'f' - to continue the process.
+
+[info] [2022-09-20T09:22:10.101Z]
+
+- Deleting Old Reporters Files
+[info] [2022-09-20T09:22:10.103Z]
+- Compiling Spec Files
+
+[2022-09-20T09:22:10.642Z]
+asset vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 128 KiB [emitted] (id hint: vendors) 1 related asset
+asset ./src/specs/exemple-spec.js 10.7 KiB [emitted] (name: ./src/specs/exemple-spec) 1 related asset
+Entrypoint ./src/specs/exemple-spec 139 KiB (154 KiB) = vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 128 KiB ./src/specs/exemple-spec.js 10.7 KiB 2 auxiliary assets
+webpack compiled successfully
+[2022-09-20T09:22:10.789Z]
+Task started On Tuesday 20-Sep-2022 At 11:22:10:788 GMT+02:00
+[2022-09-20T09:22:10.789Z]
+Running tests in the following Clients:
+- chrome
+
+[2022-09-20T09:22:12.375Z]
+▶ Feature : Start ------------------
+[2022-09-20T09:22:12.378Z]
+ Name      : Example Feature
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Tuesday 20-Sep-2022 At 11:22:12:372 GMT+02:00
+
+[2022-09-20T09:22:12.379Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T09:22:12.381Z]
+▶ Scenario : Start -------------------
+[2022-09-20T09:22:12.383Z]
+ Name      : Example Scenario
+ Feature   : Example Feature
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Tuesday 20-Sep-2022 At 11:22:12:380 GMT+02:00
+
+[2022-09-20T09:22:12.384Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T09:22:12.387Z]
+▶ Given : Start ----------------
+[2022-09-20T09:22:12.388Z]
+ Name      : User Logins
+ Scenario  : Example Scenario
+ Feature   : Example Feature
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Tuesday 20-Sep-2022 At 11:22:12:386 GMT+02:00
+
+[2022-09-20T09:22:12.390Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T09:22:12.393Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T09:22:12.440Z]
+ Type        : Method
+ Name        : I.goto("https://dev.k-expert.com:8082/prweb/")
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : User Logins
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 11:22:12:392 GMT+02:00
+ File        : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Source      : 
+> 7 |         await I.goto(`https://dev.k-expert.com:8082/prweb/`)
+    |                 ^
+[2022-09-20T09:22:12.441Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T09:22:15.342Z]
+ⓧ Controller Action : Done ---------------------------
+[2022-09-20T09:22:15.348Z]
+ Type        : Method
+ Name        : I.goto("https://dev.k-expert.com:8082/prweb/")
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : User Logins
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 11:22:12:392 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 11:22:15:342 GMT+02:00
+ Duration    : 00:00:02.950
+ File        : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Source      : 
+> 7 |         await I.goto(`https://dev.k-expert.com:8082/prweb/`)
+    |                 ^
+[2022-09-20T09:22:15.349Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T09:22:15.538Z]
+ⓧ Given : Done ---------------
+[2022-09-20T09:22:15.539Z]
+ Name      : User Logins
+ Scenario  : Example Scenario
+ Feature   : Example Feature
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Tuesday 20-Sep-2022 At 11:22:12:386 GMT+02:00
+ End Time  : Tuesday 20-Sep-2022 At 11:22:15:537 GMT+02:00
+ Duration  : 00:00:03.151
+[2022-09-20T09:22:15.540Z]
+
+ -----Error Details -----
+[2022-09-20T09:22:15.544Z]
+   Message     : frame.goto: net::ERR_CONNECTION_REFUSED at https://dev.k-expert.com:8082/prweb/
+                =========================== logs ===========================
+                navigating to "https://dev.k-expert.com:8082/prweb/", waiting until "load"
+                ============================================================
+   Code        : 2020
+   Type        : Controller
+   Node        : v16.13.0
+   Phase       : Step
+   Time        : Tuesday 20-Sep-2022 At 11:22:15:349 GMT+02:00
+   Adapter     : playwright
+   Client      : Chrome 101.0.4951.15 / Windows 10
+   Error Source: 
+  
+  at D:/tunisia-hub/src/specs/exemple-spec.ts
+  
+    5 |     .Given(`User Logins`, async (I) => {
+    6 | 
+  > 7 |         await I.goto(`https://dev.k-expert.com:8082/prweb/`)
+      |                 ^
+    8 |                .fillField(`#txtUserID`, `olena@ke.com`)
+    9 |                .fillField('#txtPassword', `rulesApr20!`)
+  
+  
+   Stack Trace : 
+  
+      at _0x52bf79 (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\test-api\controller\controller-action.ts:85:37)
+      at _0x31f632 (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\test-api\controller\controller-action.ts:264:24)
+      at _0x5816ba._0x42fac7.value (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\test-api\controller\controller-action.ts:422:17)
+      at _0x57bdb0.fn (D:\tunisia-hub\src\specs\exemple-spec.ts:7:17)
+      at phaseFn (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\step-fn.ts:113:23)
+      at _0x3221a8.run (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\phase-manager.ts:112:17)
+      at _0x57bdb0.run (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\step-fn.ts:109:9)
+      at _0x588755.runSteps (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\scenario-fn.ts:179:13)
+      at _0x588755.run (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\scenario-fn.ts:131:41)
+      at _0x52e80b.runScenarios (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:244:13)
+      at _0x52e80b.run (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:188:41)
+      at D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:141:21
+      at _0x52e80b.runFn (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:137:13)
+      at D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:183:49
+      at _0x2012bc (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\node_modules\.pnpm\p-queue@6.6.2\node_modules\p-queue\dist\index.js:163:1)
+  
+  
+[2022-09-20T09:22:15.545Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T09:22:15.546Z]
+▶ Then : Skipped -----------------
+[2022-09-20T09:22:15.547Z]
+ Name      : Arrive at Dashboard
+ Scenario  : Example Scenario
+ Feature   : Example Feature
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Tuesday 20-Sep-2022 At 11:22:15:545 GMT+02:00
+
+[2022-09-20T09:22:15.548Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T09:22:15.550Z]
+ⓧ Scenario : Done ------------------
+[2022-09-20T09:22:15.552Z]
+ Name      : Example Scenario
+ Feature   : Example Feature
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Tuesday 20-Sep-2022 At 11:22:12:380 GMT+02:00
+ End Time  : Tuesday 20-Sep-2022 At 11:22:15:549 GMT+02:00
+ Duration  : 00:00:03.168
+[2022-09-20T09:22:15.553Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T09:22:15.553Z]
+ⓧ Feature : Done -----------------
+[2022-09-20T09:22:15.554Z]
+ Name      : Example Feature
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Tuesday 20-Sep-2022 At 11:22:12:372 GMT+02:00
+ End Time  : Tuesday 20-Sep-2022 At 11:22:15:553 GMT+02:00
+ Duration  : 00:00:03.179
+[2022-09-20T09:22:15.555Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T09:22:15.555Z]
+▶ Finished 1 of 1 Implemented Features 
+[2022-09-20T09:22:15.556Z]
+
+
+[2022-09-20T09:22:15.605Z]
+
+  ┌─────────────────────────┬─────────────────────┬─────────────────────┬─────────┬─────────┐
+  │         Feature         │      Scenarios      │        Steps        │ Duratio │ Status  │
+  │                         │                     │                     │    n    │         │
+  ├─────────────────────────┼─────────────────────┼─────────────────────┼─────────┼─────────┤
+  │     Example Feature     │      Passed: 0      │      Passed: 0      │ 00:00:0 │ failed  │
+  │ src/specs/exemple-spec. │      Failed: 1      │      Failed: 1      │  3.181  │         │
+  │           ts            │     Skipped: 0      │     Skipped: 1      │         │         │
+  │                         │    Undefined: 0     │    Undefined: 0     │         │         │
+  │                         │                     │                     │         │         │
+  └─────────────────────────┴─────────────────────┴─────────────────────┴─────────┴─────────┘

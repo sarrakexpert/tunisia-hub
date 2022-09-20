@@ -1,0 +1,24 @@
+{
+  "name": "tunisia-hub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "1.1.0",
+    "allure": "0.0.0",
+    "allure-commandline": "2.17.2",
+    "allure-js-commons": "2.0.0-beta.14",
+    "fluent-ffmpeg": "2.1.2",
+    "node-notifier": "10.0.0",
+    "pega-model": "pega-model-1.3.7.tar.gz",
+    "playwright-chromium": "1.21.0",
+    "playwright-core": "1.21.0",
+    "playwright-firefox": "1.19.1",
+    "test-maker": "file:test-maker-7.5.2.tar.gz"
+  }
+}

@@ -1,0 +1,2740 @@
+[info] [2022-09-20T10:32:51.469Z]
+
+Starting Test Maker 7.5.2
+
+[info] [2022-09-20T10:32:51.486Z]
+Loading Test Maker System Modules
+[info] [2022-09-20T10:32:51.486Z]
+- Loading Test Maker Plugins
+[info] [2022-09-20T10:32:51.652Z]
+- Loading Test Maker Reporters:
+[info] [2022-09-20T10:32:51.653Z]
+- Loading Test Maker Adapters:
+[info] [2022-09-20T10:32:52.251Z]
+  - playwright
+[info] [2022-09-20T10:32:52.252Z]
+    - Loading Client: chrome
+[info] [2022-09-20T10:32:52.269Z]
+
+Debugging is enabled for enabled
+[info] [2022-09-20T10:32:52.270Z]
+Test Maker Debugger is Active
+You can use the following keys in the terminal:
+'d' - activate/deactivate debugger.
+'f' - to continue the process.
+
+[info] [2022-09-20T10:32:52.848Z]
+
+- Deleting Old Reporters Files
+[info] [2022-09-20T10:32:52.855Z]
+- Compiling Spec Files
+
+[2022-09-20T10:32:53.355Z]
+asset vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 128 KiB [compared for emit] (id hint: vendors) 1 related asset
+asset ./src/specs/exemple-spec.js 18.7 KiB [emitted] (name: ./src/specs/exemple-spec) 1 related asset
+Entrypoint ./src/specs/exemple-spec 147 KiB (159 KiB) = vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 128 KiB ./src/specs/exemple-spec.js 18.7 KiB 2 auxiliary assets
+webpack compiled successfully
+[2022-09-20T10:32:53.521Z]
+Task started On Tuesday 20-Sep-2022 At 12:32:53:520 GMT+02:00
+[2022-09-20T10:32:53.521Z]
+Running tests in the following Clients:
+- chrome
+
+[2022-09-20T10:32:54.667Z]
+▶ Feature : Start ------------------
+[2022-09-20T10:32:54.668Z]
+ Name      : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Tuesday 20-Sep-2022 At 12:32:54:663 GMT+02:00
+
+[2022-09-20T10:32:54.669Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:54.671Z]
+▶ Before Feature : Start -------------------------
+[2022-09-20T10:32:54.672Z]
+ Feature Name: Gain Access
+ Retries     : 0
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ File        : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time  : Tuesday 20-Sep-2022 At 12:32:54:670 GMT+02:00
+
+[2022-09-20T10:32:54.673Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:54.677Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T10:32:54.823Z]
+ Type        : Method
+ Name        : I.goto("https://pega870-web-tnhubcosmosreact.dev.k-expert.com/prweb/app/simbafw/CWRZzxAkMqIuoiZieh-_tw*/!STANDARD?pyActivity=%40baseclass.pzProcessURLInWindow&pyPreActivity=Embed-PortalLayout.RedirectAndRun&ThreadName=OpenPortal_UserPortal&Location=pyActivity%3DData-Portal.ShowSelectedPortal%26portal%3DUserPortal%26Name%3D%20UserPortal%26pzSkinName%3D%26developer%3Dfalse%26ThreadName%3DOpenPortal_UserPortal%26launchPortal%3Dtrue%26mSessionThreadName%3DOpenPortal_UserPortal_MTSP2&bPurgeTargetThread=true&target=popup&portalThreadName=STANDARD&portalName=Developer&pzHarnessID=HID779D62F0E5FA04CFABB2D556CCD1CB6A")
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:32:54:674 GMT+02:00
+ File        : D:/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 62 |         await I.goto(url);
+     |               ^
+[2022-09-20T10:32:54.824Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:56.080Z]
+✔ Controller Action : Done ---------------------------
+[2022-09-20T10:32:56.122Z]
+ Type        : Method
+ Name        : I.goto("https://pega870-web-tnhubcosmosreact.dev.k-expert.com/prweb/app/simbafw/CWRZzxAkMqIuoiZieh-_tw*/!STANDARD?pyActivity=%40baseclass.pzProcessURLInWindow&pyPreActivity=Embed-PortalLayout.RedirectAndRun&ThreadName=OpenPortal_UserPortal&Location=pyActivity%3DData-Portal.ShowSelectedPortal%26portal%3DUserPortal%26Name%3D%20UserPortal%26pzSkinName%3D%26developer%3Dfalse%26ThreadName%3DOpenPortal_UserPortal%26launchPortal%3Dtrue%26mSessionThreadName%3DOpenPortal_UserPortal_MTSP2&bPurgeTargetThread=true&target=popup&portalThreadName=STANDARD&portalName=Developer&pzHarnessID=HID779D62F0E5FA04CFABB2D556CCD1CB6A")
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:32:54:674 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:32:56:079 GMT+02:00
+ Duration    : 00:00:01.405
+ File        : D:/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 62 |         await I.goto(url);
+     |               ^
+[2022-09-20T10:32:56.123Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:56.129Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T10:32:56.145Z]
+ Type        : Method
+ Name        : I.click(Selector("#txtUserID",{
+    timeout: 11111,
+    interval: 50,
+    retries: 222,
+    assertionTimeout: 15555,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:32:56:125 GMT+02:00
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 17 |         await I.click(Selector('#txtUserID', this.actualOptions))
+     |               ^
+[2022-09-20T10:32:56.146Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:56.150Z]
+▶ Selector  : Start --------------------
+[2022-09-20T10:32:56.154Z]
+ Init        : Selector("#txtUserID")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:32:56:149 GMT+02:00
+
+[2022-09-20T10:32:56.155Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:56.192Z]
+✔ Selector  : Done -------------------
+[2022-09-20T10:32:56.195Z]
+ Init        : Selector("#txtUserID")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:32:56:149 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:32:56:192 GMT+02:00
+ Duration    : 00:00:00.043
+
+[2022-09-20T10:32:56.196Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:56.245Z]
+✔ Controller Action : Done ---------------------------
+[2022-09-20T10:32:56.254Z]
+ Type        : Method
+ Name        : I.click(Selector("#txtUserID",{
+    timeout: 11111,
+    interval: 50,
+    retries: 222,
+    assertionTimeout: 15555,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:32:56:125 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:32:56:245 GMT+02:00
+ Duration    : 00:00:00.120
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 17 |         await I.click(Selector('#txtUserID', this.actualOptions))
+     |               ^
+[2022-09-20T10:32:56.255Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:56.257Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T10:32:56.265Z]
+ Type        : Method
+ Name        : I.fillField(Selector("#txtUserID",{
+    timeout: 10000,
+    retries: "INFINITELY"
+}),"Sarra.bech")
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:32:56:125 GMT+02:00
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 18 |             .fillField(Selector('#txtUserID'), username);
+     |              ^
+[2022-09-20T10:32:56.266Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:56.268Z]
+▶ Selector  : Start --------------------
+[2022-09-20T10:32:56.270Z]
+ Init        : Selector("#txtUserID")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:32:56:267 GMT+02:00
+
+[2022-09-20T10:32:56.271Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:56.288Z]
+✔ Selector  : Done -------------------
+[2022-09-20T10:32:56.290Z]
+ Init        : Selector("#txtUserID")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:32:56:267 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:32:56:288 GMT+02:00
+ Duration    : 00:00:00.021
+
+[2022-09-20T10:32:56.291Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:56.331Z]
+✔ Controller Action : Done ---------------------------
+[2022-09-20T10:32:56.336Z]
+ Type        : Method
+ Name        : I.fillField(Selector("#txtUserID",{
+    timeout: 10000,
+    retries: "INFINITELY"
+}),"Sarra.bech")
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:32:56:125 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:32:56:331 GMT+02:00
+ Duration    : 00:00:00.206
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 18 |             .fillField(Selector('#txtUserID'), username);
+     |              ^
+[2022-09-20T10:32:56.337Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:56.346Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T10:32:56.355Z]
+ Type        : Method
+ Name        : I.click(Selector("#txtPassword",{
+    timeout: 11111,
+    interval: 50,
+    retries: 222,
+    assertionTimeout: 15555,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:32:56:338 GMT+02:00
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 24 |         await I.click(Selector('#txtPassword', this.actualOptions))
+     |               ^
+[2022-09-20T10:32:56.356Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:56.357Z]
+▶ Selector  : Start --------------------
+[2022-09-20T10:32:56.361Z]
+ Init        : Selector("#txtPassword")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:32:56:357 GMT+02:00
+
+[2022-09-20T10:32:56.362Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:56.371Z]
+✔ Selector  : Done -------------------
+[2022-09-20T10:32:56.374Z]
+ Init        : Selector("#txtPassword")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:32:56:357 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:32:56:370 GMT+02:00
+ Duration    : 00:00:00.013
+
+[2022-09-20T10:32:56.375Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:56.483Z]
+▶ Selector  : Start --------------------
+[2022-09-20T10:32:56.486Z]
+ Init        : Selector("#txtPassword")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:32:56:483 GMT+02:00
+
+[2022-09-20T10:32:56.487Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:56.493Z]
+✔ Selector  : Done -------------------
+[2022-09-20T10:32:56.495Z]
+ Init        : Selector("#txtPassword")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:32:56:483 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:32:56:493 GMT+02:00
+ Duration    : 00:00:00.010
+
+[2022-09-20T10:32:56.496Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:56.541Z]
+✔ Controller Action : Done ---------------------------
+[2022-09-20T10:32:56.553Z]
+ Type        : Method
+ Name        : I.click(Selector("#txtPassword",{
+    timeout: 11111,
+    interval: 50,
+    retries: 222,
+    assertionTimeout: 15555,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:32:56:338 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:32:56:541 GMT+02:00
+ Duration    : 00:00:00.203
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 24 |         await I.click(Selector('#txtPassword', this.actualOptions))
+     |               ^
+[2022-09-20T10:32:56.554Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:56.563Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T10:32:56.576Z]
+ Type        : Method
+ Name        : I.fillField(Selector("#txtPassword",{
+    timeout: 10000,
+    retries: "INFINITELY"
+}),"Rules!12345!")
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:32:56:338 GMT+02:00
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 25 |             .fillField(Selector('#txtPassword'), password);
+     |              ^
+[2022-09-20T10:32:56.577Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:56.579Z]
+▶ Selector  : Start --------------------
+[2022-09-20T10:32:56.583Z]
+ Init        : Selector("#txtPassword")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:32:56:578 GMT+02:00
+
+[2022-09-20T10:32:56.584Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:56.607Z]
+✔ Selector  : Done -------------------
+[2022-09-20T10:32:56.610Z]
+ Init        : Selector("#txtPassword")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:32:56:578 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:32:56:607 GMT+02:00
+ Duration    : 00:00:00.029
+
+[2022-09-20T10:32:56.611Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:56.651Z]
+✔ Controller Action : Done ---------------------------
+[2022-09-20T10:32:56.659Z]
+ Type        : Method
+ Name        : I.fillField(Selector("#txtPassword",{
+    timeout: 10000,
+    retries: "INFINITELY"
+}),"Rules!12345!")
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:32:56:338 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:32:56:651 GMT+02:00
+ Duration    : 00:00:00.313
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 25 |             .fillField(Selector('#txtPassword'), password);
+     |              ^
+[2022-09-20T10:32:56.660Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:56.664Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T10:32:56.671Z]
+ Type        : Method
+ Name        : I.click(Selector("#sub",{
+    timeout: 11111,
+    interval: 50,
+    retries: 222,
+    assertionTimeout: 15555,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:32:56:661 GMT+02:00
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 31 |         await I.click(Selector('#sub', this.actualOptions));
+     |               ^
+[2022-09-20T10:32:56.672Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:56.674Z]
+▶ Selector  : Start --------------------
+[2022-09-20T10:32:56.676Z]
+ Init        : Selector("#sub")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:32:56:673 GMT+02:00
+
+[2022-09-20T10:32:56.677Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:56.684Z]
+✔ Selector  : Done -------------------
+[2022-09-20T10:32:56.687Z]
+ Init        : Selector("#sub")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:32:56:673 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:32:56:683 GMT+02:00
+ Duration    : 00:00:00.010
+
+[2022-09-20T10:32:56.687Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:58.408Z]
+✔ Controller Action : Done ---------------------------
+[2022-09-20T10:32:58.418Z]
+ Type        : Method
+ Name        : I.click(Selector("#sub",{
+    timeout: 11111,
+    interval: 50,
+    retries: 222,
+    assertionTimeout: 15555,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:32:56:661 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:32:58:408 GMT+02:00
+ Duration    : 00:00:01.747
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 31 |         await I.click(Selector('#sub', this.actualOptions));
+     |               ^
+[2022-09-20T10:32:58.419Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:58.421Z]
+✔ Before Feature : Done ------------------------
+[2022-09-20T10:32:58.422Z]
+ Feature Name: Gain Access
+ Retries     : 0
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ File        : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time  : Tuesday 20-Sep-2022 At 12:32:54:670 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:32:58:419 GMT+02:00
+ Duration    : 00:00:03.749
+[2022-09-20T10:32:58.423Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:58.424Z]
+▶ Scenario : Start -------------------
+[2022-09-20T10:32:58.425Z]
+ Name      : Gain Access
+ Feature   : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Tuesday 20-Sep-2022 At 12:32:58:424 GMT+02:00
+
+[2022-09-20T10:32:58.426Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:58.428Z]
+▶ Given : Start ----------------
+[2022-09-20T10:32:58.430Z]
+ Name      : Gain Access Case
+ Scenario  : Gain Access
+ Feature   : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Tuesday 20-Sep-2022 At 12:32:58:427 GMT+02:00
+
+[2022-09-20T10:32:58.430Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:58.609Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T10:32:58.616Z]
+ Type        : Method
+ Name        : I.switchToMainFrame()
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:32:58:607 GMT+02:00
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/frame.ts
+ Source      : 
+> 68 |         await I.switchToMainFrame();
+     |               ^
+[2022-09-20T10:32:58.617Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:58.617Z]
+✔ Controller Action : Done ---------------------------
+[2022-09-20T10:32:58.624Z]
+ Type        : Method
+ Name        : I.switchToMainFrame()
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:32:58:607 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:32:58:617 GMT+02:00
+ Duration    : 00:00:00.010
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/frame.ts
+ Source      : 
+> 68 |         await I.switchToMainFrame();
+     |               ^
+[2022-09-20T10:32:58.624Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:58.628Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T10:32:58.633Z]
+ Type        : Method
+ Name        : I.resizeWindow(1600,900)
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:32:58:625 GMT+02:00
+ File        : D:/tunisia-hub/src/model/case.ts
+ Source      : 
+> 6 |         await I.resizeWindow(1600, 900);
+    |               ^
+[2022-09-20T10:32:58.633Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:58.655Z]
+✔ Controller Action : Done ---------------------------
+[2022-09-20T10:32:58.660Z]
+ Type        : Method
+ Name        : I.resizeWindow(1600,900)
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:32:58:625 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:32:58:654 GMT+02:00
+ Duration    : 00:00:00.029
+ File        : D:/tunisia-hub/src/model/case.ts
+ Source      : 
+> 6 |         await I.resizeWindow(1600, 900);
+    |               ^
+[2022-09-20T10:32:58.661Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:58.674Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T10:32:58.678Z]
+ Type        : Method
+ Name        : I.click("//*[@class="menu-item-icon-imageclass pi pi-plus"]")
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:32:58:662 GMT+02:00
+ File        : D:/tunisia-hub/src/model/case.ts
+ Source      : 
+> 7 |          await I.click(`//*[@class="menu-item-icon-imageclass pi pi-plus"]`);   
+    |                ^
+[2022-09-20T10:32:58.679Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:32:58.681Z]
+▶ Selector  : Start --------------------
+[2022-09-20T10:32:58.683Z]
+ Init        : Selector("//*[@class="menu-item-icon-imageclass pi pi-plus"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:32:58:680 GMT+02:00
+
+[2022-09-20T10:32:58.683Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:00.624Z]
+✔ Selector  : Done -------------------
+[2022-09-20T10:33:00.626Z]
+ Init        : Selector("//*[@class="menu-item-icon-imageclass pi pi-plus"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:32:58:680 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:33:00:624 GMT+02:00
+ Duration    : 00:00:01.944
+
+[2022-09-20T10:33:00.627Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:00.713Z]
+✔ Controller Action : Done ---------------------------
+[2022-09-20T10:33:00.717Z]
+ Type        : Method
+ Name        : I.click("//*[@class="menu-item-icon-imageclass pi pi-plus"]")
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:32:58:662 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:33:00:713 GMT+02:00
+ Duration    : 00:00:02.051
+ File        : D:/tunisia-hub/src/model/case.ts
+ Source      : 
+> 7 |          await I.click(`//*[@class="menu-item-icon-imageclass pi pi-plus"]`);   
+    |                ^
+[2022-09-20T10:33:00.718Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:00.725Z]
+▶ Assertion  : Start ---------------------
+[2022-09-20T10:33:00.727Z]
+ Init        : Expect({ /* Promise */ }, {
+                  timeout: 15555,
+                  interval: 50,
+                  retries: 222
+              })()
+ Retries     : 0
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:33:00:723 GMT+02:00
+
+[2022-09-20T10:33:00.728Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:00.729Z]
+▶ Selector  : Start --------------------
+[2022-09-20T10:33:00.731Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Gain Access")]")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:33:00:729 GMT+02:00
+
+[2022-09-20T10:33:00.732Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:00.733Z]
+▶ Selector Action : Start --------------------------
+[2022-09-20T10:33:00.781Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Gain Access")]")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Method
+ Name        : filterVisible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:33:00:732 GMT+02:00
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2022-09-20T10:33:00.782Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:00.815Z]
+▶ Selector Action : Start --------------------------
+[2022-09-20T10:33:00.851Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Gain Access")]")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Method
+ Name        : nth("0")
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:33:00:815 GMT+02:00
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2022-09-20T10:33:00.851Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:00.853Z]
+✔ Selector  : Done -------------------
+[2022-09-20T10:33:00.855Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Gain Access")]")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:33:00:729 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:33:00:852 GMT+02:00
+ Duration    : 00:00:00.123
+
+[2022-09-20T10:33:00.856Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:00.856Z]
+✔ Selector  : Done -------------------
+[2022-09-20T10:33:00.858Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Gain Access")]")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:33:00:729 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:33:00:852 GMT+02:00
+ Duration    : 00:00:00.123
+
+[2022-09-20T10:33:00.859Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:00.859Z]
+▶ Selector Action : Start --------------------------
+[2022-09-20T10:33:00.899Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Gain Access")]")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:33:00:729 GMT+02:00
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2022-09-20T10:33:00.900Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:00.922Z]
+✔ Selector Action : Done -------------------------
+[2022-09-20T10:33:00.966Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Gain Access")]")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:33:00:729 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:33:00:922 GMT+02:00
+ Duration    : 00:00:00.193
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2022-09-20T10:33:00.967Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:00.968Z]
+▶ Assertion Action : Start ---------------------------
+[2022-09-20T10:33:01.005Z]
+ Action      : Expect({ /* Promise */ }, {
+                  timeout: 15555,
+                  interval: 50,
+                  retries: 222
+              }).toBeOk()
+ Retries     : 0
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:33:00:967 GMT+02:00
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 229 |             }).toBeOk();
+      |                ^
+[2022-09-20T10:33:01.006Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:01.008Z]
+✔ Assertion Action : Done --------------------------
+[2022-09-20T10:33:01.052Z]
+ Action      : Expect({ /* Promise */ }, {
+                  timeout: 15555,
+                  interval: 50,
+                  retries: 222
+              }).toBeOk()
+ Retries     : 0
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:33:00:967 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:33:01:007 GMT+02:00
+ Duration    : 00:00:00.040
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 229 |             }).toBeOk();
+      |                ^
+[2022-09-20T10:33:01.053Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:01.053Z]
+✔ Assertion  : Done --------------------
+[2022-09-20T10:33:01.055Z]
+ Init        : Expect({ /* Promise */ }, {
+                  timeout: 15555,
+                  interval: 50,
+                  retries: 222
+              })()
+ Retries     : 0
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:33:00:723 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:33:01:007 GMT+02:00
+ Duration    : 00:00:00.284
+
+[2022-09-20T10:33:01.055Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:01.171Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T10:33:01.209Z]
+ Type        : Method
+ Name        : I.click(Selector("//*[@class="menu-item-title"][contains(text(),"Gain Access")]",{
+    timeout: 11111,
+    interval: 50,
+    retries: 222,
+    assertionTimeout: 15555,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:33:01:055 GMT+02:00
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 29 |         await I.click(Selector(element, this.actualOptions).filterVisible());
+     |               ^
+[2022-09-20T10:33:01.210Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:01.212Z]
+▶ Selector  : Start --------------------
+[2022-09-20T10:33:01.214Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Gain Access")]")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:33:01:211 GMT+02:00
+
+[2022-09-20T10:33:01.215Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:01.216Z]
+▶ Selector Action : Start --------------------------
+[2022-09-20T10:33:01.224Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Gain Access")]")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Method
+ Name        : filterVisible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:33:01:215 GMT+02:00
+ File        : node:internal/process/task_queues
+ Source      : 
+> 1 | Could not find source file: node:internal/process/task_queues
+    | ^
+[2022-09-20T10:33:01.225Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:01.253Z]
+✔ Selector  : Done -------------------
+[2022-09-20T10:33:01.256Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Gain Access")]")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:33:01:211 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:33:01:252 GMT+02:00
+ Duration    : 00:00:00.041
+
+[2022-09-20T10:33:01.256Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:01.257Z]
+✔ Selector  : Done -------------------
+[2022-09-20T10:33:01.259Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Gain Access")]")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:33:01:211 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:33:01:252 GMT+02:00
+ Duration    : 00:00:00.041
+
+[2022-09-20T10:33:01.261Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:01.374Z]
+✔ Controller Action : Done ---------------------------
+[2022-09-20T10:33:01.417Z]
+ Type        : Method
+ Name        : I.click(Selector("//*[@class="menu-item-title"][contains(text(),"Gain Access")]",{
+    timeout: 11111,
+    interval: 50,
+    retries: 222,
+    assertionTimeout: 15555,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:33:01:055 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:33:01:374 GMT+02:00
+ Duration    : 00:00:00.319
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 29 |         await I.click(Selector(element, this.actualOptions).filterVisible());
+     |               ^
+[2022-09-20T10:33:01.418Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:01.423Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T10:33:01.428Z]
+ Type        : Method
+ Name        : I.switchToPreviousWindow()
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:33:01:419 GMT+02:00
+ File        : D:/tunisia-hub/src/model/case.ts
+ Source      : 
+> 12 |         await I.switchToPreviousWindow()
+     |               ^
+[2022-09-20T10:33:01.428Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:01.430Z]
+✔ Controller Action : Done ---------------------------
+[2022-09-20T10:33:01.434Z]
+ Type        : Method
+ Name        : I.switchToPreviousWindow()
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:33:01:419 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:33:01:430 GMT+02:00
+ Duration    : 00:00:00.011
+ File        : D:/tunisia-hub/src/model/case.ts
+ Source      : 
+> 12 |         await I.switchToPreviousWindow()
+     |               ^
+[2022-09-20T10:33:01.434Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:01.436Z]
+▶ Assertion  : Start ---------------------
+[2022-09-20T10:33:01.437Z]
+ Init        : Expect({ /* Promise */ }, {
+                  timeout: 15555,
+                  interval: 50,
+                  retries: 222
+              })()
+ Retries     : 0
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:33:01:436 GMT+02:00
+
+[2022-09-20T10:33:01.438Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:01.439Z]
+▶ Selector  : Start --------------------
+[2022-09-20T10:33:01.441Z]
+ Init        : Selector("//button[@data-test-id="202209051850320960738"]")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:33:01:439 GMT+02:00
+
+[2022-09-20T10:33:01.442Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:01.442Z]
+▶ Selector Action : Start --------------------------
+[2022-09-20T10:33:01.479Z]
+ Init        : Selector("//button[@data-test-id="202209051850320960738"]")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Method
+ Name        : filterVisible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:33:01:442 GMT+02:00
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2022-09-20T10:33:01.480Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:12.586Z]
+ⓧ Selector  : Done -------------------
+[2022-09-20T10:33:12.589Z]
+ Init        : Selector("//button[@data-test-id="202209051850320960738"]")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:33:01:439 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:33:12:586 GMT+02:00
+ Duration    : 00:00:11.147
+
+[2022-09-20T10:33:12.590Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:12.590Z]
+▶ Selector Action : Start --------------------------
+[2022-09-20T10:33:12.628Z]
+ Init        : Selector("//button[@data-test-id="202209051850320960738"]")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:33:01:439 GMT+02:00
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2022-09-20T10:33:12.628Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:12.629Z]
+ⓧ Selector Action : Done -------------------------
+[2022-09-20T10:33:12.673Z]
+ Init        : Selector("//button[@data-test-id="202209051850320960738"]")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:33:01:439 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:33:12:629 GMT+02:00
+ Duration    : 00:00:11.190
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2022-09-20T10:33:12.673Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:12.728Z]
+▶ Selector  : Start --------------------
+[2022-09-20T10:33:12.730Z]
+ Init        : Selector("//button[@data-test-id="202209051850320960738"]")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:33:12:727 GMT+02:00
+
+[2022-09-20T10:33:12.730Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:23.892Z]
+ⓧ Selector  : Done -------------------
+[2022-09-20T10:33:23.895Z]
+ Init        : Selector("//button[@data-test-id="202209051850320960738"]")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:33:12:727 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:33:23:891 GMT+02:00
+ Duration    : 00:00:11.164
+
+[2022-09-20T10:33:23.895Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:23.896Z]
+▶ Selector Action : Start --------------------------
+[2022-09-20T10:33:23.933Z]
+ Init        : Selector("//button[@data-test-id="202209051850320960738"]")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:33:12:727 GMT+02:00
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2022-09-20T10:33:23.934Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:23.935Z]
+ⓧ Selector Action : Done -------------------------
+[2022-09-20T10:33:23.980Z]
+ Init        : Selector("//button[@data-test-id="202209051850320960738"]")
+ options     : {
+                  timeout: 11111,
+                  interval: 50,
+                  retries: 222,
+                  assertionTimeout: 15555,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:33:12:727 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:33:23:934 GMT+02:00
+ Duration    : 00:00:11.207
+ File        : D:/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2022-09-20T10:33:23.981Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:24.033Z]
+ⓧ Assertion  : Done --------------------
+[2022-09-20T10:33:24.035Z]
+ Init        : Expect({ /* Promise */ }, {
+                  timeout: 15555,
+                  interval: 50,
+                  retries: 222
+              })()
+ Retries     : 1
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:33:01:436 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:33:24:032 GMT+02:00
+ Duration    : 00:00:22.596
+
+[2022-09-20T10:33:24.036Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:24.369Z]
+ⓧ Given : Done ---------------
+[2022-09-20T10:33:24.371Z]
+ Name      : Gain Access Case
+ Scenario  : Gain Access
+ Feature   : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Tuesday 20-Sep-2022 At 12:32:58:427 GMT+02:00
+ End Time  : Tuesday 20-Sep-2022 At 12:33:24:368 GMT+02:00
+ Duration  : 00:00:25.941
+[2022-09-20T10:33:24.372Z]
+
+ -----Error Details -----
+[2022-09-20T10:33:24.387Z]
+   Message     : Could not obtain information about the Selector because the specified selector does not match any node in the DOM tree. Make sure the Selector exists or the operation is performed in the correct Frame for Selector('//button[@data-test-id="202209051850320960738"]',{
+                    timeout: 11111,
+                    interval: 50,
+                    retries: 222,
+                    assertionTimeout: 15555,
+                    index: 0,
+                    isCaseSensitive: true
+                })
+   Code        : 2020
+   Type        : Error
+   Node        : v16.13.0
+   Phase       : Step
+   Time        : Tuesday 20-Sep-2022 At 12:33:24:037 GMT+02:00
+   Adapter     : playwright
+   Client      : Chrome 101.0.4951.15 / Windows 10
+   Feature File: D:/tunisia-hub/src/specs/exemple-spec.ts
+   Error Source: 
+  
+  at D:/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+  
+    222 |         this.actualOptions = methodOptions.setOptions(options);
+    223 |         await I.expect(Selector(element, this.actualOptions)
+  > 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+        |                                                               ^
+    225 |             {
+    226 |                 timeout: this.actualOptions.assertionTimeout,
+  
+  at D:/tunisia-hub/node_modules/pega-model/src/widgets/controls/buttons/button.ts
+  
+    106 | 
+    107 |     async shouldBeVisible(options?: { index?: number, timeout?: number, assertionTimeout?: number, interval?: number, retries?: number }) {
+  > 108 |         await controlsCommonActions.shouldBeVisible(this.element, options);
+        |               ^
+    109 |     }
+    110 | 
+  
+  at D:/tunisia-hub/node_modules/pega-model/src/widgets/controls/buttons/button.ts
+  
+    80 | 
+    81 |     async click(options?: { timeout?: number, interval?: number, retries?: number }) {
+  > 82 |         await this.shouldBeVisible(options);
+       |                    ^
+    83 |         await this.clickWithoutHover(options);
+    84 |     }
+  
+  at D:/tunisia-hub/src/model/case.ts
+  
+    11 | 
+    12 |         await I.switchToPreviousWindow()
+  > 13 |          await pega.buttonByDataTestId(`202209051850320960738`).click();
+       |                                                                 ^
+    14 |     }
+    15 | }
+  
+  at D:/tunisia-hub/src/specs/exemple-spec.ts
+  
+    23 |     .Given('Gain Access Case', async (_I, _runInfo) => {
+    24 |         await pega.frame.switchToDefault();
+  > 25 |         await app.case.createCaseWithTitle("Gain Access");
+       |         ^
+    26 |        await I.debugger()
+    27 |     })
+  
+  
+   Stack Trace : 
+  
+      at _0x41167c (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\test-api\selector\selector-action.ts:74:37)
+      at _0x2f0cc4 (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\test-api\selector\selector-action.ts:166:52)
+      at _0x2a62a7._0x1c0c62.value (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\test-api\selector\selector-action.ts:344:24)
+      at _0x4803ac (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\test-api\selector\clone-selector.ts:17:13)
+      at _0x2f0cc4 (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\test-api\selector\selector-action.ts:311:32)
+      at _0x2a62a7._0x1c0c62.get (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\test-api\selector\selector-action.ts:357:24)
+      at ControlsCommonActions.shouldBeVisible (D:\tunisia-hub\node_modules\pega-model\src\widgets\controls\controlsCommonActions.ts:224:63)
+      at Button.shouldBeVisible (D:\tunisia-hub\node_modules\pega-model\src\widgets\controls\buttons\button.ts:108:15)
+      at Button.click (D:\tunisia-hub\node_modules\pega-model\src\widgets\controls\buttons\button.ts:82:20)
+      at Case.createCaseWithTitle (D:\tunisia-hub\src\model\case.ts:13:65)
+      at _0x57bdb0.fn (D:\tunisia-hub\src\specs\exemple-spec.ts:25:9)
+      at phaseFn (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\step-fn.ts:113:17)
+      at _0x3221a8.run (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\phase-manager.ts:112:17)
+      at _0x57bdb0.run (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\step-fn.ts:109:9)
+      at _0x588755.runSteps (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\scenario-fn.ts:179:13)
+      at _0x588755.run (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\scenario-fn.ts:131:41)
+      at _0x52e80b.runScenarios (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:244:13)
+      at _0x52e80b.run (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:188:41)
+      at D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:141:21
+      at _0x52e80b.runFn (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:137:13)
+      at D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:183:49
+      at _0x2012bc (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\node_modules\.pnpm\p-queue@6.6.2\node_modules\p-queue\dist\index.js:163:1)
+  
+  
+[2022-09-20T10:33:24.388Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:24.390Z]
+▶ Then : Skipped -----------------
+[2022-09-20T10:33:24.391Z]
+ Name      : Reprogrammation Demarche
+ Scenario  : Gain Access
+ Feature   : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Tuesday 20-Sep-2022 At 12:33:24:389 GMT+02:00
+
+[2022-09-20T10:33:24.392Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:24.396Z]
+ⓧ Scenario : Done ------------------
+[2022-09-20T10:33:24.398Z]
+ Name      : Gain Access
+ Feature   : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Tuesday 20-Sep-2022 At 12:32:58:424 GMT+02:00
+ End Time  : Tuesday 20-Sep-2022 At 12:33:24:394 GMT+02:00
+ Duration  : 00:00:25.971
+[2022-09-20T10:33:24.399Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:24.400Z]
+▶ After Feature : Start ------------------------
+[2022-09-20T10:33:24.401Z]
+ Feature Name: Gain Access
+ Retries     : 0
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ File        : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time  : Tuesday 20-Sep-2022 At 12:33:24:399 GMT+02:00
+
+[2022-09-20T10:33:24.402Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:24.462Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T10:33:24.497Z]
+ Type        : Method
+ Name        : I.switchToMainFrame()
+ Phase       : After Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:33:24:402 GMT+02:00
+ File        : D:/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 84 |         await I.switchToMainFrame()
+     |               ^
+[2022-09-20T10:33:24.497Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:24.498Z]
+✔ Controller Action : Done ---------------------------
+[2022-09-20T10:33:24.531Z]
+ Type        : Method
+ Name        : I.switchToMainFrame()
+ Phase       : After Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:33:24:402 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:33:24:498 GMT+02:00
+ Duration    : 00:00:00.096
+ File        : D:/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 84 |         await I.switchToMainFrame()
+     |               ^
+[2022-09-20T10:33:24.532Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:24.587Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T10:33:24.622Z]
+ Type        : Method
+ Name        : I.waitForSelectActionabilityCheck("[data-test-id="px-opr-image-ctrl"]",[
+    "attached",
+    "stable",
+    "visible"
+])
+ Phase       : After Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:33:24:402 GMT+02:00
+ File        : D:/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 85 |             .waitForSelectActionabilityCheck(selector, [`attached`, 'stable', 'visible'])
+     |              ^
+[2022-09-20T10:33:24.622Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:24.624Z]
+▶ Selector  : Start --------------------
+[2022-09-20T10:33:24.626Z]
+ Init        : Selector("[data-test-id="px-opr-image-ctrl"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:33:24:623 GMT+02:00
+
+[2022-09-20T10:33:24.628Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:24.646Z]
+✔ Selector  : Done -------------------
+[2022-09-20T10:33:24.648Z]
+ Init        : Selector("[data-test-id="px-opr-image-ctrl"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:33:24:623 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:33:24:645 GMT+02:00
+ Duration    : 00:00:00.022
+
+[2022-09-20T10:33:24.649Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:24.677Z]
+✔ Controller Action : Done ---------------------------
+[2022-09-20T10:33:24.697Z]
+ Type        : Method
+ Name        : I.waitForSelectActionabilityCheck("[data-test-id="px-opr-image-ctrl"]",[
+    "attached",
+    "stable",
+    "visible"
+])
+ Phase       : After Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:33:24:402 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:33:24:676 GMT+02:00
+ Duration    : 00:00:00.274
+ File        : D:/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 85 |             .waitForSelectActionabilityCheck(selector, [`attached`, 'stable', 'visible'])
+     |              ^
+[2022-09-20T10:33:24.697Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:24.699Z]
+▶ Controller Action : Start ----------------------------
+[2022-09-20T10:33:24.723Z]
+ Type        : Method
+ Name        : I.hover("[data-test-id="px-opr-image-ctrl"]")
+ Phase       : After Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:33:24:402 GMT+02:00
+ File        : D:/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 86 |             .hover(selector)
+     |              ^
+[2022-09-20T10:33:24.723Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:24.724Z]
+▶ Selector  : Start --------------------
+[2022-09-20T10:33:24.726Z]
+ Init        : Selector("[data-test-id="px-opr-image-ctrl"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:33:24:724 GMT+02:00
+
+[2022-09-20T10:33:24.727Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:24.770Z]
+✔ Selector  : Done -------------------
+[2022-09-20T10:33:24.772Z]
+ Init        : Selector("[data-test-id="px-opr-image-ctrl"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 20-Sep-2022 At 12:33:24:724 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:33:24:769 GMT+02:00
+ Duration    : 00:00:00.045
+
+[2022-09-20T10:33:24.773Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:54.794Z]
+ⓧ Controller Action : Done ---------------------------
+[2022-09-20T10:33:54.822Z]
+ Type        : Method
+ Name        : I.hover("[data-test-id="px-opr-image-ctrl"]")
+ Phase       : After Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 20-Sep-2022 At 12:33:24:402 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:33:54:793 GMT+02:00
+ Duration    : 00:00:30.391
+ File        : D:/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 86 |             .hover(selector)
+     |              ^
+[2022-09-20T10:33:54.822Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:55.078Z]
+ⓧ After Feature : Done -----------------------
+[2022-09-20T10:33:55.080Z]
+ Feature Name: Gain Access
+ Retries     : 0
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ File        : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time  : Tuesday 20-Sep-2022 At 12:33:24:399 GMT+02:00
+ End Time    : Tuesday 20-Sep-2022 At 12:33:54:853 GMT+02:00
+ Duration    : 00:00:30.454
+[2022-09-20T10:33:55.080Z]
+
+ -----Error Details -----
+[2022-09-20T10:33:55.126Z]
+   Message     : elementHandle.hover: Timeout 30000ms exceeded.
+                =========================== logs ===========================
+                attempting hover action
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #1
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #2
+                  waiting 20ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #3
+                  waiting 100ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #4
+                  waiting 100ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #5
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #6
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #7
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #8
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #9
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #10
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #11
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #12
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #13
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #14
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #15
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #16
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #17
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #18
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #19
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #20
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #21
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #22
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #23
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #24
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #25
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #26
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #27
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #28
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #29
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #30
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #31
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #32
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #33
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #34
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #35
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #36
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #37
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #38
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #39
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #40
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #41
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #42
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #43
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #44
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #45
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #46
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #47
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #48
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #49
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #50
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #51
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #52
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #53
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #54
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #55
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #56
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #57
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #58
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #59
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                  element is visible and stable
+                  scrolling into view if needed
+                  done scrolling
+                  performing hover action
+                  <div uniqueid="yui-gen1" aria-live="assertive" data-m…>…</div> from <header id="l1" role="banner" name="BASE_REF" aria-label…>…</header> subtree intercepts pointer events
+                retrying hover action, attempt #60
+                  waiting 500ms
+                  waiting for element to be visible and stable
+                ============================================================
+   Code        : 2020
+   Type        : Controller
+   Node        : v16.13.0
+   Phase       : After Feature
+   Time        : Tuesday 20-Sep-2022 At 12:33:54:823 GMT+02:00
+   Adapter     : playwright
+   Client      : Chrome 101.0.4951.15 / Windows 10
+   Feature File: D:/tunisia-hub/src/specs/exemple-spec.ts
+   Error Source: 
+  
+  at D:/tunisia-hub/node_modules/pega-model/src/pega.ts
+  
+    84 |         await I.switchToMainFrame()
+    85 |             .waitForSelectActionabilityCheck(selector, [`attached`, 'stable', 'visible'])
+  > 86 |             .hover(selector)
+       |              ^
+    87 |             .click(selector)
+    88 |             .waitForSelectorToBeVisible(Selector('.menu-item-title').withExactText(text))
+  
+  at D:/tunisia-hub/src/specs/exemple-spec.ts
+  
+    14 |     })
+    15 |     .after(async () => {
+  > 16 |        await pega.logoff()//Log off
+       |              ^
+    17 |      })
+    18 | 
+  
+  
+   Stack Trace : 
+  
+      at _0x52bf79 (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\test-api\controller\controller-action.ts:85:37)
+      at _0x31f632 (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\test-api\controller\controller-action.ts:264:24)
+      at _0x5816ba._0x42fac7.value (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\test-api\controller\controller-action.ts:422:17)
+      at Pega.logoff (D:\tunisia-hub\node_modules\pega-model\src\pega.ts:86:14)
+      at _0x52e80b.afterHook (D:\tunisia-hub\src\specs\exemple-spec.ts:16:14)
+      at _0x52e80b.runAfterHook (D:\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:257:29)
+  
+  
+[2022-09-20T10:33:55.127Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:55.128Z]
+ⓧ Feature : Done -----------------
+[2022-09-20T10:33:55.130Z]
+ Name      : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Tuesday 20-Sep-2022 At 12:32:54:663 GMT+02:00
+ End Time  : Tuesday 20-Sep-2022 At 12:33:55:128 GMT+02:00
+ Duration  : 00:01:00.463
+[2022-09-20T10:33:55.131Z]
+-----------------------------------------------------------------------------------------------
+
+[2022-09-20T10:33:55.132Z]
+▶ Finished 1 of 1 Implemented Features 
+[2022-09-20T10:33:55.132Z]
+
+
+[2022-09-20T10:33:55.332Z]
+
+  ┌─────────────────────────┬─────────────────────┬─────────────────────┬─────────┬─────────┐
+  │         Feature         │      Scenarios      │        Steps        │ Duratio │ Status  │
+  │                         │                     │                     │    n    │         │
+  ├─────────────────────────┼─────────────────────┼─────────────────────┼─────────┼─────────┤
+  │       Gain Access       │      Passed: 0      │      Passed: 0      │ 00:01:0 │ failed  │
+  │ src/specs/exemple-spec. │      Failed: 1      │      Failed: 1      │  0.465  │         │
+  │           ts            │     Skipped: 0      │     Skipped: 1      │         │         │
+  │                         │    Undefined: 0     │    Undefined: 0     │         │         │
+  │                         │                     │                     │         │         │
+  └─────────────────────────┴─────────────────────┴─────────────────────┴─────────┴─────────┘
