@@ -9,6 +9,6 @@ export class Case {
          await pega.elementByXpath(`//*[@class="menu-item-title"][contains(text(),"${title}")]`).shouldBeVisible();
          await pega.elementByXpath(`//*[@class="menu-item-title"][contains(text(),"${title}")]`).click();
          //await pega.frame.switchToWorkAreaIframe()
-         await pega.elementByXpath(`//a[@data-test-id="202209051850320960738"]`).click();
+         //await pega.elementByXpath(`//a[@data-test-id="202209051850320960738"]`).click();
     }
 }

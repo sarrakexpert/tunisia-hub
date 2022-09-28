@@ -67,7 +67,7 @@ class Case {
         await pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.elementByXpath(`//*[@class="menu-item-title"][contains(text(),"${title}")]`).shouldBeVisible();
         await pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.elementByXpath(`//*[@class="menu-item-title"][contains(text(),"${title}")]`).click();
         //await pega.frame.switchToWorkAreaIframe()
-        await pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.elementByXpath(`//a[@data-test-id="202209051850320960738"]`).click();
+        //await pega.elementByXpath(`//a[@data-test-id="202209051850320960738"]`).click();
     }
 }
 
@@ -131,6 +131,87 @@ class GlobalActions {
 
 /***/ }),
 
+/***/ "./src/model/pages/gainAccessCasePage.ts":
+/*!***********************************************!*\
+  !*** ./src/model/pages/gainAccessCasePage.ts ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "CreateGainAccessCasePage": () => (/* binding */ CreateGainAccessCasePage),
+/* harmony export */   "createGainAccessCasePage": () => (/* binding */ createGainAccessCasePage)
+/* harmony export */ });
+/* harmony import */ var source_map_support_register__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! source-map-support/register */ "./node_modules/test-maker/node_modules/source-map-support/register.js");
+/* harmony import */ var source_map_support_register__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(source_map_support_register__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var pega_model__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! pega-model */ "pega-model");
+/* harmony import */ var pega_model__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(pega_model__WEBPACK_IMPORTED_MODULE_1__);
+
+
+class CreateGainAccessCasePage {
+    constructor() {
+        this.SignUp = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.elementByXpath(`//a[@data-test-id="202209051850320960738"]`);
+        this.Name = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.textInputById("e7852830");
+        this.FamilyName = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.textInputById("5d9a8732");
+        this.PassW = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.textInputById("230cdbac");
+        this.DateOB = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.datePickerById("067288d1");
+        this.Email = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.textInputById("4feafdd3");
+        this.Phone = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.textInputById("61e1a0b7");
+        this.Adresse1 = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.textInputById("9ad9b46d");
+        this.Adresse2 = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.textInputById("03d0e5d7");
+        this.Adresse3 = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.textInputById("74d7d541");
+        this.City = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.textInputById("779760d9");
+        this.CodePostal = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.textInputById("d1701170");
+        this.State = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.textInputById("7d72805c");
+        this.PaymentMethod = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.dropdownById("8a18161c");
+        this.EmailAdress = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.textInputById("6c660a0e");
+        this.Login = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.buttonByDataTestId("202209051850320960164");
+        this.UserName = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.textInputById("a72e6948");
+        this.Password = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.textInputById("59792773");
+        this.CarType = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.elementByXpath(`(//img[@data-test-id="202209031648430678841"])[9]`);
+        this.CarRent = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.elementByXpath(`(//img[@data-test-id="202209051756430678814"])[2]`);
+    }
+    async signUpRequest() {
+        await this.SignUp.click();
+    }
+    async fillSignUpRequest() {
+        await this.Name.paste("Alex");
+        await this.FamilyName.paste("Dicosta");
+        await this.PassW.paste("1234");
+        await this.DateOB.paste("14/04/2000");
+        await this.Email.paste("Alex.Dicosta@yopmail.com");
+        await this.Phone.paste("0021697658087");
+        await this.Adresse1.paste("Tunisia");
+        await this.Adresse2.paste("beja");
+        await this.Adresse3.paste("Nefza");
+        await this.Adresse3.paste("Nefza");
+        await this.City.paste("Nefza");
+        await this.CodePostal.paste("7021");
+        await this.State.paste("Tunisia");
+    }
+    async paymentMethod() {
+        await this.PaymentMethod.select("Paypal Account");
+        await this.EmailAdress.paste("Alex.yahmdi@yopmail.com");
+    }
+    async login() {
+        await this.UserName.paste(`Alex.Dicosta`);
+        await this.Password.paste(`1234`);
+        await this.Login.click();
+        await this.Login.click();
+    }
+    async selectCar() {
+        await this.CarType.click();
+    }
+    async selectCarRent() {
+        await this.CarRent.click();
+    }
+}
+;
+const createGainAccessCasePage = new CreateGainAccessCasePage();
+
+
+/***/ }),
+
 /***/ "./src/specs/exemple-spec.ts":
 /*!***********************************!*\
   !*** ./src/specs/exemple-spec.ts ***!
@@ -145,11 +226,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var pega_model__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! pega-model */ "pega-model");
 /* harmony import */ var pega_model__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(pega_model__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _model_app__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../model/app */ "./src/model/app.ts");
+/* harmony import */ var _model_pages_gainAccessCasePage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../model/pages/gainAccessCasePage */ "./src/model/pages/gainAccessCasePage.ts");
 
 
 
 
-let operator;
+
+//let operator: { username: string, password: string };
 //let operatorDev: { username: string, password: string };
 (0,test_maker__WEBPACK_IMPORTED_MODULE_1__.Feature)(`Gain Access`)
     .before(async () => {
@@ -168,7 +251,11 @@ let operator;
 })
     .after(async () => {
     try {
-        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.logoff(); //Log off
+        //await pega.logoff()//Log off
+        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.buttonByDataTestId("201901261711080731178947").click();
+        await test_maker__WEBPACK_IMPORTED_MODULE_1__.I.refresh();
+        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.elementByXpath(`(//button[@data-test-id="px-opr-image-ctrl"])[1]`).click();
+        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.elementByXpath(`//*[@data-test-id="201711011301500120490"]`).click();
     }
     catch (e) {
         e.fromSpec = true;
@@ -181,7 +268,6 @@ let operator;
     try {
         await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.frame.switchToDefault();
         await _model_app__WEBPACK_IMPORTED_MODULE_3__.app["case"].createCaseWithTitle("Gain Access");
-        await test_maker__WEBPACK_IMPORTED_MODULE_1__.I["debugger"]();
     }
     catch (e) {
         e.fromSpec = true;
@@ -189,9 +275,30 @@ let operator;
         throw e;
     }
 })
-    .Then(`Reprogrammation Demarche`, async (_I, _runInfo) => {
+    .Then(`Fill New sign-up request`, async (_I, _runInfo) => {
     try {
-        await test_maker__WEBPACK_IMPORTED_MODULE_1__.I["debugger"]();
+        await _model_pages_gainAccessCasePage__WEBPACK_IMPORTED_MODULE_4__.createGainAccessCasePage.signUpRequest();
+        await _model_pages_gainAccessCasePage__WEBPACK_IMPORTED_MODULE_4__.createGainAccessCasePage.fillSignUpRequest();
+        await _model_app__WEBPACK_IMPORTED_MODULE_3__.app.globalActions["continue"]();
+        await _model_pages_gainAccessCasePage__WEBPACK_IMPORTED_MODULE_4__.createGainAccessCasePage.paymentMethod();
+        await _model_app__WEBPACK_IMPORTED_MODULE_3__.app.globalActions["continue"]();
+        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.buttonByDataTestId("20141017150414006514400").click();
+    }
+    catch (e) {
+        e.fromSpec = true;
+        e.filePath = `D:/tunisia-hub/src/specs/exemple-spec.ts`;
+        throw e;
+    }
+})
+    .Then(`Fill New process`, async (_I, _runInfo) => {
+    try {
+        await _model_pages_gainAccessCasePage__WEBPACK_IMPORTED_MODULE_4__.createGainAccessCasePage.login();
+        await _model_pages_gainAccessCasePage__WEBPACK_IMPORTED_MODULE_4__.createGainAccessCasePage.selectCar();
+        await _model_app__WEBPACK_IMPORTED_MODULE_3__.app.globalActions.submit();
+        await _model_pages_gainAccessCasePage__WEBPACK_IMPORTED_MODULE_4__.createGainAccessCasePage.selectCarRent();
+        await _model_app__WEBPACK_IMPORTED_MODULE_3__.app.globalActions.submit();
+        await test_maker__WEBPACK_IMPORTED_MODULE_1__.I.wait(1000);
+        await _model_app__WEBPACK_IMPORTED_MODULE_3__.app.globalActions.submit();
     }
     catch (e) {
         e.fromSpec = true;

@@ -1,0 +1,48 @@
+[info] [2022-09-28T10:49:53.519Z]
+
+Starting Test Maker 7.5.2
+
+[info] [2022-09-28T10:49:53.536Z]
+Loading Test Maker System Modules
+[info] [2022-09-28T10:49:53.536Z]
+- Loading Test Maker Plugins
+[info] [2022-09-28T10:49:53.689Z]
+- Loading Test Maker Reporters:
+[info] [2022-09-28T10:49:53.689Z]
+- Loading Test Maker Adapters:
+[info] [2022-09-28T10:49:54.262Z]
+  - playwright
+[info] [2022-09-28T10:49:54.262Z]
+    - Loading Client: chrome
+[info] [2022-09-28T10:49:54.280Z]
+
+Debugging is enabled for enabled
+[info] [2022-09-28T10:49:54.281Z]
+Test Maker Debugger is Active
+You can use the following keys in the terminal:
+'d' - activate/deactivate debugger.
+'f' - to continue the process.
+
+[info] [2022-09-28T10:49:54.857Z]
+
+- Deleting Old Reporters Files
+[info] [2022-09-28T10:49:54.863Z]
+- Compiling Spec Files
+
+[2022-09-28T10:49:55.376Z]
+asset vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 128 KiB [compared for emit] (id hint: vendors) 1 related asset
+asset ./src/specs/exemple-spec.js 25.3 KiB [compared for emit] (name: ./src/specs/exemple-spec) 1 related asset
+Entrypoint ./src/specs/exemple-spec 154 KiB (166 KiB) = vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 128 KiB ./src/specs/exemple-spec.js 25.3 KiB 2 auxiliary assets
+webpack compiled successfully
+[2022-09-28T10:49:55.532Z]
+Task started On Wednesday 28-Sep-2022 At 12:49:55:531 GMT+02:00
+[2022-09-28T10:49:55.532Z]
+Running tests in the following Clients:
+- chrome
+
+[info] [2022-09-28T10:49:56.003Z]
+Test Maker Debugger is Inactive
+You can use the following keys in the terminal:
+'d' - activate/deactivate debugger.
+'f' - to continue the process.
+
