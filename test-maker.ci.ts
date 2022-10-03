@@ -1,4 +1,5 @@
-import { Configuration, reporters } from "test-maker";
+import {Configuration, mergeAndConcat, reporters} from "test-maker";
+import {pegaConfig} from './test-maker.pega';
 
 const testMakerCIConfig: Configuration = {
     runner: {
@@ -13,11 +14,7 @@ const testMakerCIConfig: Configuration = {
         reporters: [reporters.terminal, reporters.allure],
         screenshots: {
             enabled: true
-        },
-        video:{ 
-            enabled:true,
-            failedOnly:false
         }
     },
 };
-export default testMakerCIConfig;
+export default mergeAndConcat(pegaConfig, testMakerCIConfig);

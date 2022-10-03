@@ -275,21 +275,14 @@ __webpack_require__.r(__webpack_exports__);
         throw e;
     }
 })
-    .Then(`Fill New sign-up request`, async (_I, _runInfo) => {
-    try {
-        await _model_pages_gainAccessCasePage__WEBPACK_IMPORTED_MODULE_4__.createGainAccessCasePage.signUpRequest();
-        await _model_pages_gainAccessCasePage__WEBPACK_IMPORTED_MODULE_4__.createGainAccessCasePage.fillSignUpRequest();
-        await _model_app__WEBPACK_IMPORTED_MODULE_3__.app.globalActions["continue"]();
-        await _model_pages_gainAccessCasePage__WEBPACK_IMPORTED_MODULE_4__.createGainAccessCasePage.paymentMethod();
-        await _model_app__WEBPACK_IMPORTED_MODULE_3__.app.globalActions["continue"]();
-        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.buttonByDataTestId("20141017150414006514400").click();
-    }
-    catch (e) {
-        e.fromSpec = true;
-        e.filePath = `D:/tunisia-hub/src/specs/exemple-spec.ts`;
-        throw e;
-    }
-})
+    // .Then(`Fill New sign-up request`, async (_I, _runInfo) => {
+    //    await createGainAccessCasePage.signUpRequest();
+    //    await createGainAccessCasePage.fillSignUpRequest();
+    //    await app.globalActions.continue();
+    //    await createGainAccessCasePage.paymentMethod();
+    //    await app.globalActions.continue();
+    //    await pega.buttonByDataTestId("20141017150414006514400").click();
+    // })
     .Then(`Fill New process`, async (_I, _runInfo) => {
     try {
         await _model_pages_gainAccessCasePage__WEBPACK_IMPORTED_MODULE_4__.createGainAccessCasePage.login();

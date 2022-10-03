@@ -15,12 +15,16 @@ Feature(`Gain Access`)
     await pega.loginForm.login(`Sarra.bech`, `Rules!12345!`);
     })
     .after(async () => {
-       //await pega.logoff()//Log off
-       await pega.buttonByDataTestId("201901261711080731178947").click();
-await I.refresh()
-    await pega.elementByXpath(`(//button[@data-test-id="px-opr-image-ctrl"])[1]`).click();
-    await pega.elementByXpath(`//*[@data-test-id="201711011301500120490"]`).click();
-})
+        //await pega.logoff()//Log off
+        await pega.buttonByDataTestId("201901261711080731178947").click()
+        await I.refresh()
+
+
+ 
+ 
+     await pega.elementByXpath(`(//button[@data-test-id="px-opr-image-ctrl"])[1]`).click();
+     await pega.elementByXpath(`//*[@data-test-id="201711011301500120490"]`).click();
+ })
 
 
 
@@ -30,15 +34,15 @@ await I.refresh()
         await pega.frame.switchToDefault();
         await app.case.createCaseWithTitle("Gain Access");
     })
-    .Then(`Fill New sign-up request`, async (_I, _runInfo) => {
-       await createGainAccessCasePage.signUpRequest();
-       await createGainAccessCasePage.fillSignUpRequest();
-       await app.globalActions.continue();
-       await createGainAccessCasePage.paymentMethod();
-       await app.globalActions.continue();
-       await pega.buttonByDataTestId("20141017150414006514400").click();
+    // .Then(`Fill New sign-up request`, async (_I, _runInfo) => {
+    //    await createGainAccessCasePage.signUpRequest();
+    //    await createGainAccessCasePage.fillSignUpRequest();
+    //    await app.globalActions.continue();
+    //    await createGainAccessCasePage.paymentMethod();
+    //    await app.globalActions.continue();
+    //    await pega.buttonByDataTestId("20141017150414006514400").click();
 
-    })
+    // })
 
      .Then(`Fill New process`, async (_I, _runInfo) => {
        await createGainAccessCasePage.login();
