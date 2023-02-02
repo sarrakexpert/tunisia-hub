@@ -1,0 +1,506 @@
+[info] [2023-02-02T17:59:05.497Z]
+
+Starting Test Maker 7.5.2
+
+[info] [2023-02-02T17:59:05.520Z]
+Compiling Test Maker Config File: D:/tunisia-hub/tunisia-hub/test-maker.local.ts
+[info] [2023-02-02T17:59:07.222Z]
+Loading Test Maker System Modules
+[info] [2023-02-02T17:59:07.223Z]
+- Loading Test Maker Plugins
+[info] [2023-02-02T17:59:07.223Z]
+- Loading Test Maker Reporters:
+[info] [2023-02-02T17:59:07.225Z]
+- Loading Test Maker Adapters:
+[info] [2023-02-02T17:59:07.295Z]
+  - playwright
+[info] [2023-02-02T17:59:07.296Z]
+    - Loading Client: chrome
+[info] [2023-02-02T17:59:07.311Z]
+
+Debugging is enabled for enabled
+[info] [2023-02-02T17:59:07.311Z]
+Test Maker Debugger is Active
+You can use the following keys in the terminal:
+'d' - activate/deactivate debugger.
+'f' - to continue the process.
+
+[info] [2023-02-02T17:59:07.349Z]
+
+- Deleting Old Reporters Files
+[info] [2023-02-02T17:59:07.353Z]
+- Compiling Spec Files
+
+[2023-02-02T17:59:07.670Z]
+asset vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 128 KiB [compared for emit] (id hint: vendors) 1 related asset
+asset ./src/specs/exemple-spec.js 27 KiB [emitted] (name: ./src/specs/exemple-spec) 1 related asset
+Entrypoint ./src/specs/exemple-spec 155 KiB (169 KiB) = vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 128 KiB ./src/specs/exemple-spec.js 27 KiB 2 auxiliary assets
+webpack compiled successfully
+[2023-02-02T17:59:07.687Z]
+Current environment is dev
+[2023-02-02T17:59:07.688Z]
+Task started On Thursday 02-Feb-2023 At 18:59:07:687 GMT+01:00
+[2023-02-02T17:59:07.688Z]
+Running tests in the following Clients:
+- chrome
+
+[2023-02-02T17:59:08.880Z]
+▶ Feature : Start ------------------
+[2023-02-02T17:59:08.881Z]
+ Name      : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome Headless 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Thursday 02-Feb-2023 At 18:59:08:877 GMT+01:00
+
+[2023-02-02T17:59:08.882Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T17:59:08.883Z]
+▶ Before Feature : Start -------------------------
+[2023-02-02T17:59:08.884Z]
+ Feature Name: Gain Access
+ Retries     : 0
+ Adapter     : playwright
+ Client      : Chrome Headless 101.0.4951.15 / Windows 10
+ File        : D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time  : Thursday 02-Feb-2023 At 18:59:08:883 GMT+01:00
+
+[2023-02-02T17:59:08.885Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T17:59:09.793Z]
+ⓧ Before Feature : Done ------------------------
+[2023-02-02T17:59:09.794Z]
+ Feature Name: Gain Access
+ Retries     : 0
+ Adapter     : playwright
+ Client      : Chrome Headless 101.0.4951.15 / Windows 10
+ File        : D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time  : Thursday 02-Feb-2023 At 18:59:08:883 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 18:59:08:919 GMT+01:00
+ Duration    : 00:00:00.036
+[2023-02-02T17:59:09.794Z]
+
+ -----Error Details -----
+[2023-02-02T17:59:09.797Z]
+   Message     : Cannot read properties of undefined (reading 'assignOperator')
+   Code        : 2020
+   Type        : TypeError
+   Node        : v18.12.1
+   Phase       : Before Feature
+   Time        : Thursday 02-Feb-2023 At 18:59:08:885 GMT+01:00
+   Adapter     : playwright
+   Client      : Chrome Headless 101.0.4951.15 / Windows 10
+   Error Source: 
+  
+  at D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+  
+    12 |     //we need to pass the runInfo parameter to the login method to
+    13 |     // get all current configurations (environment, timeout etc)
+  > 14 |     operator = await runInfo?.configuration.extra.operatorManager.assignOperator('user');
+       |                                                                   ^
+    15 |     console.log("hhhhhhhhhhhhhhhh"+operator)
+    16 |     //we need to pass the runInfo parameter to the login method to
+  
+  
+   Stack Trace : 
+  
+      at _0x52e80b.beforeHook (D:\tunisia-hub\tunisia-hub\src\specs\exemple-spec.ts:14:67)
+      at _0x52e80b.runBeforeHook (D:\tunisia-hub\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:216:30)
+      at phaseFn (D:\tunisia-hub\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:181:49)
+      at _0x3221a8.run (D:\tunisia-hub\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\phase-manager.ts:101:28)
+      at _0x52e80b.run (D:\tunisia-hub\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:180:9)
+      at D:\tunisia-hub\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:141:21
+      at _0x52e80b.runFn (D:\tunisia-hub\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:137:13)
+      at D:\tunisia-hub\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:183:49
+      at _0x2012bc (D:\tunisia-hub\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\node_modules\.pnpm\p-queue@6.6.2\node_modules\p-queue\dist\index.js:163:1)
+  
+  
+[2023-02-02T17:59:09.798Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T17:59:09.799Z]
+▶ Scenario : Skipped ---------------------
+[2023-02-02T17:59:09.800Z]
+ Name      : Gain Access
+ Feature   : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome Headless 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Thursday 02-Feb-2023 At 18:59:09:799 GMT+01:00
+
+[2023-02-02T17:59:09.801Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T17:59:09.802Z]
+▶ Given : Skipped ------------------
+[2023-02-02T17:59:09.803Z]
+ Name      : Gain Access Case
+ Scenario  : Gain Access
+ Feature   : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome Headless 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Thursday 02-Feb-2023 At 18:59:09:801 GMT+01:00
+
+[2023-02-02T17:59:09.803Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T17:59:09.805Z]
+▶ Then : Skipped -----------------
+[2023-02-02T17:59:09.806Z]
+ Name      : Fill New process
+ Scenario  : Gain Access
+ Feature   : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome Headless 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Thursday 02-Feb-2023 At 18:59:09:804 GMT+01:00
+
+[2023-02-02T17:59:09.806Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T17:59:09.807Z]
+▶ After Each Scenario : Skipped --------------------------------
+[2023-02-02T17:59:09.808Z]
+ Scenario Name: Gain Access
+ Feature      : Gain Access
+ Retries      : 0
+ Adapter      : playwright
+ Client       : Chrome Headless 101.0.4951.15 / Windows 10
+ File         : D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time   : Thursday 02-Feb-2023 At 18:59:09:807 GMT+01:00
+
+[2023-02-02T17:59:09.809Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T17:59:09.809Z]
+▶ After Feature : Start ------------------------
+[2023-02-02T17:59:09.810Z]
+ Feature Name: Gain Access
+ Retries     : 0
+ Adapter     : playwright
+ Client      : Chrome Headless 101.0.4951.15 / Windows 10
+ File        : D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time  : Thursday 02-Feb-2023 At 18:59:09:809 GMT+01:00
+
+[2023-02-02T17:59:09.811Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T17:59:09.881Z]
+[debug] [On Thursday 02-Feb-2023 At 18:59:09:879 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-02T17:59:09.882Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-02T17:59:09.962Z]
+ Type        : Method
+ Name        : I.click(Selector("//*[@data-test-id="201711011301500120490"]",{
+    timeout: 0,
+    interval: 50,
+    retries: 0,
+    assertionTimeout: 0,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : After Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome Headless 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 18:59:09:812 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 29 |         await I.click(Selector(element, this.actualOptions).filterVisible());
+     |               ^
+[2023-02-02T17:59:09.963Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T17:59:09.969Z]
+[debug] [On Thursday 02-Feb-2023 At 18:59:09:969 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-02T17:59:09.971Z]
+▶ Selector  : Start --------------------
+[2023-02-02T17:59:09.973Z]
+ Init        : Selector("//*[@data-test-id="201711011301500120490"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : After Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome Headless 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 18:59:09:965 GMT+01:00
+
+[2023-02-02T17:59:09.974Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T17:59:09.975Z]
+▶ Selector Action : Start --------------------------
+[2023-02-02T17:59:10.032Z]
+ Init        : Selector("//*[@data-test-id="201711011301500120490"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Method
+ Name        : filterVisible
+ Phase       : After Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome Headless 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 18:59:09:975 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 29 |         await I.click(Selector(element, this.actualOptions).filterVisible());
+     |         ^
+[2023-02-02T17:59:10.033Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T17:59:15.031Z]
+ⓧ Selector  : Done -------------------
+[2023-02-02T17:59:15.034Z]
+ Init        : Selector("//*[@data-test-id="201711011301500120490"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : After Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome Headless 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 18:59:09:965 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 18:59:15:031 GMT+01:00
+ Duration    : 00:00:05.066
+
+[2023-02-02T17:59:15.035Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T17:59:15.098Z]
+[debug] [On Thursday 02-Feb-2023 At 18:59:15:097 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-02T17:59:15.098Z]
+▶ Selector  : Start --------------------
+[2023-02-02T17:59:15.101Z]
+ Init        : Selector("//*[@data-test-id="201711011301500120490"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : After Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome Headless 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 18:59:15:093 GMT+01:00
+
+[2023-02-02T17:59:15.102Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T17:59:20.151Z]
+ⓧ Selector  : Done -------------------
+[2023-02-02T17:59:20.155Z]
+ Init        : Selector("//*[@data-test-id="201711011301500120490"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : After Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome Headless 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 18:59:15:093 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 18:59:20:150 GMT+01:00
+ Duration    : 00:00:05.057
+
+[2023-02-02T17:59:20.156Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T17:59:20.214Z]
+ⓧ Controller Action : Done ---------------------------
+[2023-02-02T17:59:20.255Z]
+ Type        : Method
+ Name        : I.click(Selector("//*[@data-test-id="201711011301500120490"]",{
+    timeout: 0,
+    interval: 50,
+    retries: 0,
+    assertionTimeout: 0,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : After Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome Headless 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 18:59:09:812 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 18:59:20:213 GMT+01:00
+ Duration    : 00:00:10.401
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 29 |         await I.click(Selector(element, this.actualOptions).filterVisible());
+     |               ^
+[2023-02-02T17:59:20.256Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T17:59:20.390Z]
+ⓧ After Feature : Done -----------------------
+[2023-02-02T17:59:20.391Z]
+ Feature Name: Gain Access
+ Retries     : 0
+ Adapter     : playwright
+ Client      : Chrome Headless 101.0.4951.15 / Windows 10
+ File        : D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time  : Thursday 02-Feb-2023 At 18:59:09:809 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 18:59:20:332 GMT+01:00
+ Duration    : 00:00:10.523
+[2023-02-02T17:59:20.391Z]
+
+ -----Error Details -----
+[2023-02-02T17:59:20.396Z]
+   Message     : All retries failed after 0ms 
+                    Last Condition Error: 
+                    Could not obtain information about the Selector because the specified selector does not match any node in the DOM tree. Make sure the Selector exists or the operation is performed in the correct Frame for Selector('//*[@data-test-id="201711011301500120490"]',{
+                    timeout: 0,
+                    interval: 50,
+                    retries: 0,
+                    assertionTimeout: 0,
+                    index: 0,
+                    isCaseSensitive: true
+                })
+   Code        : 2020
+   Type        : Error
+   Node        : v18.12.1
+   Phase       : After Feature
+   Time        : Thursday 02-Feb-2023 At 18:59:20:257 GMT+01:00
+   Adapter     : playwright
+   Client      : Chrome Headless 101.0.4951.15 / Windows 10
+   Feature File: D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+   Error Source: 
+  
+  at D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+  
+    27 |     async click(element: string, options?: { index?: number, timeout?: number, retries?: number, interval?: number }) {
+    28 |         this.actualOptions = methodOptions.setOptions(options);
+  > 29 |         await I.click(Selector(element, this.actualOptions).filterVisible());
+       |               ^
+    30 |     }
+    31 | 
+  
+  at D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/widgets/controls/customControl/customControlCommon.ts
+  
+    66 | 
+    67 |     async click(options?: { index?: number, timeout?: number, interval?: number, retries?: number }) {
+  > 68 |         await controlsCommonActions.click(this.element, options);
+       |               ^
+    69 |     }
+    70 | 
+  
+  at D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+  
+    21 |     .after(async () => {
+    22 |         //await pega.logoff()//Log off
+  > 23 |      await pega.elementByXpath(`//*[@data-test-id="201711011301500120490"]`).click();
+       |                                                                              ^
+    24 |  })
+    25 | 
+  
+  
+   Stack Trace : 
+  
+      at _0x52bf79 (D:\tunisia-hub\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\test-api\controller\controller-action.ts:85:37)
+      at _0x31f632 (D:\tunisia-hub\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\test-api\controller\controller-action.ts:264:24)
+      at _0x5816ba._0x42fac7.value (D:\tunisia-hub\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\test-api\controller\controller-action.ts:422:17)
+      at ControlsCommonActions.click (D:\tunisia-hub\tunisia-hub\node_modules\pega-model\src\widgets\controls\controlsCommonActions.ts:29:15)
+      at CustomControlByXPath.click (D:\tunisia-hub\tunisia-hub\node_modules\pega-model\src\widgets\controls\customControl\customControlCommon.ts:68:15)
+      at _0x52e80b.afterHook (D:\tunisia-hub\tunisia-hub\src\specs\exemple-spec.ts:23:78)
+      at _0x52e80b.runAfterHook (D:\tunisia-hub\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:257:29)
+  
+  
+[2023-02-02T17:59:20.397Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T17:59:20.397Z]
+ⓧ Feature : Done -----------------
+[2023-02-02T17:59:20.398Z]
+ Name      : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome Headless 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Thursday 02-Feb-2023 At 18:59:08:877 GMT+01:00
+ End Time  : Thursday 02-Feb-2023 At 18:59:20:397 GMT+01:00
+ Duration  : 00:00:11.518
+[2023-02-02T17:59:20.399Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T17:59:20.399Z]
+▶ Finished 1 of 1 Implemented Features 
+[2023-02-02T17:59:20.399Z]
+
+
+[2023-02-02T17:59:20.418Z]
+
+  ┌───────────────────────────────────┬──────────────────────────────┬──────────────────────────────┬─────────────┬─────────────┐
+  │              Feature              │          Scenarios           │            Steps             │  Duration   │   Status    │
+  ├───────────────────────────────────┼──────────────────────────────┼──────────────────────────────┼─────────────┼─────────────┤
+  │            Gain Access            │          Passed: 0           │          Passed: 0           │ 00:00:11.52 │   failed    │
+  │     src/specs/exemple-spec.ts     │          Failed: 0           │          Failed: 0           │      0      │             │
+  │                                   │          Skipped: 1          │          Skipped: 2          │             │             │
+  │                                   │         Undefined: 0         │         Undefined: 0         │             │             │
+  │                                   │                              │                              │             │             │
+  └───────────────────────────────────┴──────────────────────────────┴──────────────────────────────┴─────────────┴─────────────┘

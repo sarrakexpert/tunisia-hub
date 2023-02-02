@@ -227,39 +227,31 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var pega_model__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(pega_model__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _model_app__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../model/app */ "./src/model/app.ts");
 /* harmony import */ var _model_pages_gainAccessCasePage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../model/pages/gainAccessCasePage */ "./src/model/pages/gainAccessCasePage.ts");
+/* harmony import */ var _user_data__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./user-data */ "./src/specs/user-data.ts");
 
 
 
 
 
-//let operator: { username: string, password: string };
+
+let operator;
 //let operatorDev: { username: string, password: string };
 (0,test_maker__WEBPACK_IMPORTED_MODULE_1__.Feature)(`Gain Access`)
-    .before(async () => {
+    .before(async (I, runInfo) => {
     try {
         //common part for all the scenarios available per the feature
         //we need to pass the runInfo parameter to the login method to
         // get all current configurations (environment, timeout etc)
-        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.visit(`https://pega870-web-tnhubcosmosreact.dev.k-expert.com/prweb/app/simbafw/CWRZzxAkMqIuoiZieh-_tw*/!STANDARD?pyActivity=%40baseclass.pzProcessURLInWindow&pyPreActivity=Embed-PortalLayout.RedirectAndRun&ThreadName=OpenPortal_UserPortal&Location=pyActivity%3DData-Portal.ShowSelectedPortal%26portal%3DUserPortal%26Name%3D%20UserPortal%26pzSkinName%3D%26developer%3Dfalse%26ThreadName%3DOpenPortal_UserPortal%26launchPortal%3Dtrue%26mSessionThreadName%3DOpenPortal_UserPortal_MTSP2&bPurgeTargetThread=true&target=popup&portalThreadName=STANDARD&portalName=Developer&pzHarnessID=HID779D62F0E5FA04CFABB2D556CCD1CB6A`);
-        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.loginForm.login(`Sarra.bech`, `Rules!12345!`);
+        // console.log("hhhhhhhhhhhhhhhh"+operator)
+        //we need to pass the runInfo parameter to the login method to
+        // get all current configurations (environment, timeout etc)
+        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.visit((0,_user_data__WEBPACK_IMPORTED_MODULE_5__.getUrl)(runInfo === null || runInfo === void 0 ? void 0 : runInfo.configuration.extra.env.name), runInfo);
+        operator = await (runInfo === null || runInfo === void 0 ? void 0 : runInfo.configuration.extra.operatorsManager.assignOperator('user'));
+        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.loginForm.login(operator.username, operator.password);
     }
     catch (e) {
         e.fromSpec = true;
-        e.filePath = `D:/tunisia-hub/src/specs/exemple-spec.ts`;
-        throw e;
-    }
-})
-    .after(async () => {
-    try {
-        //await pega.logoff()//Log off
-        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.buttonByDataTestId("201901261711080731178947").click();
-        await test_maker__WEBPACK_IMPORTED_MODULE_1__.I.refresh();
-        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.elementByXpath(`(//button[@data-test-id="px-opr-image-ctrl"])[1]`).click();
-        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.elementByXpath(`//*[@data-test-id="201711011301500120490"]`).click();
-    }
-    catch (e) {
-        e.fromSpec = true;
-        e.filePath = `D:/tunisia-hub/src/specs/exemple-spec.ts`;
+        e.filePath = `D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts`;
         throw e;
     }
 })
@@ -267,11 +259,11 @@ __webpack_require__.r(__webpack_exports__);
     .Given('Gain Access Case', async (_I, _runInfo) => {
     try {
         await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.frame.switchToDefault();
-        await _model_app__WEBPACK_IMPORTED_MODULE_3__.app["case"].createCaseWithTitle("Gain Access");
+        await _model_app__WEBPACK_IMPORTED_MODULE_3__.app["case"].createCaseWithTitle("Car Rent Request");
     }
     catch (e) {
         e.fromSpec = true;
-        e.filePath = `D:/tunisia-hub/src/specs/exemple-spec.ts`;
+        e.filePath = `D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts`;
         throw e;
     }
 })
@@ -285,7 +277,7 @@ __webpack_require__.r(__webpack_exports__);
     // })
     .Then(`Fill New process`, async (_I, _runInfo) => {
     try {
-        await _model_pages_gainAccessCasePage__WEBPACK_IMPORTED_MODULE_4__.createGainAccessCasePage.login();
+        //await createGainAccessCasePage.login();
         await _model_pages_gainAccessCasePage__WEBPACK_IMPORTED_MODULE_4__.createGainAccessCasePage.selectCar();
         await _model_app__WEBPACK_IMPORTED_MODULE_3__.app.globalActions.submit();
         await _model_pages_gainAccessCasePage__WEBPACK_IMPORTED_MODULE_4__.createGainAccessCasePage.selectCarRent();
@@ -295,10 +287,85 @@ __webpack_require__.r(__webpack_exports__);
     }
     catch (e) {
         e.fromSpec = true;
-        e.filePath = `D:/tunisia-hub/src/specs/exemple-spec.ts`;
+        e.filePath = `D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts`;
         throw e;
     }
 });
+
+
+/***/ }),
+
+/***/ "./src/specs/user-data.ts":
+/*!********************************!*\
+  !*** ./src/specs/user-data.ts ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "getUrl": () => (/* binding */ getUrl),
+/* harmony export */   "getUsersPool": () => (/* binding */ getUsersPool),
+/* harmony export */   "users": () => (/* binding */ users)
+/* harmony export */ });
+/* harmony import */ var source_map_support_register__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! source-map-support/register */ "./node_modules/test-maker/node_modules/source-map-support/register.js");
+/* harmony import */ var source_map_support_register__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(source_map_support_register__WEBPACK_IMPORTED_MODULE_0__);
+
+// Copyright 2021 Knowledge Expert SA
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+// http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+let users = [];
+const dev_users = [
+    {
+        id: `user`,
+        alt: [
+            { username: `sarra.bech`, password: `Rules!12345!!*` },
+            { username: ``, password: `` },
+        ],
+    },
+];
+function getUsersPool(env) {
+    //console.log(env);
+    switch (env) {
+        case `dev`:
+            users = dev_users;
+            break;
+        case `stage`:
+            users = '';
+            break;
+        default:
+            users = [
+                {
+                    id: `operator`,
+                    alt: [{ username: `test.maker`, password: `Rules12345$` }],
+                },
+            ];
+            break;
+    }
+    //console.log(users);
+    return users;
+}
+function getUrl(env) {
+    let url = '';
+    switch (env) {
+        case `dev`:
+            url = 'https://pega870-web-tnhubcosmosreact.dev.k-expert.com/prweb/app/simbafw/CWRZzxAkMqIuoiZieh-_tw*/!STANDARD?pyActivity=%40baseclass.pzProcessURLInWindow&pyPreActivity=Embed-PortalLayout.RedirectAndRun&ThreadName=OpenPortal_UserPortal&Location=pyActivity%3DData-Portal.ShowSelectedPortal%26portal%3DUserPortal%26Name%3D%20UserPortal%26pzSkinName%3D%26developer%3Dfalse%26ThreadName%3DOpenPortal_UserPortal%26launchPortal%3Dtrue%26mSessionThreadName%3DOpenPortal_UserPortal&bPurgeTargetThread=true&target=popup&portalThreadName=STANDARD&portalName=Developer&pzHarnessID=HID37AD8E4059E39BCCC53F5B3E1E978309';
+            break;
+        default:
+            url = '';
+            break;
+    }
+    return url;
+}
 
 
 /***/ }),

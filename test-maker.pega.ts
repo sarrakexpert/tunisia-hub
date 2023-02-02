@@ -6,7 +6,7 @@ import {
     TerminalReporterOptions,
     TestRunInfo
 } from 'test-maker';
-import {getUsersPool} from './src/user-data';
+import {getUsersPool} from './src/specs/user-data';
 
 export const operatorsManager = new OperatorsManager();
 
@@ -15,7 +15,7 @@ export const pegaConfig: Configuration = {
         env: {
             name: 'dev'
         },
-
+       operatorsManager: operatorsManager
     },
     runner: {
         isAppBusyEvaluator: isAppBusyEvaluator,

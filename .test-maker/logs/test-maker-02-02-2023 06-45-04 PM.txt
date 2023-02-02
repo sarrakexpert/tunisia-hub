@@ -1,0 +1,28 @@
+[info] [2023-02-02T17:45:05.314Z]
+
+Starting Test Maker 7.5.2
+
+[info] [2023-02-02T17:45:05.351Z]
+Loading Test Maker System Modules
+[info] [2023-02-02T17:45:05.352Z]
+- Loading Test Maker Plugins
+[info] [2023-02-02T17:45:05.762Z]
+- Loading Test Maker Reporters:
+[info] [2023-02-02T17:45:05.763Z]
+- Loading Test Maker Adapters:
+[info] [2023-02-02T17:45:06.804Z]
+  - playwright
+[info] [2023-02-02T17:45:06.804Z]
+    - Loading Client: chrome
+[info] [2023-02-02T17:45:06.823Z]
+Module playwright-core@1.21.0 was not found, Installing it...
+[info] [2023-02-02T17:45:16.493Z]
+Finished installing playwright-core@1.21.0
+[info] [2023-02-02T17:45:16.494Z]
+Module playwright-chromium@1.21.0 was not found, Installing it...
+[info] [2023-02-02T17:45:19.613Z]
+Finished installing playwright-chromium@1.21.0
+[info] [2023-02-02T17:45:19.614Z]
+
+Finished installing missing Modules. Test Maker process will restart.
+

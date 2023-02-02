@@ -1,0 +1,2759 @@
+[info] [2023-02-02T18:07:39.582Z]
+
+Starting Test Maker 7.5.2
+
+[info] [2023-02-02T18:07:39.605Z]
+Compiling Test Maker Config File: D:/tunisia-hub/tunisia-hub/test-maker.local.ts
+[info] [2023-02-02T18:07:41.203Z]
+Loading Test Maker System Modules
+[info] [2023-02-02T18:07:41.204Z]
+- Loading Test Maker Plugins
+[info] [2023-02-02T18:07:41.205Z]
+- Loading Test Maker Reporters:
+[info] [2023-02-02T18:07:41.207Z]
+- Loading Test Maker Adapters:
+[info] [2023-02-02T18:07:41.295Z]
+  - playwright
+[info] [2023-02-02T18:07:41.295Z]
+    - Loading Client: chrome
+[info] [2023-02-02T18:07:41.312Z]
+
+Debugging is enabled for enabled
+[info] [2023-02-02T18:07:41.313Z]
+Test Maker Debugger is Active
+You can use the following keys in the terminal:
+'d' - activate/deactivate debugger.
+'f' - to continue the process.
+
+[info] [2023-02-02T18:07:41.350Z]
+
+- Deleting Old Reporters Files
+[info] [2023-02-02T18:07:41.353Z]
+- Compiling Spec Files
+
+[2023-02-02T18:07:41.641Z]
+asset vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 128 KiB [compared for emit] (id hint: vendors) 1 related asset
+asset ./src/specs/exemple-spec.js 21.7 KiB [emitted] (name: ./src/specs/exemple-spec) 1 related asset
+Entrypoint ./src/specs/exemple-spec 150 KiB (164 KiB) = vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 128 KiB ./src/specs/exemple-spec.js 21.7 KiB 2 auxiliary assets
+webpack compiled successfully
+[2023-02-02T18:07:41.658Z]
+Current environment is dev
+[2023-02-02T18:07:41.661Z]
+Task started On Thursday 02-Feb-2023 At 19:07:41:660 GMT+01:00
+[2023-02-02T18:07:41.661Z]
+Running tests in the following Clients:
+- chrome
+
+[2023-02-02T18:07:42.941Z]
+▶ Feature : Start ------------------
+[2023-02-02T18:07:42.943Z]
+ Name      : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Thursday 02-Feb-2023 At 19:07:42:938 GMT+01:00
+
+[2023-02-02T18:07:42.944Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:42.946Z]
+▶ Before Feature : Start -------------------------
+[2023-02-02T18:07:42.947Z]
+ Feature Name: Gain Access
+ Retries     : 0
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ File        : D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time  : Thursday 02-Feb-2023 At 19:07:42:945 GMT+01:00
+
+[2023-02-02T18:07:42.948Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:43.024Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:43:023 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-02T18:07:43.025Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-02T18:07:43.086Z]
+ Type        : Method
+ Name        : I.goto("https://pega870-web-tnhubcosmosreact.dev.k-expert.com/prweb/app/simbafw/CWRZzxAkMqIuoiZieh-_tw*/!STANDARD?pyActivity=%40baseclass.pzProcessURLInWindow&pyPreActivity=Embed-PortalLayout.RedirectAndRun&ThreadName=OpenPortal_UserPortal&Location=pyActivity%3DData-Portal.ShowSelectedPortal%26portal%3DUserPortal%26Name%3D%20UserPortal%26pzSkinName%3D%26developer%3Dfalse%26ThreadName%3DOpenPortal_UserPortal%26launchPortal%3Dtrue%26mSessionThreadName%3DOpenPortal_UserPortal&bPurgeTargetThread=true&target=popup&portalThreadName=STANDARD&portalName=Developer&pzHarnessID=HID37AD8E4059E39BCCC53F5B3E1E978309")
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:42:949 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 62 |         await I.goto(url);
+     |               ^
+[2023-02-02T18:07:43.087Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:44.345Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-02T18:07:44.385Z]
+ Type        : Method
+ Name        : I.goto("https://pega870-web-tnhubcosmosreact.dev.k-expert.com/prweb/app/simbafw/CWRZzxAkMqIuoiZieh-_tw*/!STANDARD?pyActivity=%40baseclass.pzProcessURLInWindow&pyPreActivity=Embed-PortalLayout.RedirectAndRun&ThreadName=OpenPortal_UserPortal&Location=pyActivity%3DData-Portal.ShowSelectedPortal%26portal%3DUserPortal%26Name%3D%20UserPortal%26pzSkinName%3D%26developer%3Dfalse%26ThreadName%3DOpenPortal_UserPortal%26launchPortal%3Dtrue%26mSessionThreadName%3DOpenPortal_UserPortal&bPurgeTargetThread=true&target=popup&portalThreadName=STANDARD&portalName=Developer&pzHarnessID=HID37AD8E4059E39BCCC53F5B3E1E978309")
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:42:949 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:44:345 GMT+01:00
+ Duration    : 00:00:01.396
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 62 |         await I.goto(url);
+     |               ^
+[2023-02-02T18:07:44.386Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[info] [2023-02-02T18:07:44.388Z]
+[info] [On Thursday 02-Feb-2023 At 19:07:44:387 GMT+01:00] [Feature: Gain Access]The operator "sarra.bech" with the password "Rules!12345!!*" of the usergroup "user" was successfully assigned
+[debug] [2023-02-02T18:07:44.399Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:44:399 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-02T18:07:44.400Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-02T18:07:44.411Z]
+ Type        : Method
+ Name        : I.click(Selector("#txtUserID",{
+    timeout: 10000,
+    interval: 50,
+    retries: 200,
+    assertionTimeout: 12000,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:44:389 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 17 |         await I.click(Selector('#txtUserID', this.actualOptions))
+     |               ^
+[2023-02-02T18:07:44.414Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:44.425Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:44:425 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-02T18:07:44.427Z]
+▶ Selector  : Start --------------------
+[2023-02-02T18:07:44.431Z]
+ Init        : Selector("#txtUserID")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:44:417 GMT+01:00
+
+[2023-02-02T18:07:44.432Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:44.473Z]
+✔ Selector  : Done -------------------
+[2023-02-02T18:07:44.477Z]
+ Init        : Selector("#txtUserID")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:44:417 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:44:473 GMT+01:00
+ Duration    : 00:00:00.056
+
+[2023-02-02T18:07:44.478Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:44.545Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-02T18:07:44.551Z]
+ Type        : Method
+ Name        : I.click(Selector("#txtUserID",{
+    timeout: 10000,
+    interval: 50,
+    retries: 200,
+    assertionTimeout: 12000,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:44:389 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:44:544 GMT+01:00
+ Duration    : 00:00:00.155
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 17 |         await I.click(Selector('#txtUserID', this.actualOptions))
+     |               ^
+[2023-02-02T18:07:44.552Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:44.556Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:44:556 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-02T18:07:44.557Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-02T18:07:44.564Z]
+ Type        : Method
+ Name        : I.fillField(Selector("#txtUserID",{
+    timeout: 10000,
+    retries: "INFINITELY"
+}),"sarra.bech")
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:44:389 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 18 |             .fillField(Selector('#txtUserID'), username);
+     |              ^
+[2023-02-02T18:07:44.564Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:44.572Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:44:571 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-02T18:07:44.572Z]
+▶ Selector  : Start --------------------
+[2023-02-02T18:07:44.575Z]
+ Init        : Selector("#txtUserID")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:44:565 GMT+01:00
+
+[2023-02-02T18:07:44.576Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:44.590Z]
+✔ Selector  : Done -------------------
+[2023-02-02T18:07:44.591Z]
+ Init        : Selector("#txtUserID")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:44:565 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:44:590 GMT+01:00
+ Duration    : 00:00:00.025
+
+[2023-02-02T18:07:44.592Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:44.642Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-02T18:07:44.647Z]
+ Type        : Method
+ Name        : I.fillField(Selector("#txtUserID",{
+    timeout: 10000,
+    retries: "INFINITELY"
+}),"sarra.bech")
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:44:389 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:44:641 GMT+01:00
+ Duration    : 00:00:00.252
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 18 |             .fillField(Selector('#txtUserID'), username);
+     |              ^
+[2023-02-02T18:07:44.648Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:44.652Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:44:652 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-02T18:07:44.652Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-02T18:07:44.659Z]
+ Type        : Method
+ Name        : I.click(Selector("#txtPassword",{
+    timeout: 10000,
+    interval: 50,
+    retries: 200,
+    assertionTimeout: 12000,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:44:648 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 24 |         await I.click(Selector('#txtPassword', this.actualOptions))
+     |               ^
+[2023-02-02T18:07:44.660Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:44.676Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:44:675 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-02T18:07:44.676Z]
+▶ Selector  : Start --------------------
+[2023-02-02T18:07:44.679Z]
+ Init        : Selector("#txtPassword")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:44:660 GMT+01:00
+
+[2023-02-02T18:07:44.680Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:44.688Z]
+✔ Selector  : Done -------------------
+[2023-02-02T18:07:44.690Z]
+ Init        : Selector("#txtPassword")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:44:660 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:44:688 GMT+01:00
+ Duration    : 00:00:00.028
+
+[2023-02-02T18:07:44.691Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:44.741Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-02T18:07:44.748Z]
+ Type        : Method
+ Name        : I.click(Selector("#txtPassword",{
+    timeout: 10000,
+    interval: 50,
+    retries: 200,
+    assertionTimeout: 12000,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:44:648 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:44:740 GMT+01:00
+ Duration    : 00:00:00.092
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 24 |         await I.click(Selector('#txtPassword', this.actualOptions))
+     |               ^
+[2023-02-02T18:07:44.749Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:44.756Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:44:756 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-02T18:07:44.757Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-02T18:07:44.768Z]
+ Type        : Method
+ Name        : I.fillField(Selector("#txtPassword",{
+    timeout: 10000,
+    retries: "INFINITELY"
+}),"Rules!12345!!*")
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:44:649 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 25 |             .fillField(Selector('#txtPassword'), password);
+     |              ^
+[2023-02-02T18:07:44.769Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:44.777Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:44:776 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-02T18:07:44.778Z]
+▶ Selector  : Start --------------------
+[2023-02-02T18:07:44.780Z]
+ Init        : Selector("#txtPassword")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:44:770 GMT+01:00
+
+[2023-02-02T18:07:44.782Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:44.804Z]
+✔ Selector  : Done -------------------
+[2023-02-02T18:07:44.806Z]
+ Init        : Selector("#txtPassword")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:44:770 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:44:804 GMT+01:00
+ Duration    : 00:00:00.034
+
+[2023-02-02T18:07:44.807Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:44.848Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-02T18:07:44.854Z]
+ Type        : Method
+ Name        : I.fillField(Selector("#txtPassword",{
+    timeout: 10000,
+    retries: "INFINITELY"
+}),"Rules!12345!!*")
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:44:649 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:44:848 GMT+01:00
+ Duration    : 00:00:00.199
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 25 |             .fillField(Selector('#txtPassword'), password);
+     |              ^
+[2023-02-02T18:07:44.854Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:44.862Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:44:861 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-02T18:07:44.862Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-02T18:07:44.872Z]
+ Type        : Method
+ Name        : I.click(Selector("#sub",{
+    timeout: 10000,
+    interval: 50,
+    retries: 200,
+    assertionTimeout: 12000,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:44:855 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 31 |         await I.click(Selector('#sub', this.actualOptions));
+     |               ^
+[2023-02-02T18:07:44.873Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:44.877Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:44:877 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-02T18:07:44.878Z]
+▶ Selector  : Start --------------------
+[2023-02-02T18:07:44.881Z]
+ Init        : Selector("#sub")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:44:874 GMT+01:00
+
+[2023-02-02T18:07:44.883Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:44.890Z]
+✔ Selector  : Done -------------------
+[2023-02-02T18:07:44.892Z]
+ Init        : Selector("#sub")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:44:874 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:44:889 GMT+01:00
+ Duration    : 00:00:00.015
+
+[2023-02-02T18:07:44.892Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:46.730Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-02T18:07:46.735Z]
+ Type        : Method
+ Name        : I.click(Selector("#sub",{
+    timeout: 10000,
+    interval: 50,
+    retries: 200,
+    assertionTimeout: 12000,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:44:855 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:46:730 GMT+01:00
+ Duration    : 00:00:01.875
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 31 |         await I.click(Selector('#sub', this.actualOptions));
+     |               ^
+[2023-02-02T18:07:46.736Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:46.737Z]
+✔ Before Feature : Done ------------------------
+[2023-02-02T18:07:46.738Z]
+ Feature Name: Gain Access
+ Retries     : 0
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ File        : D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time  : Thursday 02-Feb-2023 At 19:07:42:945 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:46:736 GMT+01:00
+ Duration    : 00:00:03.791
+[2023-02-02T18:07:46.739Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:46.741Z]
+▶ Scenario : Start -------------------
+[2023-02-02T18:07:46.742Z]
+ Name      : Gain Access
+ Feature   : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Thursday 02-Feb-2023 At 19:07:46:739 GMT+01:00
+
+[2023-02-02T18:07:46.744Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:46.747Z]
+▶ Given : Start ----------------
+[2023-02-02T18:07:46.748Z]
+ Name      : Gain Access Case
+ Scenario  : Gain Access
+ Feature   : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Thursday 02-Feb-2023 At 19:07:46:745 GMT+01:00
+
+[2023-02-02T18:07:46.749Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:46.967Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:46:966 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is not available
+[2023-02-02T18:07:46.967Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-02T18:07:46.975Z]
+ Type        : Method
+ Name        : I.switchToMainFrame()
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:46:963 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/widgets/frame.ts
+ Source      : 
+> 68 |         await I.switchToMainFrame();
+     |               ^
+[2023-02-02T18:07:46.976Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:46.977Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-02T18:07:46.984Z]
+ Type        : Method
+ Name        : I.switchToMainFrame()
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:46:963 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:46:977 GMT+01:00
+ Duration    : 00:00:00.014
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/widgets/frame.ts
+ Source      : 
+> 68 |         await I.switchToMainFrame();
+     |               ^
+[2023-02-02T18:07:46.985Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:46.996Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:46:995 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is not available
+[2023-02-02T18:07:46.997Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-02T18:07:47.001Z]
+ Type        : Method
+ Name        : I.resizeWindow(1600,900)
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:46:985 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/src/model/case.ts
+ Source      : 
+> 6 |         await I.resizeWindow(1600, 900);
+    |               ^
+[2023-02-02T18:07:47.002Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:47.023Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-02T18:07:47.029Z]
+ Type        : Method
+ Name        : I.resizeWindow(1600,900)
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:46:985 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:47:023 GMT+01:00
+ Duration    : 00:00:00.038
+ File        : D:/tunisia-hub/tunisia-hub/src/model/case.ts
+ Source      : 
+> 6 |         await I.resizeWindow(1600, 900);
+    |               ^
+[2023-02-02T18:07:47.031Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:47.039Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:47:038 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is not available
+[2023-02-02T18:07:47.039Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-02T18:07:47.043Z]
+ Type        : Method
+ Name        : I.click("//*[@class="menu-item-icon-imageclass pi pi-plus"]")
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:47:031 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/src/model/case.ts
+ Source      : 
+> 7 |          await I.click(`//*[@class="menu-item-icon-imageclass pi pi-plus"]`);   
+    |                ^
+[2023-02-02T18:07:47.045Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:47.053Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:47:052 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is not available
+[2023-02-02T18:07:47.053Z]
+▶ Selector  : Start --------------------
+[2023-02-02T18:07:47.055Z]
+ Init        : Selector("//*[@class="menu-item-icon-imageclass pi pi-plus"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:47:046 GMT+01:00
+
+[2023-02-02T18:07:47.056Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:48.804Z]
+✔ Selector  : Done -------------------
+[2023-02-02T18:07:48.806Z]
+ Init        : Selector("//*[@class="menu-item-icon-imageclass pi pi-plus"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:47:046 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:48:804 GMT+01:00
+ Duration    : 00:00:01.758
+
+[2023-02-02T18:07:48.806Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:48.915Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-02T18:07:48.919Z]
+ Type        : Method
+ Name        : I.click("//*[@class="menu-item-icon-imageclass pi pi-plus"]")
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:47:031 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:48:915 GMT+01:00
+ Duration    : 00:00:01.884
+ File        : D:/tunisia-hub/tunisia-hub/src/model/case.ts
+ Source      : 
+> 7 |          await I.click(`//*[@class="menu-item-icon-imageclass pi pi-plus"]`);   
+    |                ^
+[2023-02-02T18:07:48.920Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:48.926Z]
+▶ Assertion  : Start ---------------------
+[2023-02-02T18:07:48.929Z]
+ Init        : Expect({ /* Promise */ }, {
+                  timeout: 12000,
+                  interval: 50,
+                  retries: 200
+              })()
+ Retries     : 0
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:48:925 GMT+01:00
+
+[2023-02-02T18:07:48.930Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:48.937Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:48:937 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:48.950Z]
+Retry: 1 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:48.953Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:48:952 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:48.970Z]
+Retry: 2 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:48.991Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:48:991 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.003Z]
+Retry: 3 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.009Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:008 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.021Z]
+Retry: 4 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.044Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:043 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.067Z]
+Retry: 5 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.078Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:077 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.098Z]
+Retry: 6 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.240Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:239 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.256Z]
+Retry: 7 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.260Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:259 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.271Z]
+Retry: 8 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.276Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:276 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.288Z]
+Retry: 9 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.291Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:291 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.303Z]
+Retry: 10 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.306Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:306 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.319Z]
+Retry: 11 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.323Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:322 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.334Z]
+Retry: 12 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.338Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:338 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.350Z]
+Retry: 13 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.353Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:353 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.366Z]
+Retry: 14 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.369Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:368 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.381Z]
+Retry: 15 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.386Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:385 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.397Z]
+Retry: 16 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.401Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:401 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.413Z]
+Retry: 17 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.422Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:421 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.445Z]
+Retry: 18 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.453Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:453 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.466Z]
+Retry: 19 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.473Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:472 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.492Z]
+Retry: 20 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.496Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:495 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.508Z]
+Retry: 21 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.517Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:516 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.539Z]
+Retry: 22 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.546Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:544 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.559Z]
+Retry: 23 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.566Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:565 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.580Z]
+Retry: 24 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.591Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:591 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.616Z]
+Retry: 25 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.619Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:619 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.631Z]
+Retry: 26 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.677Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:675 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.694Z]
+Retry: 27 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.696Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:696 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.708Z]
+Retry: 28 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.714Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:714 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.725Z]
+Retry: 29 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.762Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:762 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.787Z]
+Retry: 30 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.790Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:789 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.803Z]
+Retry: 31 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.805Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:805 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.819Z]
+Retry: 32 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.822Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:821 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.834Z]
+Retry: 33 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.838Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:837 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.850Z]
+Retry: 34 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.853Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:853 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.866Z]
+Retry: 35 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.873Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:872 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:49.897Z]
+Retry: 36 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:49.900Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:49:900 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'none'
+[2023-02-02T18:07:49.901Z]
+▶ Selector  : Start --------------------
+[2023-02-02T18:07:49.902Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:48:931 GMT+01:00
+
+[2023-02-02T18:07:49.903Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:49.904Z]
+▶ Selector Action : Start --------------------------
+[2023-02-02T18:07:49.955Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Method
+ Name        : filterVisible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:49:903 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2023-02-02T18:07:49.956Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:49.966Z]
+▶ Selector Action : Start --------------------------
+[2023-02-02T18:07:50.009Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Method
+ Name        : nth("0")
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:49:966 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2023-02-02T18:07:50.010Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:50.011Z]
+✔ Selector  : Done -------------------
+[2023-02-02T18:07:50.012Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:48:931 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:50:010 GMT+01:00
+ Duration    : 00:00:01.079
+
+[2023-02-02T18:07:50.013Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:50.013Z]
+✔ Selector  : Done -------------------
+[2023-02-02T18:07:50.015Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:48:931 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:50:010 GMT+01:00
+ Duration    : 00:00:01.079
+
+[2023-02-02T18:07:50.015Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:50.016Z]
+▶ Selector Action : Start --------------------------
+[2023-02-02T18:07:50.060Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:48:931 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2023-02-02T18:07:50.061Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:50.065Z]
+✔ Selector Action : Done -------------------------
+[2023-02-02T18:07:50.111Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:48:931 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:50:064 GMT+01:00
+ Duration    : 00:00:01.133
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2023-02-02T18:07:50.112Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:50.113Z]
+▶ Assertion Action : Start ---------------------------
+[2023-02-02T18:07:50.155Z]
+ Action      : Expect({ /* Promise */ }, {
+                  timeout: 12000,
+                  interval: 50,
+                  retries: 200
+              }).toBeOk()
+ Retries     : 0
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:50:112 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 229 |             }).toBeOk();
+      |                ^
+[2023-02-02T18:07:50.157Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:50.160Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:50:159 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'none'
+[2023-02-02T18:07:50.161Z]
+✔ Assertion Action : Done --------------------------
+[2023-02-02T18:07:50.199Z]
+ Action      : Expect({ /* Promise */ }, {
+                  timeout: 12000,
+                  interval: 50,
+                  retries: 200
+              }).toBeOk()
+ Retries     : 0
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:50:112 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:50:160 GMT+01:00
+ Duration    : 00:00:00.048
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 229 |             }).toBeOk();
+      |                ^
+[2023-02-02T18:07:50.200Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:50.201Z]
+✔ Assertion  : Done --------------------
+[2023-02-02T18:07:50.202Z]
+ Init        : Expect({ /* Promise */ }, {
+                  timeout: 12000,
+                  interval: 50,
+                  retries: 200
+              })()
+ Retries     : 0
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:48:925 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:50:160 GMT+01:00
+ Duration    : 00:00:01.235
+
+[2023-02-02T18:07:50.203Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:50.209Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:50:208 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'none'
+[2023-02-02T18:07:50.209Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-02T18:07:50.246Z]
+ Type        : Method
+ Name        : I.click(Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]",{
+    timeout: 10000,
+    interval: 50,
+    retries: 200,
+    assertionTimeout: 12000,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:50:204 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 29 |         await I.click(Selector(element, this.actualOptions).filterVisible());
+     |               ^
+[2023-02-02T18:07:50.246Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:50.251Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:50:251 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access] [Step: Gain Access Case][statetracker] Data state busy status is 'none'
+[2023-02-02T18:07:50.251Z]
+▶ Selector  : Start --------------------
+[2023-02-02T18:07:50.253Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:50:247 GMT+01:00
+
+[2023-02-02T18:07:50.254Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:50.254Z]
+▶ Selector Action : Start --------------------------
+[2023-02-02T18:07:50.290Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Method
+ Name        : filterVisible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:50:254 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 29 |         await I.click(Selector(element, this.actualOptions).filterVisible());
+     |         ^
+[2023-02-02T18:07:50.290Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:50.297Z]
+✔ Selector  : Done -------------------
+[2023-02-02T18:07:50.299Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:50:247 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:50:297 GMT+01:00
+ Duration    : 00:00:00.050
+
+[2023-02-02T18:07:50.300Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:50.300Z]
+✔ Selector  : Done -------------------
+[2023-02-02T18:07:50.302Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:50:247 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:50:297 GMT+01:00
+ Duration    : 00:00:00.050
+
+[2023-02-02T18:07:50.303Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:50.406Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-02T18:07:50.440Z]
+ Type        : Method
+ Name        : I.click(Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]",{
+    timeout: 10000,
+    interval: 50,
+    retries: 200,
+    assertionTimeout: 12000,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:50:204 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:50:406 GMT+01:00
+ Duration    : 00:00:00.202
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 29 |         await I.click(Selector(element, this.actualOptions).filterVisible());
+     |               ^
+[2023-02-02T18:07:50.441Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:50.441Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-02T18:07:50.446Z]
+ Type        : Method
+ Name        : I.debugger()
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:50:441 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+ Source      : 
+> 37 |         await I.debugger()
+     |         ^
+[2023-02-02T18:07:50.446Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[info] [2023-02-02T18:07:50.447Z]
+❯ Test Maker Debugger Is Active, press 'f' if you want continue.
+
+[2023-02-02T18:07:57.457Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-02T18:07:57.463Z]
+ Type        : Method
+ Name        : I.debugger()
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : Gain Access Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:50:441 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:57:457 GMT+01:00
+ Duration    : 00:00:07.016
+ File        : D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+ Source      : 
+> 37 |         await I.debugger()
+     |         ^
+[2023-02-02T18:07:57.464Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:57.465Z]
+✔ Given : Done ---------------
+[2023-02-02T18:07:57.465Z]
+ Name      : Gain Access Case
+ Scenario  : Gain Access
+ Feature   : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Thursday 02-Feb-2023 At 19:07:46:745 GMT+01:00
+ End Time  : Thursday 02-Feb-2023 At 19:07:57:464 GMT+01:00
+ Duration  : 00:00:10.719
+[2023-02-02T18:07:57.466Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:57.466Z]
+▶ After Each Scenario : Start ------------------------------
+[2023-02-02T18:07:57.467Z]
+ Scenario Name: Gain Access
+ Feature      : Gain Access
+ Retries      : 0
+ Adapter      : playwright
+ Client       : Chrome 101.0.4951.15 / Windows 10
+ File         : D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time   : Thursday 02-Feb-2023 At 19:07:57:466 GMT+01:00
+
+[2023-02-02T18:07:57.468Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:57.473Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:57:473 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access][statetracker] Data state busy status is 'none'
+[2023-02-02T18:07:57.474Z]
+▶ Selector  : Start --------------------
+[2023-02-02T18:07:57.475Z]
+ Init        : Selector(".icons.avatar")
+ options     : {
+                  retries: "INFINITELY",
+                  timeout: 2000
+              }
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:57:469 GMT+01:00
+
+[2023-02-02T18:07:57.476Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:57.486Z]
+✔ Selector  : Done -------------------
+[2023-02-02T18:07:57.487Z]
+ Init        : Selector(".icons.avatar")
+ options     : {
+                  retries: "INFINITELY",
+                  timeout: 2000
+              }
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:57:469 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:57:485 GMT+01:00
+ Duration    : 00:00:00.016
+
+[2023-02-02T18:07:57.488Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:57.488Z]
+▶ Selector Action : Start --------------------------
+[2023-02-02T18:07:57.494Z]
+ Init        : Selector(".icons.avatar")
+ options     : {
+                  retries: "INFINITELY",
+                  timeout: 2000
+              }
+ Type        : Property
+ Name        : exists
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:57:469 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/test-maker.pega.ts
+ Source      : 
+> 46 |             if(await Selector(`.icons.avatar`, {timeout: 2000}).exists) {
+     |                                                                ^
+[2023-02-02T18:07:57.494Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:57.495Z]
+✔ Selector Action : Done -------------------------
+[2023-02-02T18:07:57.499Z]
+ Init        : Selector(".icons.avatar")
+ options     : {
+                  retries: "INFINITELY",
+                  timeout: 2000
+              }
+ Type        : Property
+ Name        : exists
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:57:469 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:57:495 GMT+01:00
+ Duration    : 00:00:00.026
+ File        : D:/tunisia-hub/tunisia-hub/test-maker.pega.ts
+ Source      : 
+> 46 |             if(await Selector(`.icons.avatar`, {timeout: 2000}).exists) {
+     |                                                                ^
+[2023-02-02T18:07:57.500Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:57.506Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:57:506 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access][statetracker] Data state busy status is 'none'
+[2023-02-02T18:07:57.507Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-02T18:07:57.541Z]
+ Type        : Method
+ Name        : I.switchToMainFrame()
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:57:500 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 84 |         await I.switchToMainFrame()
+     |               ^
+[2023-02-02T18:07:57.542Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:57.542Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-02T18:07:57.567Z]
+ Type        : Method
+ Name        : I.switchToMainFrame()
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:57:500 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:57:542 GMT+01:00
+ Duration    : 00:00:00.042
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 84 |         await I.switchToMainFrame()
+     |               ^
+[2023-02-02T18:07:57.568Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:57.572Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:57:571 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access][statetracker] Data state busy status is 'none'
+[2023-02-02T18:07:57.572Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-02T18:07:57.594Z]
+ Type        : Method
+ Name        : I.waitForSelectActionabilityCheck("[data-test-id="px-opr-image-ctrl"]",[
+    "attached",
+    "stable",
+    "visible"
+])
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:57:500 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 85 |             .waitForSelectActionabilityCheck(selector, [`attached`, 'stable', 'visible'])
+     |              ^
+[2023-02-02T18:07:57.595Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:57.598Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:57:598 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access][statetracker] Data state busy status is 'none'
+[2023-02-02T18:07:57.598Z]
+▶ Selector  : Start --------------------
+[2023-02-02T18:07:57.600Z]
+ Init        : Selector("[data-test-id="px-opr-image-ctrl"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:57:596 GMT+01:00
+
+[2023-02-02T18:07:57.601Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:57.608Z]
+✔ Selector  : Done -------------------
+[2023-02-02T18:07:57.610Z]
+ Init        : Selector("[data-test-id="px-opr-image-ctrl"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:57:596 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:57:608 GMT+01:00
+ Duration    : 00:00:00.012
+
+[2023-02-02T18:07:57.611Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:57.644Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-02T18:07:57.664Z]
+ Type        : Method
+ Name        : I.waitForSelectActionabilityCheck("[data-test-id="px-opr-image-ctrl"]",[
+    "attached",
+    "stable",
+    "visible"
+])
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:57:500 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:57:643 GMT+01:00
+ Duration    : 00:00:00.143
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 85 |             .waitForSelectActionabilityCheck(selector, [`attached`, 'stable', 'visible'])
+     |              ^
+[2023-02-02T18:07:57.665Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:57.668Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:57:668 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access][statetracker] Data state busy status is 'none'
+[2023-02-02T18:07:57.669Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-02T18:07:57.689Z]
+ Type        : Method
+ Name        : I.hover("[data-test-id="px-opr-image-ctrl"]")
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:57:500 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 86 |             .hover(selector)
+     |              ^
+[2023-02-02T18:07:57.690Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:57.693Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:57:693 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access][statetracker] Data state busy status is 'none'
+[2023-02-02T18:07:57.694Z]
+▶ Selector  : Start --------------------
+[2023-02-02T18:07:57.696Z]
+ Init        : Selector("[data-test-id="px-opr-image-ctrl"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:57:690 GMT+01:00
+
+[2023-02-02T18:07:57.696Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:57.735Z]
+✔ Selector  : Done -------------------
+[2023-02-02T18:07:57.737Z]
+ Init        : Selector("[data-test-id="px-opr-image-ctrl"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:57:690 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:57:734 GMT+01:00
+ Duration    : 00:00:00.044
+
+[2023-02-02T18:07:57.738Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:57.786Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-02T18:07:57.810Z]
+ Type        : Method
+ Name        : I.hover("[data-test-id="px-opr-image-ctrl"]")
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:57:500 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:57:786 GMT+01:00
+ Duration    : 00:00:00.286
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 86 |             .hover(selector)
+     |              ^
+[2023-02-02T18:07:57.811Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:57.815Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:57:814 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access][statetracker] Data state busy status is 'none'
+[2023-02-02T18:07:57.815Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-02T18:07:57.837Z]
+ Type        : Method
+ Name        : I.click("[data-test-id="px-opr-image-ctrl"]")
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:57:500 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 87 |             .click(selector)
+     |              ^
+[2023-02-02T18:07:57.838Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:57.842Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:57:841 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access][statetracker] Data state busy status is 'none'
+[2023-02-02T18:07:57.842Z]
+▶ Selector  : Start --------------------
+[2023-02-02T18:07:57.844Z]
+ Init        : Selector("[data-test-id="px-opr-image-ctrl"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:57:839 GMT+01:00
+
+[2023-02-02T18:07:57.845Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:57.852Z]
+✔ Selector  : Done -------------------
+[2023-02-02T18:07:57.853Z]
+ Init        : Selector("[data-test-id="px-opr-image-ctrl"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:57:839 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:57:851 GMT+01:00
+ Duration    : 00:00:00.012
+
+[2023-02-02T18:07:57.854Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:57.935Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-02T18:07:57.958Z]
+ Type        : Method
+ Name        : I.click("[data-test-id="px-opr-image-ctrl"]")
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:57:500 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:57:934 GMT+01:00
+ Duration    : 00:00:00.434
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 87 |             .click(selector)
+     |              ^
+[2023-02-02T18:07:57.959Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:57.963Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:57:962 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:57.987Z]
+Retry: 1 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:57.989Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:57:989 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:58.003Z]
+Retry: 2 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:58.005Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:58:005 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:58.018Z]
+Retry: 3 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:58.020Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:58:020 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:58.034Z]
+Retry: 4 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:58.037Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:58:036 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:58.047Z]
+Retry: 5 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:58.198Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:58:197 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:58.223Z]
+Retry: 6 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:58.226Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:58:225 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:58.239Z]
+Retry: 7 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:58.242Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:58:242 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:58.255Z]
+Retry: 8 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:58.258Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:58:258 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:58.270Z]
+Retry: 9 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:58.272Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:58:272 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:58.286Z]
+Retry: 10 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:58.291Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:58:291 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:58.302Z]
+Retry: 11 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:58.305Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:58:305 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access][statetracker] Data state busy status is 'busy'
+[2023-02-02T18:07:58.318Z]
+Retry: 12 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-02T18:07:58.320Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:58:320 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access][statetracker] Data state busy status is 'none'
+[2023-02-02T18:07:58.321Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-02T18:07:58.355Z]
+ Type        : Method
+ Name        : I.waitForSelectorToBeVisible(Selector(".menu-item-title",{
+    timeout: 10000,
+    retries: "INFINITELY"
+}))
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:57:500 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 88 |             .waitForSelectorToBeVisible(Selector('.menu-item-title').withExactText(text))
+     |              ^
+[2023-02-02T18:07:58.356Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:58.364Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:58:363 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access][statetracker] Data state busy status is 'none'
+[2023-02-02T18:07:58.365Z]
+▶ Selector  : Start --------------------
+[2023-02-02T18:07:58.367Z]
+ Init        : Selector(".menu-item-title")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:58:357 GMT+01:00
+
+[2023-02-02T18:07:58.368Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:58.369Z]
+▶ Selector Action : Start --------------------------
+[2023-02-02T18:07:58.405Z]
+ Init        : Selector(".menu-item-title")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Type        : Method
+ Name        : withExactText("Log off")
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:58:369 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 84 |         await I.switchToMainFrame()
+     |         ^
+[2023-02-02T18:07:58.406Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:58.489Z]
+✔ Selector  : Done -------------------
+[2023-02-02T18:07:58.491Z]
+ Init        : Selector(".menu-item-title")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:58:357 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:58:489 GMT+01:00
+ Duration    : 00:00:00.132
+
+[2023-02-02T18:07:58.492Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:58.493Z]
+▶ Selector Action : Start --------------------------
+[2023-02-02T18:07:58.518Z]
+ Init        : Selector(".menu-item-title")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:58:357 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 84 |         await I.switchToMainFrame()
+     |         ^
+[2023-02-02T18:07:58.519Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:58.521Z]
+✔ Selector Action : Done -------------------------
+[2023-02-02T18:07:58.544Z]
+ Init        : Selector(".menu-item-title")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:58:357 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:58:521 GMT+01:00
+ Duration    : 00:00:00.164
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 84 |         await I.switchToMainFrame()
+     |         ^
+[2023-02-02T18:07:58.545Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:58.545Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-02T18:07:58.568Z]
+ Type        : Method
+ Name        : I.waitForSelectorToBeVisible(Selector(".menu-item-title",{
+    timeout: 10000,
+    retries: "INFINITELY"
+}))
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:57:500 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:58:545 GMT+01:00
+ Duration    : 00:00:01.045
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 88 |             .waitForSelectorToBeVisible(Selector('.menu-item-title').withExactText(text))
+     |              ^
+[2023-02-02T18:07:58.568Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:58.572Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:58:571 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access][statetracker] Data state busy status is 'none'
+[2023-02-02T18:07:58.572Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-02T18:07:58.600Z]
+ Type        : Method
+ Name        : I.click(Selector(".menu-item-title",{
+    timeout: 10000,
+    retries: "INFINITELY"
+}))
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:57:501 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 89 |             .click(Selector('.menu-item-title').withExactText(text));
+     |              ^
+[2023-02-02T18:07:58.601Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:58.605Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:58:604 GMT+01:00] [Feature: Gain Access] [Scenario: Gain Access][statetracker] Data state busy status is 'none'
+[2023-02-02T18:07:58.605Z]
+▶ Selector  : Start --------------------
+[2023-02-02T18:07:58.607Z]
+ Init        : Selector(".menu-item-title")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:58:601 GMT+01:00
+
+[2023-02-02T18:07:58.608Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:58.610Z]
+▶ Selector Action : Start --------------------------
+[2023-02-02T18:07:58.642Z]
+ Init        : Selector(".menu-item-title")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Type        : Method
+ Name        : withExactText("Log off")
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:58:608 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 84 |         await I.switchToMainFrame()
+     |         ^
+[2023-02-02T18:07:58.643Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:58.680Z]
+✔ Selector  : Done -------------------
+[2023-02-02T18:07:58.682Z]
+ Init        : Selector(".menu-item-title")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:58:601 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:58:680 GMT+01:00
+ Duration    : 00:00:00.079
+
+[2023-02-02T18:07:58.683Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:58.683Z]
+✔ Selector  : Done -------------------
+[2023-02-02T18:07:58.685Z]
+ Init        : Selector(".menu-item-title")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:58:601 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:58:680 GMT+01:00
+ Duration    : 00:00:00.079
+
+[2023-02-02T18:07:58.686Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:58.903Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-02T18:07:58.933Z]
+ Type        : Method
+ Name        : I.click(Selector(".menu-item-title",{
+    timeout: 10000,
+    retries: "INFINITELY"
+}))
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Gain Access
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:57:501 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:58:903 GMT+01:00
+ Duration    : 00:00:01.402
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 89 |             .click(Selector('.menu-item-title').withExactText(text));
+     |              ^
+[2023-02-02T18:07:58.934Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:58.934Z]
+✔ After Each Scenario : Done -----------------------------
+[2023-02-02T18:07:58.935Z]
+ Scenario Name: Gain Access
+ Feature      : Gain Access
+ Retries      : 0
+ Adapter      : playwright
+ Client       : Chrome 101.0.4951.15 / Windows 10
+ File         : D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time   : Thursday 02-Feb-2023 At 19:07:57:466 GMT+01:00
+ End Time     : Thursday 02-Feb-2023 At 19:07:58:934 GMT+01:00
+ Duration     : 00:00:12.194
+[2023-02-02T18:07:58.936Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:58.937Z]
+✔ Scenario : Done ------------------
+[2023-02-02T18:07:58.938Z]
+ Name      : Gain Access
+ Feature   : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Thursday 02-Feb-2023 At 19:07:46:739 GMT+01:00
+ End Time  : Thursday 02-Feb-2023 At 19:07:58:934 GMT+01:00
+ Duration  : 00:00:12.194
+[2023-02-02T18:07:58.938Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:58.939Z]
+▶ After Feature : Start ------------------------
+[2023-02-02T18:07:58.939Z]
+ Feature Name: Gain Access
+ Retries     : 0
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ File        : D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time  : Thursday 02-Feb-2023 At 19:07:58:938 GMT+01:00
+
+[2023-02-02T18:07:58.940Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[info] [2023-02-02T18:07:58.940Z]
+[info] [On Thursday 02-Feb-2023 At 19:07:58:940 GMT+01:00] [Feature: Gain Access]The operator "sarra.bech" of the usergroup "user" was successfully unassigned
+[debug] [2023-02-02T18:07:59.114Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:59:114 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-02T18:07:59.115Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-02T18:07:59.141Z]
+ Type        : Method
+ Name        : I.switchToMainFrame()
+ Phase       : After Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:58:941 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 84 |         await I.switchToMainFrame()
+     |               ^
+[2023-02-02T18:07:59.142Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:07:59.143Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-02T18:07:59.164Z]
+ Type        : Method
+ Name        : I.switchToMainFrame()
+ Phase       : After Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:58:941 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:07:59:142 GMT+01:00
+ Duration    : 00:00:00.201
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 84 |         await I.switchToMainFrame()
+     |               ^
+[2023-02-02T18:07:59.166Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:59.171Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:59:171 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-02T18:07:59.171Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-02T18:07:59.194Z]
+ Type        : Method
+ Name        : I.waitForSelectActionabilityCheck("[data-test-id="px-opr-image-ctrl"]",[
+    "attached",
+    "stable",
+    "visible"
+])
+ Phase       : After Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:58:941 GMT+01:00
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 85 |             .waitForSelectActionabilityCheck(selector, [`attached`, 'stable', 'visible'])
+     |              ^
+[2023-02-02T18:07:59.195Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-02T18:07:59.199Z]
+[debug] [On Thursday 02-Feb-2023 At 19:07:59:199 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-02T18:07:59.200Z]
+▶ Selector  : Start --------------------
+[2023-02-02T18:07:59.201Z]
+ Init        : Selector("[data-test-id="px-opr-image-ctrl"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:59:195 GMT+01:00
+
+[2023-02-02T18:07:59.202Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:08:09.210Z]
+ⓧ Selector  : Done -------------------
+[2023-02-02T18:08:09.212Z]
+ Init        : Selector("[data-test-id="px-opr-image-ctrl"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Thursday 02-Feb-2023 At 19:07:59:195 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:08:09:209 GMT+01:00
+ Duration    : 00:00:10.014
+
+[2023-02-02T18:08:09.212Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:08:09.318Z]
+ⓧ Controller Action : Done ---------------------------
+[2023-02-02T18:08:09.346Z]
+ Type        : Method
+ Name        : I.waitForSelectActionabilityCheck("[data-test-id="px-opr-image-ctrl"]",[
+    "attached",
+    "stable",
+    "visible"
+])
+ Phase       : After Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Thursday 02-Feb-2023 At 19:07:58:941 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:08:09:318 GMT+01:00
+ Duration    : 00:00:10.377
+ File        : D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 85 |             .waitForSelectActionabilityCheck(selector, [`attached`, 'stable', 'visible'])
+     |              ^
+[2023-02-02T18:08:09.347Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:08:09.507Z]
+ⓧ After Feature : Done -----------------------
+[2023-02-02T18:08:09.508Z]
+ Feature Name: Gain Access
+ Retries     : 0
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ File        : D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time  : Thursday 02-Feb-2023 At 19:07:58:938 GMT+01:00
+ End Time    : Thursday 02-Feb-2023 At 19:08:09:380 GMT+01:00
+ Duration    : 00:00:10.442
+[2023-02-02T18:08:09.509Z]
+
+ -----Error Details -----
+[2023-02-02T18:08:09.514Z]
+   Message     : All retries failed after 10000ms 
+                    Last Condition Error: 
+                    Could not obtain information about the Selector because the specified selector does not match any node in the DOM tree. Make sure the Selector exists or the operation is performed in the correct Frame for Selector('[data-test-id="px-opr-image-ctrl"]',{
+                    timeout: 10000,
+                    retries: "INFINITELY"
+                })
+   Code        : 2020
+   Type        : Error
+   Node        : v18.12.1
+   Phase       : After Feature
+   Time        : Thursday 02-Feb-2023 At 19:08:09:347 GMT+01:00
+   Adapter     : playwright
+   Client      : Chrome 101.0.4951.15 / Windows 10
+   Feature File: D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+   Error Source: 
+  
+  at D:/tunisia-hub/tunisia-hub/node_modules/pega-model/src/pega.ts
+  
+    83 |     async logoff(text: string = 'Log off', selector: string = `[data-test-id="px-opr-image-ctrl"]`) {
+    84 |         await I.switchToMainFrame()
+  > 85 |             .waitForSelectActionabilityCheck(selector, [`attached`, 'stable', 'visible'])
+       |              ^
+    86 |             .hover(selector)
+    87 |             .click(selector)
+  
+  at D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+  
+    22 |     .after(async (I: Controller, runInfo?: TestRunInfo) => {
+    23 |          await runInfo?.configuration.extra.operatorsManager.unAssignOperator('user', operator.username);
+  > 24 |                  await pega.logoff()//Log off
+       |                        ^
+    25 | 
+    26 |         //  await pega.elementByXpath(`(//button[@data-test-id="px-opr-image-ctrl"])[1]`).click();
+  
+  
+   Stack Trace : 
+  
+      at _0x52bf79 (D:\tunisia-hub\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\test-api\controller\controller-action.ts:85:37)
+      at _0x31f632 (D:\tunisia-hub\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\test-api\controller\controller-action.ts:264:24)
+      at _0x5816ba._0x42fac7.value (D:\tunisia-hub\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\test-api\controller\controller-action.ts:422:17)
+      at Pega.logoff (D:\tunisia-hub\tunisia-hub\node_modules\pega-model\src\pega.ts:85:14)
+      at _0x52e80b.afterHook (D:\tunisia-hub\tunisia-hub\src\specs\exemple-spec.ts:24:24)
+      at _0x52e80b.runAfterHook (D:\tunisia-hub\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:257:9)
+      at _0x3221a8.run (D:\tunisia-hub\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\phase-manager.ts:112:17)
+      at _0x52e80b.run (D:\tunisia-hub\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:190:9)
+      at D:\tunisia-hub\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:141:21
+      at _0x52e80b.runFn (D:\tunisia-hub\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:137:13)
+      at D:\tunisia-hub\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:183:49
+      at _0x2012bc (D:\tunisia-hub\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\node_modules\.pnpm\p-queue@6.6.2\node_modules\p-queue\dist\index.js:163:1)
+  
+  
+[2023-02-02T18:08:09.515Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:08:09.516Z]
+ⓧ Feature : Done -----------------
+[2023-02-02T18:08:09.518Z]
+ Name      : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Thursday 02-Feb-2023 At 19:07:42:938 GMT+01:00
+ End Time  : Thursday 02-Feb-2023 At 19:08:09:515 GMT+01:00
+ Duration  : 00:00:26.575
+[2023-02-02T18:08:09.518Z]
+----------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-02T18:08:09.519Z]
+▶ Finished 1 of 1 Implemented Features 
+[2023-02-02T18:08:09.519Z]
+
+
+[2023-02-02T18:08:09.563Z]
+
+  ┌───────────────────────────────────┬──────────────────────────────┬──────────────────────────────┬─────────────┬─────────────┐
+  │              Feature              │          Scenarios           │            Steps             │  Duration   │   Status    │
+  ├───────────────────────────────────┼──────────────────────────────┼──────────────────────────────┼─────────────┼─────────────┤
+  │            Gain Access            │          Passed: 1           │          Passed: 1           │ 00:00:26.57 │   failed    │
+  │     src/specs/exemple-spec.ts     │          Failed: 0           │          Failed: 0           │      7      │             │
+  │                                   │          Skipped: 0          │          Skipped: 0          │             │             │
+  │                                   │         Undefined: 0         │         Undefined: 0         │             │             │
+  │                                   │                              │                              │             │             │
+  └───────────────────────────────────┴──────────────────────────────┴──────────────────────────────┴─────────────┴─────────────┘
