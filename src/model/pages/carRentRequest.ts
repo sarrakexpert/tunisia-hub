@@ -1,7 +1,7 @@
 import { pega } from 'pega-model';
 import { I } from 'test-maker';
 
-export class CreateGainAccessCasePage {
+export class CreateCarRentRequestPage {
     readonly SignUp = pega.elementByXpath(`//a[@data-test-id="202209051850320960738"]`);
     readonly Name = pega.textInputById("e7852830");
     readonly FamilyName= pega.textInputById("5d9a8732");
@@ -63,4 +63,4 @@ export class CreateGainAccessCasePage {
         await this.CarRent.click();
 }
 };
-export const createGainAccessCasePage = new CreateGainAccessCasePage();
+export const createCarRentRequestPage = new CreateCarRentRequestPage();

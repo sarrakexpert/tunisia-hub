@@ -131,16 +131,16 @@ class GlobalActions {
 
 /***/ }),
 
-/***/ "./src/model/pages/gainAccessCasePage.ts":
-/*!***********************************************!*\
-  !*** ./src/model/pages/gainAccessCasePage.ts ***!
-  \***********************************************/
+/***/ "./src/model/pages/carRentRequest.ts":
+/*!*******************************************!*\
+  !*** ./src/model/pages/carRentRequest.ts ***!
+  \*******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "CreateGainAccessCasePage": () => (/* binding */ CreateGainAccessCasePage),
-/* harmony export */   "createGainAccessCasePage": () => (/* binding */ createGainAccessCasePage)
+/* harmony export */   "CreateCarRentRequestPage": () => (/* binding */ CreateCarRentRequestPage),
+/* harmony export */   "createCarRentRequestPage": () => (/* binding */ createCarRentRequestPage)
 /* harmony export */ });
 /* harmony import */ var source_map_support_register__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! source-map-support/register */ "./node_modules/test-maker/node_modules/source-map-support/register.js");
 /* harmony import */ var source_map_support_register__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(source_map_support_register__WEBPACK_IMPORTED_MODULE_0__);
@@ -148,7 +148,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var pega_model__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(pega_model__WEBPACK_IMPORTED_MODULE_1__);
 
 
-class CreateGainAccessCasePage {
+class CreateCarRentRequestPage {
     constructor() {
         this.SignUp = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.elementByXpath(`//a[@data-test-id="202209051850320960738"]`);
         this.Name = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.textInputById("e7852830");
@@ -207,7 +207,42 @@ class CreateGainAccessCasePage {
     }
 }
 ;
-const createGainAccessCasePage = new CreateGainAccessCasePage();
+const createCarRentRequestPage = new CreateCarRentRequestPage();
+
+
+/***/ }),
+
+/***/ "./src/model/pages/collectInformation.ts":
+/*!***********************************************!*\
+  !*** ./src/model/pages/collectInformation.ts ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "CollectInformationPage": () => (/* binding */ CollectInformationPage),
+/* harmony export */   "collectInformationPage": () => (/* binding */ collectInformationPage)
+/* harmony export */ });
+/* harmony import */ var source_map_support_register__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! source-map-support/register */ "./node_modules/test-maker/node_modules/source-map-support/register.js");
+/* harmony import */ var source_map_support_register__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(source_map_support_register__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var pega_model__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! pega-model */ "pega-model");
+/* harmony import */ var pega_model__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(pega_model__WEBPACK_IMPORTED_MODULE_1__);
+
+
+class CollectInformationPage {
+    constructor() {
+        this.StartDate = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.datePickerByCss(`//input[@data-test-id="202211290503210685644"]`);
+        this.EndDate = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.datePickerByCss(`//input[@data-test-id="202211290503210685164"]`);
+    }
+    async setStartDate() {
+        await this.StartDate.set((0,pega_model__WEBPACK_IMPORTED_MODULE_1__.today)());
+    }
+    async setEndtDate() {
+        await this.EndDate.set((0,pega_model__WEBPACK_IMPORTED_MODULE_1__.today)().plusDays(1));
+    }
+}
+;
+const collectInformationPage = new CollectInformationPage();
 
 
 /***/ }),
@@ -226,8 +261,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var pega_model__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! pega-model */ "pega-model");
 /* harmony import */ var pega_model__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(pega_model__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _model_app__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../model/app */ "./src/model/app.ts");
-/* harmony import */ var _model_pages_gainAccessCasePage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../model/pages/gainAccessCasePage */ "./src/model/pages/gainAccessCasePage.ts");
-/* harmony import */ var _user_data__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./user-data */ "./src/specs/user-data.ts");
+/* harmony import */ var _model_pages_carRentRequest__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../model/pages/carRentRequest */ "./src/model/pages/carRentRequest.ts");
+/* harmony import */ var _model_pages_collectInformation__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../model/pages/collectInformation */ "./src/model/pages/collectInformation.ts");
+/* harmony import */ var _user_data__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./user-data */ "./src/specs/user-data.ts");
+
 
 
 
@@ -239,13 +276,7 @@ let operator;
 (0,test_maker__WEBPACK_IMPORTED_MODULE_1__.Feature)(`Gain Access`)
     .before(async (I, runInfo) => {
     try {
-        //common part for all the scenarios available per the feature
-        //we need to pass the runInfo parameter to the login method to
-        // get all current configurations (environment, timeout etc)
-        // console.log("hhhhhhhhhhhhhhhh"+operator)
-        //we need to pass the runInfo parameter to the login method to
-        // get all current configurations (environment, timeout etc)
-        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.visit((0,_user_data__WEBPACK_IMPORTED_MODULE_5__.getUrl)(runInfo === null || runInfo === void 0 ? void 0 : runInfo.configuration.extra.env.name), runInfo);
+        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.visit((0,_user_data__WEBPACK_IMPORTED_MODULE_6__.getUrl)(runInfo === null || runInfo === void 0 ? void 0 : runInfo.configuration.extra.env.name), runInfo);
         operator = await (runInfo === null || runInfo === void 0 ? void 0 : runInfo.configuration.extra.operatorsManager.assignOperator('user'));
         await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.loginForm.login(operator.username, operator.password);
     }
@@ -255,8 +286,8 @@ let operator;
         throw e;
     }
 })
-    .Scenario(`Gain Access`)
-    .Given('Gain Access Case', async (_I, _runInfo) => {
+    .Scenario(`Car Rent Request`)
+    .Given('Create CarRentRequest Case', async (_I, _runInfo) => {
     try {
         await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.frame.switchToDefault();
         await _model_app__WEBPACK_IMPORTED_MODULE_3__.app["case"].createCaseWithTitle("Car Rent Request");
@@ -278,12 +309,25 @@ let operator;
     .Then(`Fill New process`, async (_I, _runInfo) => {
     try {
         //await createGainAccessCasePage.login();
-        await _model_pages_gainAccessCasePage__WEBPACK_IMPORTED_MODULE_4__.createGainAccessCasePage.selectCar();
+        await _model_pages_carRentRequest__WEBPACK_IMPORTED_MODULE_4__.createCarRentRequestPage.selectCar();
         await _model_app__WEBPACK_IMPORTED_MODULE_3__.app.globalActions.submit();
-        await _model_pages_gainAccessCasePage__WEBPACK_IMPORTED_MODULE_4__.createGainAccessCasePage.selectCarRent();
+        await _model_pages_carRentRequest__WEBPACK_IMPORTED_MODULE_4__.createCarRentRequestPage.selectCarRent();
         await _model_app__WEBPACK_IMPORTED_MODULE_3__.app.globalActions.submit();
         await test_maker__WEBPACK_IMPORTED_MODULE_1__.I.wait(1000);
         await _model_app__WEBPACK_IMPORTED_MODULE_3__.app.globalActions.submit();
+        await test_maker__WEBPACK_IMPORTED_MODULE_1__.I["debugger"]();
+    }
+    catch (e) {
+        e.fromSpec = true;
+        e.filePath = `D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts`;
+        throw e;
+    }
+}).Then(`Collect information`, async (_I, _runInfo) => {
+    try {
+        await _model_pages_collectInformation__WEBPACK_IMPORTED_MODULE_5__.collectInformationPage.setStartDate();
+        await _model_pages_collectInformation__WEBPACK_IMPORTED_MODULE_5__.collectInformationPage.setEndtDate();
+        await _model_app__WEBPACK_IMPORTED_MODULE_3__.app.globalActions.submit();
+        await test_maker__WEBPACK_IMPORTED_MODULE_1__.I["debugger"]();
     }
     catch (e) {
         e.fromSpec = true;

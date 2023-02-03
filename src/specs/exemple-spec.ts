@@ -1,19 +1,16 @@
 import { Controller,Selector, Feature, I, TestRunInfo } from 'test-maker';
 import { pega } from 'pega-model';
 import { app } from "../model/app";
-import { createGainAccessCasePage } from "../model/pages/gainAccessCasePage";
+import { createCarRentRequestPage } from "../model/pages/carRentRequest";
+import { collectInformationPage } from "../model/pages/collectInformation";
+
 import { getUrl } from './user-data';
 let operator: { username: string, password: string };
 //let operatorDev: { username: string, password: string };
 
 Feature(`Gain Access`)
 .before(async (I: Controller, runInfo?: TestRunInfo) => {
-    //common part for all the scenarios available per the feature
-    //we need to pass the runInfo parameter to the login method to
-    // get all current configurations (environment, timeout etc)
-    // console.log("hhhhhhhhhhhhhhhh"+operator)
-    //we need to pass the runInfo parameter to the login method to
-    // get all current configurations (environment, timeout etc)
+    
     await pega.visit(getUrl(runInfo?.configuration.extra.env.name), runInfo);
     operator = await runInfo?.configuration.extra.operatorsManager.assignOperator('user');
 
@@ -23,9 +20,9 @@ Feature(`Gain Access`)
 
 
 
-.Scenario(`Gain Access`)
+.Scenario(`Car Rent Request`)
 
-    .Given('Gain Access Case', async (_I, _runInfo) => {
+    .Given('Create CarRentRequest Case', async (_I, _runInfo) => {
         await pega.frame.switchToDefault();
         await app.case.createCaseWithTitle("Car Rent Request");
     })
@@ -41,13 +38,19 @@ Feature(`Gain Access`)
 
      .Then(`Fill New process`, async (_I, _runInfo) => {
        //await createGainAccessCasePage.login();
-       await createGainAccessCasePage.selectCar();
+       await createCarRentRequestPage.selectCar();
        await app.globalActions.submit()
-       await createGainAccessCasePage.selectCarRent();
+       await createCarRentRequestPage.selectCarRent();
        await app.globalActions.submit();
        await I.wait(1000)
        await app.globalActions.submit()
+       await I.debugger()
 
+    }).Then(`Collect information`, async (_I, _runInfo) => {
+        await collectInformationPage.setStartDate()
+        await collectInformationPage.setEndtDate()
+        await app.globalActions.submit();
 
-    })
-    
+        await I.debugger()
+ 
+     })
