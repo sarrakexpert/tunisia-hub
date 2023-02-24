@@ -1,0 +1,63 @@
+[info] [2023-02-24T10:25:56.290Z]
+
+Starting Test Maker 7.5.2
+
+[info] [2023-02-24T10:25:56.327Z]
+Compiling Test Maker Config File: C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/test-maker.local.ts
+[info] [2023-02-24T10:26:01.257Z]
+Loading Test Maker System Modules
+[info] [2023-02-24T10:26:01.258Z]
+- Loading Test Maker Plugins
+[info] [2023-02-24T10:26:01.258Z]
+- Loading Test Maker Reporters:
+[info] [2023-02-24T10:26:01.261Z]
+- Loading Test Maker Adapters:
+[info] [2023-02-24T10:26:01.337Z]
+  - playwright
+[info] [2023-02-24T10:26:01.337Z]
+    - Loading Client: chrome
+[info] [2023-02-24T10:26:01.361Z]
+
+Debugging is enabled for enabled
+[info] [2023-02-24T10:26:01.362Z]
+Test Maker Debugger is Active
+You can use the following keys in the terminal:
+'d' - activate/deactivate debugger.
+'f' - to continue the process.
+
+[info] [2023-02-24T10:26:01.434Z]
+
+- Deleting Old Reporters Files
+[info] [2023-02-24T10:26:01.436Z]
+- Compiling Spec Files
+
+[2023-02-24T10:26:01.848Z]
+asset vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 132 KiB [emitted] (id hint: vendors) 1 related asset
+asset ./src/specs/exemple-spec.js 29.7 KiB [emitted] (name: ./src/specs/exemple-spec) 1 related asset
+Entrypoint ./src/specs/exemple-spec 162 KiB (181 KiB) = vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 132 KiB ./src/specs/exemple-spec.js 29.7 KiB 2 auxiliary assets
+webpack compiled successfully
+[2023-02-24T10:26:01.883Z]
+Current environment is dev
+[2023-02-24T10:26:01.885Z]
+Task started On Friday 24-Feb-2023 At 11:26:01:884 GMT+01:00
+[2023-02-24T10:26:01.885Z]
+Running tests in the following Clients:
+- chrome
+
+[error] [2023-02-24T10:26:03.201Z]
+browserType.launch: Executable doesn't exist at C:\Users\KishoreKumarBiradavo\AppData\Local\ms-playwright\chromium-1000\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ <3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝
+    at _0x3fb9f2.clientStart (C:\Users\KishoreKumarBiradavo\OneDrive - K-Expert\Documents\KE\Internal\Trainings_Learnings\SIMBA\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\adapters\playwright\adapter.ts:160:37)
+    at _0x366e29.createClientInstance (C:\Users\KishoreKumarBiradavo\OneDrive - K-Expert\Documents\KE\Internal\Trainings_Learnings\SIMBA\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:588:40)
+    at _0x366e29.getClient (C:\Users\KishoreKumarBiradavo\OneDrive - K-Expert\Documents\KE\Internal\Trainings_Learnings\SIMBA\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:555:50)
+    at C:\Users\KishoreKumarBiradavo\OneDrive - K-Expert\Documents\KE\Internal\Trainings_Learnings\SIMBA\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:174:84
+    at _0x2012bc (C:\Users\KishoreKumarBiradavo\OneDrive - K-Expert\Documents\KE\Internal\Trainings_Learnings\SIMBA\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\node_modules\.pnpm\p-queue@6.6.2\node_modules\p-queue\dist\index.js:163:1) {
+  name: 'Error'
+}
