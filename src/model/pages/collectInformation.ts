@@ -2,8 +2,8 @@ import { pega, today } from 'pega-model';
 import { I } from 'test-maker';
 
 export class CollectInformationPage {
-    readonly StartDate = pega.datePickerByCss(`//input[@data-test-id="202211290503210685644"]`);
-    readonly EndDate = pega.datePickerByCss(`//input[@data-test-id="202211290503210685164"]`);
+    readonly StartDate = pega.datePickerByDataTestId("202211290503210685644");
+    readonly EndDate = pega.datePickerByDataTestId("202211290503210685164");
 
 
 

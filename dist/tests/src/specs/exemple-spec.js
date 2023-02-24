@@ -231,8 +231,8 @@ __webpack_require__.r(__webpack_exports__);
 
 class CollectInformationPage {
     constructor() {
-        this.StartDate = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.datePickerByCss(`//input[@data-test-id="202211290503210685644"]`);
-        this.EndDate = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.datePickerByCss(`//input[@data-test-id="202211290503210685164"]`);
+        this.StartDate = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.datePickerByDataTestId("202211290503210685644");
+        this.EndDate = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.datePickerByDataTestId("202211290503210685164");
     }
     async setStartDate() {
         await this.StartDate.set((0,pega_model__WEBPACK_IMPORTED_MODULE_1__.today)());
@@ -315,7 +315,6 @@ let operator;
         await _model_app__WEBPACK_IMPORTED_MODULE_3__.app.globalActions.submit();
         await test_maker__WEBPACK_IMPORTED_MODULE_1__.I.wait(1000);
         await _model_app__WEBPACK_IMPORTED_MODULE_3__.app.globalActions.submit();
-        await test_maker__WEBPACK_IMPORTED_MODULE_1__.I["debugger"]();
     }
     catch (e) {
         e.fromSpec = true;
@@ -327,7 +326,6 @@ let operator;
         await _model_pages_collectInformation__WEBPACK_IMPORTED_MODULE_5__.collectInformationPage.setStartDate();
         await _model_pages_collectInformation__WEBPACK_IMPORTED_MODULE_5__.collectInformationPage.setEndtDate();
         await _model_app__WEBPACK_IMPORTED_MODULE_3__.app.globalActions.submit();
-        await test_maker__WEBPACK_IMPORTED_MODULE_1__.I["debugger"]();
     }
     catch (e) {
         e.fromSpec = true;
