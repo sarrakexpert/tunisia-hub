@@ -44,13 +44,11 @@ Feature(`Gain Access`)
        await app.globalActions.submit();
        await I.wait(1000)
        await app.globalActions.submit()
-       await I.debugger()
 
     }).Then(`Collect information`, async (_I, _runInfo) => {
         await collectInformationPage.setStartDate()
         await collectInformationPage.setEndtDate()
         await app.globalActions.submit();
 
-        await I.debugger()
  
      })

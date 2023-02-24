@@ -9,7 +9,6 @@ export class CollectInformationPage {
 
 
 
-
     public async setStartDate() { 
         await this.StartDate.set(today())
     }

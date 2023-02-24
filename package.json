@@ -21,6 +21,7 @@
     "playwright-chromium": "1.21.0",
     "playwright-core": "1.21.0",
     "playwright-firefox": "^1.30.0",
+    "selenidejs": "^1.4.0",
     "test-maker": "file:test-maker-7.5.2.tar.gz"
   }
 }
