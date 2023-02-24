@@ -247,6 +247,45 @@ const collectInformationPage = new CollectInformationPage();
 
 /***/ }),
 
+/***/ "./src/model/pages/shippingInformation.ts":
+/*!************************************************!*\
+  !*** ./src/model/pages/shippingInformation.ts ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ShippingInformationPage": () => (/* binding */ ShippingInformationPage),
+/* harmony export */   "shippingInformationPage": () => (/* binding */ shippingInformationPage)
+/* harmony export */ });
+/* harmony import */ var source_map_support_register__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! source-map-support/register */ "./node_modules/test-maker/node_modules/source-map-support/register.js");
+/* harmony import */ var source_map_support_register__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(source_map_support_register__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var pega_model__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! pega-model */ "pega-model");
+/* harmony import */ var pega_model__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(pega_model__WEBPACK_IMPORTED_MODULE_1__);
+
+
+class ShippingInformationPage {
+    constructor() {
+        this.ShippingAddress = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.elementByDataTestId({ dataTestId: "202210140737070295433" });
+        this.ShippingEmail = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.elementByDataTestId({ dataTestId: "202210140737070295147" });
+        this.ShippingPhoneNumber = pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.elementByDataTestId({ dataTestId: "202210140737070296455" });
+    }
+    async setShippingAddress() {
+        await this.ShippingAddress.set("1 rue capitole");
+    }
+    async setShippingEmail() {
+        await this.ShippingEmail.set("testapp@yopmail.com");
+    }
+    async setShippingPhoneNumber() {
+        await this.ShippingPhoneNumber.set("9889098909");
+    }
+}
+;
+const shippingInformationPage = new ShippingInformationPage();
+
+
+/***/ }),
+
 /***/ "./src/specs/exemple-spec.ts":
 /*!***********************************!*\
   !*** ./src/specs/exemple-spec.ts ***!
@@ -263,7 +302,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _model_app__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../model/app */ "./src/model/app.ts");
 /* harmony import */ var _model_pages_carRentRequest__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../model/pages/carRentRequest */ "./src/model/pages/carRentRequest.ts");
 /* harmony import */ var _model_pages_collectInformation__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../model/pages/collectInformation */ "./src/model/pages/collectInformation.ts");
-/* harmony import */ var _user_data__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./user-data */ "./src/specs/user-data.ts");
+/* harmony import */ var _model_pages_shippingInformation__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../model/pages/shippingInformation */ "./src/model/pages/shippingInformation.ts");
+/* harmony import */ var _user_data__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./user-data */ "./src/specs/user-data.ts");
+
 
 
 
@@ -276,13 +317,13 @@ let operator;
 (0,test_maker__WEBPACK_IMPORTED_MODULE_1__.Feature)(`Gain Access`)
     .before(async (I, runInfo) => {
     try {
-        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.visit((0,_user_data__WEBPACK_IMPORTED_MODULE_6__.getUrl)(runInfo === null || runInfo === void 0 ? void 0 : runInfo.configuration.extra.env.name), runInfo);
+        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.visit((0,_user_data__WEBPACK_IMPORTED_MODULE_7__.getUrl)(runInfo === null || runInfo === void 0 ? void 0 : runInfo.configuration.extra.env.name), runInfo);
         operator = await (runInfo === null || runInfo === void 0 ? void 0 : runInfo.configuration.extra.operatorsManager.assignOperator('user'));
         await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.loginForm.login(operator.username, operator.password);
     }
     catch (e) {
         e.fromSpec = true;
-        e.filePath = `D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts`;
+        e.filePath = `C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/specs/exemple-spec.ts`;
         throw e;
     }
 })
@@ -294,7 +335,7 @@ let operator;
     }
     catch (e) {
         e.fromSpec = true;
-        e.filePath = `D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts`;
+        e.filePath = `C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/specs/exemple-spec.ts`;
         throw e;
     }
 })
@@ -318,7 +359,7 @@ let operator;
     }
     catch (e) {
         e.fromSpec = true;
-        e.filePath = `D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts`;
+        e.filePath = `C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/specs/exemple-spec.ts`;
         throw e;
     }
 }).Then(`Collect information`, async (_I, _runInfo) => {
@@ -329,7 +370,28 @@ let operator;
     }
     catch (e) {
         e.fromSpec = true;
-        e.filePath = `D:/tunisia-hub/tunisia-hub/src/specs/exemple-spec.ts`;
+        e.filePath = `C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/specs/exemple-spec.ts`;
+        throw e;
+    }
+}).Then(`Shipping information`, async (_I, _runInfo) => {
+    try {
+        await _model_pages_shippingInformation__WEBPACK_IMPORTED_MODULE_6__.shippingInformationPage.setShippingAddress();
+        await _model_pages_shippingInformation__WEBPACK_IMPORTED_MODULE_6__.shippingInformationPage.setShippingEmail();
+        await _model_pages_shippingInformation__WEBPACK_IMPORTED_MODULE_6__.shippingInformationPage.setShippingPhoneNumber();
+        await _model_app__WEBPACK_IMPORTED_MODULE_3__.app.globalActions.submit();
+    }
+    catch (e) {
+        e.fromSpec = true;
+        e.filePath = `C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/specs/exemple-spec.ts`;
+        throw e;
+    }
+}).Then(`Vehicle Proposition`, async (_I, _runInfo) => {
+    try {
+        await _model_app__WEBPACK_IMPORTED_MODULE_3__.app.globalActions.submit();
+    }
+    catch (e) {
+        e.fromSpec = true;
+        e.filePath = `C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/specs/exemple-spec.ts`;
         throw e;
     }
 });

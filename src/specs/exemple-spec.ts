@@ -3,6 +3,7 @@ import { pega } from 'pega-model';
 import { app } from "../model/app";
 import { createCarRentRequestPage } from "../model/pages/carRentRequest";
 import { collectInformationPage } from "../model/pages/collectInformation";
+import { shippingInformationPage } from "../model/pages/shippingInformation";
 
 import { getUrl } from './user-data';
 let operator: { username: string, password: string };
@@ -16,9 +17,6 @@ Feature(`Gain Access`)
 
     await pega.loginForm.login(operator.username, operator.password);
     })
-
-
-
 
 .Scenario(`Car Rent Request`)
 
@@ -51,4 +49,14 @@ Feature(`Gain Access`)
         await app.globalActions.submit();
 
  
+     }).Then(`Shipping information`, async (_I, _runInfo) => {
+        await shippingInformationPage.setShippingAddress()
+        await shippingInformationPage.setShippingEmail()
+        await shippingInformationPage.setShippingPhoneNumber()
+        await app.globalActions.submit();
+
+ 
+     }).Then(`Vehicle Proposition`, async (_I, _runInfo) => {
+        await app.globalActions.submit();
+
      })
