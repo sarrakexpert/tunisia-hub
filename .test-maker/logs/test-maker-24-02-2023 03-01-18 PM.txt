@@ -1,0 +1,3043 @@
+[info] [2023-02-24T14:01:20.387Z]
+
+Starting Test Maker 7.5.2
+
+[info] [2023-02-24T14:01:20.424Z]
+Compiling Test Maker Config File: C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/test-maker.local.ts
+[info] [2023-02-24T14:01:25.433Z]
+Loading Test Maker System Modules
+[info] [2023-02-24T14:01:25.433Z]
+- Loading Test Maker Plugins
+[info] [2023-02-24T14:01:25.434Z]
+- Loading Test Maker Reporters:
+[info] [2023-02-24T14:01:25.436Z]
+- Loading Test Maker Adapters:
+[info] [2023-02-24T14:01:25.541Z]
+  - playwright
+[info] [2023-02-24T14:01:25.541Z]
+    - Loading Client: chrome
+[info] [2023-02-24T14:01:25.569Z]
+
+Debugging is enabled for enabled
+[info] [2023-02-24T14:01:25.570Z]
+Test Maker Debugger is Active
+You can use the following keys in the terminal:
+'d' - activate/deactivate debugger.
+'f' - to continue the process.
+
+[info] [2023-02-24T14:01:25.636Z]
+
+- Deleting Old Reporters Files
+[info] [2023-02-24T14:01:25.642Z]
+- Compiling Spec Files
+
+[2023-02-24T14:01:26.086Z]
+asset vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 132 KiB [compared for emit] (id hint: vendors) 1 related asset
+asset ./src/specs/exemple-spec.js 33.2 KiB [compared for emit] (name: ./src/specs/exemple-spec) 1 related asset
+Entrypoint ./src/specs/exemple-spec 165 KiB (183 KiB) = vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 132 KiB ./src/specs/exemple-spec.js 33.2 KiB 2 auxiliary assets
+webpack compiled successfully
+[2023-02-24T14:01:26.102Z]
+Current environment is dev
+[2023-02-24T14:01:26.104Z]
+Task started On Friday 24-Feb-2023 At 15:01:26:103 GMT+01:00
+[2023-02-24T14:01:26.105Z]
+Running tests in the following Clients:
+- chrome
+
+[2023-02-24T14:01:28.590Z]
+▶ Feature : Start ------------------
+[2023-02-24T14:01:28.591Z]
+ Name      : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Friday 24-Feb-2023 At 15:01:28:586 GMT+01:00
+
+[2023-02-24T14:01:28.592Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:28.594Z]
+▶ Before Feature : Start -------------------------
+[2023-02-24T14:01:28.595Z]
+ Feature Name: Gain Access
+ Retries     : 0
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time  : Friday 24-Feb-2023 At 15:01:28:593 GMT+01:00
+
+[2023-02-24T14:01:28.596Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:28.659Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:28:658 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-24T14:01:28.660Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-24T14:01:28.739Z]
+ Type        : Method
+ Name        : I.goto("https://pega870-web-tnhubcosmosreact.dev.k-expert.com/prweb/app/simbafw/CWRZzxAkMqIuoiZieh-_tw*/!STANDARD?pyActivity=%40baseclass.pzProcessURLInWindow&pyPreActivity=Embed-PortalLayout.RedirectAndRun&ThreadName=OpenPortal_UserPortal&Location=pyActivity%3DData-Portal.ShowSelectedPortal%26portal%3DUserPortal%26Name%3D%20UserPortal%26pzSkinName%3D%26developer%3Dfalse%26ThreadName%3DOpenPortal_UserPortal%26launchPortal%3Dtrue%26mSessionThreadName%3DOpenPortal_UserPortal&bPurgeTargetThread=true&target=popup&portalThreadName=STANDARD&portalName=Developer&pzHarnessID=HID37AD8E4059E39BCCC53F5B3E1E978309")
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:28:597 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 62 |         await I.goto(url);
+     |               ^
+[2023-02-24T14:01:28.739Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:30.872Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-24T14:01:30.907Z]
+ Type        : Method
+ Name        : I.goto("https://pega870-web-tnhubcosmosreact.dev.k-expert.com/prweb/app/simbafw/CWRZzxAkMqIuoiZieh-_tw*/!STANDARD?pyActivity=%40baseclass.pzProcessURLInWindow&pyPreActivity=Embed-PortalLayout.RedirectAndRun&ThreadName=OpenPortal_UserPortal&Location=pyActivity%3DData-Portal.ShowSelectedPortal%26portal%3DUserPortal%26Name%3D%20UserPortal%26pzSkinName%3D%26developer%3Dfalse%26ThreadName%3DOpenPortal_UserPortal%26launchPortal%3Dtrue%26mSessionThreadName%3DOpenPortal_UserPortal&bPurgeTargetThread=true&target=popup&portalThreadName=STANDARD&portalName=Developer&pzHarnessID=HID37AD8E4059E39BCCC53F5B3E1E978309")
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:28:597 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:30:872 GMT+01:00
+ Duration    : 00:00:02.275
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 62 |         await I.goto(url);
+     |               ^
+[2023-02-24T14:01:30.907Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[info] [2023-02-24T14:01:30.909Z]
+[info] [On Friday 24-Feb-2023 At 15:01:30:908 GMT+01:00] [Feature: Gain Access]The operator "sarra.bech" with the password "Rules!12345!!*" of the usergroup "user" was successfully assigned
+[debug] [2023-02-24T14:01:30.919Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:30:919 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-24T14:01:30.920Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-24T14:01:30.932Z]
+ Type        : Method
+ Name        : I.click(Selector("#txtUserID",{
+    timeout: 10000,
+    interval: 50,
+    retries: 200,
+    assertionTimeout: 12000,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:30:910 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 17 |         await I.click(Selector('#txtUserID', this.actualOptions))
+     |               ^
+[2023-02-24T14:01:30.932Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:30.939Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:30:938 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-24T14:01:30.940Z]
+▶ Selector  : Start --------------------
+[2023-02-24T14:01:30.943Z]
+ Init        : Selector("#txtUserID")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:30:934 GMT+01:00
+
+[2023-02-24T14:01:30.944Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:30.973Z]
+✔ Selector  : Done -------------------
+[2023-02-24T14:01:30.976Z]
+ Init        : Selector("#txtUserID")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:30:934 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:30:973 GMT+01:00
+ Duration    : 00:00:00.039
+
+[2023-02-24T14:01:30.977Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:31.026Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-24T14:01:31.034Z]
+ Type        : Method
+ Name        : I.click(Selector("#txtUserID",{
+    timeout: 10000,
+    interval: 50,
+    retries: 200,
+    assertionTimeout: 12000,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:30:910 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:31:025 GMT+01:00
+ Duration    : 00:00:00.115
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 17 |         await I.click(Selector('#txtUserID', this.actualOptions))
+     |               ^
+[2023-02-24T14:01:31.035Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:31.040Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:31:040 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-24T14:01:31.040Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-24T14:01:31.047Z]
+ Type        : Method
+ Name        : I.fillField(Selector("#txtUserID",{
+    timeout: 10000,
+    retries: "INFINITELY"
+}),"sarra.bech")
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:30:910 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 18 |             .fillField(Selector('#txtUserID'), username);
+     |              ^
+[2023-02-24T14:01:31.048Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:31.055Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:31:054 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-24T14:01:31.055Z]
+▶ Selector  : Start --------------------
+[2023-02-24T14:01:31.057Z]
+ Init        : Selector("#txtUserID")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:31:048 GMT+01:00
+
+[2023-02-24T14:01:31.057Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:31.072Z]
+✔ Selector  : Done -------------------
+[2023-02-24T14:01:31.074Z]
+ Init        : Selector("#txtUserID")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:31:048 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:31:072 GMT+01:00
+ Duration    : 00:00:00.024
+
+[2023-02-24T14:01:31.074Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:31.128Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-24T14:01:31.134Z]
+ Type        : Method
+ Name        : I.fillField(Selector("#txtUserID",{
+    timeout: 10000,
+    retries: "INFINITELY"
+}),"sarra.bech")
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:30:910 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:31:127 GMT+01:00
+ Duration    : 00:00:00.217
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 18 |             .fillField(Selector('#txtUserID'), username);
+     |              ^
+[2023-02-24T14:01:31.134Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:31.139Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:31:139 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-24T14:01:31.139Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-24T14:01:31.145Z]
+ Type        : Method
+ Name        : I.click(Selector("#txtPassword",{
+    timeout: 10000,
+    interval: 50,
+    retries: 200,
+    assertionTimeout: 12000,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:31:135 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 24 |         await I.click(Selector('#txtPassword', this.actualOptions))
+     |               ^
+[2023-02-24T14:01:31.146Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:31.151Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:31:151 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-24T14:01:31.152Z]
+▶ Selector  : Start --------------------
+[2023-02-24T14:01:31.154Z]
+ Init        : Selector("#txtPassword")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:31:147 GMT+01:00
+
+[2023-02-24T14:01:31.154Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:31.162Z]
+✔ Selector  : Done -------------------
+[2023-02-24T14:01:31.165Z]
+ Init        : Selector("#txtPassword")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:31:147 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:31:162 GMT+01:00
+ Duration    : 00:00:00.015
+
+[2023-02-24T14:01:31.165Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:31.215Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-24T14:01:31.222Z]
+ Type        : Method
+ Name        : I.click(Selector("#txtPassword",{
+    timeout: 10000,
+    interval: 50,
+    retries: 200,
+    assertionTimeout: 12000,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:31:135 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:31:214 GMT+01:00
+ Duration    : 00:00:00.079
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 24 |         await I.click(Selector('#txtPassword', this.actualOptions))
+     |               ^
+[2023-02-24T14:01:31.222Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:31.230Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:31:229 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-24T14:01:31.230Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-24T14:01:31.239Z]
+ Type        : Method
+ Name        : I.fillField(Selector("#txtPassword",{
+    timeout: 10000,
+    retries: "INFINITELY"
+}),"Rules!12345!!*")
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:31:135 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 25 |             .fillField(Selector('#txtPassword'), password);
+     |              ^
+[2023-02-24T14:01:31.240Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:31.244Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:31:243 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-24T14:01:31.244Z]
+▶ Selector  : Start --------------------
+[2023-02-24T14:01:31.246Z]
+ Init        : Selector("#txtPassword")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:31:240 GMT+01:00
+
+[2023-02-24T14:01:31.247Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:31.265Z]
+✔ Selector  : Done -------------------
+[2023-02-24T14:01:31.267Z]
+ Init        : Selector("#txtPassword")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:31:240 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:31:265 GMT+01:00
+ Duration    : 00:00:00.025
+
+[2023-02-24T14:01:31.268Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:31.321Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-24T14:01:31.326Z]
+ Type        : Method
+ Name        : I.fillField(Selector("#txtPassword",{
+    timeout: 10000,
+    retries: "INFINITELY"
+}),"Rules!12345!!*")
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:31:135 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:31:321 GMT+01:00
+ Duration    : 00:00:00.186
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 25 |             .fillField(Selector('#txtPassword'), password);
+     |              ^
+[2023-02-24T14:01:31.326Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:31.335Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:31:334 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-24T14:01:31.335Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-24T14:01:31.342Z]
+ Type        : Method
+ Name        : I.click(Selector("#sub",{
+    timeout: 10000,
+    interval: 50,
+    retries: 200,
+    assertionTimeout: 12000,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:31:327 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 31 |         await I.click(Selector('#sub', this.actualOptions));
+     |               ^
+[2023-02-24T14:01:31.343Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:31.348Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:31:347 GMT+01:00] [Feature: Gain Access][statetracker] Data state busy status is not available
+[2023-02-24T14:01:31.348Z]
+▶ Selector  : Start --------------------
+[2023-02-24T14:01:31.350Z]
+ Init        : Selector("#sub")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:31:343 GMT+01:00
+
+[2023-02-24T14:01:31.350Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:31.356Z]
+✔ Selector  : Done -------------------
+[2023-02-24T14:01:31.357Z]
+ Init        : Selector("#sub")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:31:343 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:31:356 GMT+01:00
+ Duration    : 00:00:00.013
+
+[2023-02-24T14:01:31.358Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:32.378Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-24T14:01:32.383Z]
+ Type        : Method
+ Name        : I.click(Selector("#sub",{
+    timeout: 10000,
+    interval: 50,
+    retries: 200,
+    assertionTimeout: 12000,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Gain Access
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:31:327 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:32:377 GMT+01:00
+ Duration    : 00:00:01.050
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/loginForm.ts
+ Source      : 
+> 31 |         await I.click(Selector('#sub', this.actualOptions));
+     |               ^
+[2023-02-24T14:01:32.384Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:32.385Z]
+✔ Before Feature : Done ------------------------
+[2023-02-24T14:01:32.386Z]
+ Feature Name: Gain Access
+ Retries     : 0
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time  : Friday 24-Feb-2023 At 15:01:28:593 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:32:384 GMT+01:00
+ Duration    : 00:00:03.791
+[2023-02-24T14:01:32.386Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:32.388Z]
+▶ Scenario : Start -------------------
+[2023-02-24T14:01:32.389Z]
+ Name      : Car Rent Request
+ Feature   : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Friday 24-Feb-2023 At 15:01:32:387 GMT+01:00
+
+[2023-02-24T14:01:32.389Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:32.391Z]
+▶ Given : Start ----------------
+[2023-02-24T14:01:32.391Z]
+ Name      : Create CarRentRequest Case
+ Scenario  : Car Rent Request
+ Feature   : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Friday 24-Feb-2023 At 15:01:32:390 GMT+01:00
+
+[2023-02-24T14:01:32.392Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:32.594Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:32:594 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is not available
+[2023-02-24T14:01:32.595Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-24T14:01:32.608Z]
+ Type        : Method
+ Name        : I.switchToMainFrame()
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:32:589 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/frame.ts
+ Source      : 
+> 68 |         await I.switchToMainFrame();
+     |               ^
+[2023-02-24T14:01:32.609Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:32.609Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-24T14:01:32.617Z]
+ Type        : Method
+ Name        : I.switchToMainFrame()
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:32:589 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:32:609 GMT+01:00
+ Duration    : 00:00:00.020
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/frame.ts
+ Source      : 
+> 68 |         await I.switchToMainFrame();
+     |               ^
+[2023-02-24T14:01:32.618Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:32.624Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:32:624 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is not available
+[2023-02-24T14:01:32.625Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-24T14:01:32.628Z]
+ Type        : Method
+ Name        : I.resizeWindow(1600,900)
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:32:619 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/model/case.ts
+ Source      : 
+> 6 |         await I.resizeWindow(1600, 900);
+    |               ^
+[2023-02-24T14:01:32.629Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:32.655Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-24T14:01:32.662Z]
+ Type        : Method
+ Name        : I.resizeWindow(1600,900)
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:32:619 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:32:655 GMT+01:00
+ Duration    : 00:00:00.036
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/model/case.ts
+ Source      : 
+> 6 |         await I.resizeWindow(1600, 900);
+    |               ^
+[2023-02-24T14:01:32.663Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:32.672Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:32:672 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is not available
+[2023-02-24T14:01:32.672Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-24T14:01:32.676Z]
+ Type        : Method
+ Name        : I.click("//*[@class="menu-item-icon-imageclass pi pi-plus"]")
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:32:663 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/model/case.ts
+ Source      : 
+> 7 |          await I.click(`//*[@class="menu-item-icon-imageclass pi pi-plus"]`);   
+    |                ^
+[2023-02-24T14:01:32.677Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:32.681Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:32:681 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is not available
+[2023-02-24T14:01:32.682Z]
+▶ Selector  : Start --------------------
+[2023-02-24T14:01:32.683Z]
+ Init        : Selector("//*[@class="menu-item-icon-imageclass pi pi-plus"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:32:678 GMT+01:00
+
+[2023-02-24T14:01:32.684Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:34.160Z]
+✔ Selector  : Done -------------------
+[2023-02-24T14:01:34.162Z]
+ Init        : Selector("//*[@class="menu-item-icon-imageclass pi pi-plus"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:32:678 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:34:160 GMT+01:00
+ Duration    : 00:00:01.482
+
+[2023-02-24T14:01:34.163Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:34.500Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-24T14:01:34.505Z]
+ Type        : Method
+ Name        : I.click("//*[@class="menu-item-icon-imageclass pi pi-plus"]")
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:32:663 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:34:500 GMT+01:00
+ Duration    : 00:00:01.837
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/model/case.ts
+ Source      : 
+> 7 |          await I.click(`//*[@class="menu-item-icon-imageclass pi pi-plus"]`);   
+    |                ^
+[2023-02-24T14:01:34.505Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:34.513Z]
+▶ Assertion  : Start ---------------------
+[2023-02-24T14:01:34.516Z]
+ Init        : Expect({ /* Promise */ }, {
+                  timeout: 12000,
+                  interval: 50,
+                  retries: 200
+              })()
+ Retries     : 0
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:34:511 GMT+01:00
+
+[2023-02-24T14:01:34.516Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:34.526Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:34:526 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:34.544Z]
+Retry: 1 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:34.549Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:34:549 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:34.559Z]
+Retry: 2 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:34.565Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:34:565 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:34.589Z]
+Retry: 3 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:34.593Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:34:592 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:34.605Z]
+Retry: 4 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:34.742Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:34:742 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:34.752Z]
+Retry: 5 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:34.762Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:34:762 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:34.774Z]
+Retry: 6 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:34.778Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:34:777 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:34.790Z]
+Retry: 7 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:34.794Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:34:793 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:34.806Z]
+Retry: 8 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:34.810Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:34:810 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:34.822Z]
+Retry: 9 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:34.827Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:34:826 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:34.852Z]
+Retry: 10 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:34.855Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:34:855 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:34.867Z]
+Retry: 11 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:34.924Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:34:924 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:34.944Z]
+Retry: 12 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:34.960Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:34:959 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:34.976Z]
+Retry: 13 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:35.011Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:35:010 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:35.022Z]
+Retry: 14 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:35.026Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:35:025 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:35.038Z]
+Retry: 15 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:35.041Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:35:041 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:35.052Z]
+Retry: 16 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:35.056Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:35:056 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:35.068Z]
+Retry: 17 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:35.077Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:35:076 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:35.099Z]
+Retry: 18 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:35.104Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:35:104 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:35.115Z]
+Retry: 19 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:35.118Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:35:118 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:35.130Z]
+Retry: 20 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:35.134Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:35:133 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'none'
+[2023-02-24T14:01:35.134Z]
+▶ Selector  : Start --------------------
+[2023-02-24T14:01:35.136Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:34:518 GMT+01:00
+
+[2023-02-24T14:01:35.137Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:35.138Z]
+▶ Selector Action : Start --------------------------
+[2023-02-24T14:01:35.190Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Method
+ Name        : filterVisible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:35:137 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2023-02-24T14:01:35.191Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:45.210Z]
+ⓧ Selector  : Done -------------------
+[2023-02-24T14:01:45.216Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:34:518 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:45:209 GMT+01:00
+ Duration    : 00:00:10.691
+
+[2023-02-24T14:01:45.217Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:45.219Z]
+▶ Selector Action : Start --------------------------
+[2023-02-24T14:01:45.259Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:34:518 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2023-02-24T14:01:45.260Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:45.260Z]
+ⓧ Selector Action : Done -------------------------
+[2023-02-24T14:01:45.291Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:34:518 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:45:260 GMT+01:00
+ Duration    : 00:00:10.742
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2023-02-24T14:01:45.291Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:45.358Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:45:357 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'none'
+[2023-02-24T14:01:45.359Z]
+▶ Selector  : Start --------------------
+[2023-02-24T14:01:45.364Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:45:351 GMT+01:00
+
+[2023-02-24T14:01:45.365Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:45.376Z]
+✔ Selector  : Done -------------------
+[2023-02-24T14:01:45.379Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:45:351 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:45:376 GMT+01:00
+ Duration    : 00:00:00.025
+
+[2023-02-24T14:01:45.379Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:45.379Z]
+▶ Selector Action : Start --------------------------
+[2023-02-24T14:01:45.413Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:45:351 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2023-02-24T14:01:45.413Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:45.417Z]
+✔ Selector Action : Done -------------------------
+[2023-02-24T14:01:45.447Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:45:351 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:45:416 GMT+01:00
+ Duration    : 00:00:00.065
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2023-02-24T14:01:45.448Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:45.449Z]
+▶ Assertion Action : Start ---------------------------
+[2023-02-24T14:01:45.485Z]
+ Action      : Expect({ /* Promise */ }, {
+                  timeout: 12000,
+                  interval: 50,
+                  retries: 200
+              }).toBeOk()
+ Retries     : 1
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:45:448 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 229 |             }).toBeOk();
+      |                ^
+[2023-02-24T14:01:45.486Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:45.491Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:45:490 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'none'
+[debug] [2023-02-24T14:01:45.560Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:45:560 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'none'
+[2023-02-24T14:01:45.561Z]
+▶ Selector  : Start --------------------
+[2023-02-24T14:01:45.563Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:45:552 GMT+01:00
+
+[2023-02-24T14:01:45.563Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:45.571Z]
+✔ Selector  : Done -------------------
+[2023-02-24T14:01:45.572Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:45:552 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:45:570 GMT+01:00
+ Duration    : 00:00:00.018
+
+[2023-02-24T14:01:45.572Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:45.573Z]
+▶ Selector Action : Start --------------------------
+[2023-02-24T14:01:45.606Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:45:552 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2023-02-24T14:01:45.606Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:45.610Z]
+✔ Selector Action : Done -------------------------
+[2023-02-24T14:01:45.643Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:45:552 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:45:610 GMT+01:00
+ Duration    : 00:00:00.058
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2023-02-24T14:01:45.643Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:45.647Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:45:647 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'none'
+[debug] [2023-02-24T14:01:45.714Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:45:714 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'none'
+[2023-02-24T14:01:45.715Z]
+▶ Selector  : Start --------------------
+[2023-02-24T14:01:45.719Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:45:708 GMT+01:00
+
+[2023-02-24T14:01:45.720Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:45.728Z]
+✔ Selector  : Done -------------------
+[2023-02-24T14:01:45.730Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:45:708 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:45:728 GMT+01:00
+ Duration    : 00:00:00.020
+
+[2023-02-24T14:01:45.731Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:45.731Z]
+▶ Selector Action : Start --------------------------
+[2023-02-24T14:01:45.763Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:45:708 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2023-02-24T14:01:45.763Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:45.766Z]
+✔ Selector Action : Done -------------------------
+[2023-02-24T14:01:45.795Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:45:708 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:45:766 GMT+01:00
+ Duration    : 00:00:00.058
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2023-02-24T14:01:45.796Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:45.799Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:45:799 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'none'
+[debug] [2023-02-24T14:01:45.872Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:45:871 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'none'
+[2023-02-24T14:01:45.873Z]
+▶ Selector  : Start --------------------
+[2023-02-24T14:01:45.878Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:45:865 GMT+01:00
+
+[2023-02-24T14:01:45.880Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:45.894Z]
+✔ Selector  : Done -------------------
+[2023-02-24T14:01:45.897Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:45:865 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:45:893 GMT+01:00
+ Duration    : 00:00:00.028
+
+[2023-02-24T14:01:45.898Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:45.898Z]
+▶ Selector Action : Start --------------------------
+[2023-02-24T14:01:45.940Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:45:865 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2023-02-24T14:01:45.941Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:45.946Z]
+✔ Selector Action : Done -------------------------
+[2023-02-24T14:01:45.991Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:45:865 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:45:945 GMT+01:00
+ Duration    : 00:00:00.080
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2023-02-24T14:01:45.992Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:45.997Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:45:996 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'none'
+[debug] [2023-02-24T14:01:46.056Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:46:055 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'none'
+[2023-02-24T14:01:46.056Z]
+▶ Selector  : Start --------------------
+[2023-02-24T14:01:46.058Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:46:052 GMT+01:00
+
+[2023-02-24T14:01:46.059Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:46.078Z]
+✔ Selector  : Done -------------------
+[2023-02-24T14:01:46.080Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:46:052 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:46:078 GMT+01:00
+ Duration    : 00:00:00.026
+
+[2023-02-24T14:01:46.081Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:46.081Z]
+▶ Selector Action : Start --------------------------
+[2023-02-24T14:01:46.136Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:46:052 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2023-02-24T14:01:46.138Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:46.153Z]
+✔ Selector Action : Done -------------------------
+[2023-02-24T14:01:46.199Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:46:052 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:46:153 GMT+01:00
+ Duration    : 00:00:00.101
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2023-02-24T14:01:46.200Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:46.206Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:46:206 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'none'
+[debug] [2023-02-24T14:01:46.279Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:46:277 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'none'
+[2023-02-24T14:01:46.280Z]
+▶ Selector  : Start --------------------
+[2023-02-24T14:01:46.284Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:46:271 GMT+01:00
+
+[2023-02-24T14:01:46.286Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:46.304Z]
+✔ Selector  : Done -------------------
+[2023-02-24T14:01:46.309Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:46:271 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:46:303 GMT+01:00
+ Duration    : 00:00:00.032
+
+[2023-02-24T14:01:46.310Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:46.311Z]
+▶ Selector Action : Start --------------------------
+[2023-02-24T14:01:46.393Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:46:271 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2023-02-24T14:01:46.395Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:46.404Z]
+✔ Selector Action : Done -------------------------
+[2023-02-24T14:01:46.486Z]
+ Init        : Selector("//*[@class="menu-item-title"][contains(text(),"Car Rent Request")]")
+ options     : {
+                  timeout: 10000,
+                  interval: 50,
+                  retries: 200,
+                  assertionTimeout: 12000,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:46:271 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:46:403 GMT+01:00
+ Duration    : 00:00:00.132
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2023-02-24T14:01:46.486Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:46.494Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:46:493 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request] [Step: Create CarRentRequest Case][statetracker] Data state busy status is 'none'
+[2023-02-24T14:01:46.552Z]
+ⓧ Assertion Action : Done --------------------------
+[2023-02-24T14:01:46.634Z]
+ Action      : Expect({ /* Promise */ }, {
+                  timeout: 12000,
+                  interval: 50,
+                  retries: 200
+              }).toBeOk()
+ Retries     : 6
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:45:448 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:46:494 GMT+01:00
+ Duration    : 00:00:01.046
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 229 |             }).toBeOk();
+      |                ^
+[2023-02-24T14:01:46.636Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:46.636Z]
+ⓧ Assertion  : Done --------------------
+[2023-02-24T14:01:46.641Z]
+ Init        : Expect({ /* Promise */ }, {
+                  timeout: 12000,
+                  interval: 50,
+                  retries: 200
+              })()
+ Retries     : 6
+ Phase       : Step
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : Create CarRentRequest Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:34:511 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:46:551 GMT+01:00
+ Duration    : 00:00:12.040
+
+[2023-02-24T14:01:46.642Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:47.000Z]
+ⓧ Given : Done ---------------
+[2023-02-24T14:01:47.001Z]
+ Name      : Create CarRentRequest Case
+ Scenario  : Car Rent Request
+ Feature   : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Friday 24-Feb-2023 At 15:01:32:390 GMT+01:00
+ End Time  : Friday 24-Feb-2023 At 15:01:46:998 GMT+01:00
+ Duration  : 00:00:14.608
+[2023-02-24T14:01:47.002Z]
+
+ -----Error Details -----
+[2023-02-24T14:01:47.011Z]
+   Message     : All retries failed after 12000ms for 
+                    Last Condition Error: 
+                    AssertionError: expect().toBeOk()
+                Reason: expect(received).toBeOk()
+                
+                Expected value to be Ok
+                
+                Received:
+                false
+   Code        : 2020
+   Type        : AssertionError
+   Node        : v18.14.2
+   Phase       : Step
+   Time        : Friday 24-Feb-2023 At 15:01:46:644 GMT+01:00
+   Adapter     : playwright
+   Client      : Chrome 101.0.4951.15 / Windows 10
+   Feature File: C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/specs/exemple-spec.ts
+   Error Source: 
+  
+  at C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+  
+    227 |                 interval: this.actualOptions.interval,
+    228 |                 retries: this.actualOptions.retries
+  > 229 |             }).toBeOk();
+        |                ^
+    230 |     }
+    231 | 
+  
+  at C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/widgets/controls/customControl/customControlCommon.ts
+  
+    119 | 
+    120 |     async shouldBeVisible(options?: { index?: number, timeout?: number, assertionTimeout?: number, interval?: number, retries?: number }) {
+  > 121 |         await controlsCommonActions.shouldBeVisible(this.element, options);
+        |               ^
+    122 |     }
+    123 | 
+  
+  at C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/model/case.ts
+  
+     7 |          await I.click(`//*[@class="menu-item-icon-imageclass pi pi-plus"]`);   
+     8 |         
+  >  9 |          await pega.elementByXpath(`//*[@class="menu-item-title"][contains(text(),"${title}")]`).shouldBeVisible();
+       |                                                                                                  ^
+    10 |          await pega.elementByXpath(`//*[@class="menu-item-title"][contains(text(),"${title}")]`).click();
+    11 |          //await pega.frame.switchToWorkAreaIframe()
+  
+  at node:internal/process/task_queues
+  
+  
+  
+  at node:internal/timers
+  
+  
+  
+  at C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/specs/exemple-spec.ts
+  
+    23 |     .Given('Create CarRentRequest Case', async (_I, _runInfo) => {
+    24 |         await pega.frame.switchToDefault();
+  > 25 |         await app.case.createCaseWithTitle("Car Rent Request");
+       |         ^
+    26 |     })
+    27 |     // .Then(`Fill New sign-up request`, async (_I, _runInfo) => {
+  
+  
+   Stack Trace : 
+  
+      at Object._0x4cfb96 [as toBeOk] (C:\Users\KishoreKumarBiradavo\OneDrive - K-Expert\Documents\KE\Internal\Trainings_Learnings\SIMBA\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\test-api\assertion\asserter.ts:333:13)
+      at ControlsCommonActions.shouldBeVisible (C:\Users\KishoreKumarBiradavo\OneDrive - K-Expert\Documents\KE\Internal\Trainings_Learnings\SIMBA\tunisia-hub\node_modules\pega-model\src\widgets\controls\controlsCommonActions.ts:229:16)
+      at CustomControlByXPath.shouldBeVisible (C:\Users\KishoreKumarBiradavo\OneDrive - K-Expert\Documents\KE\Internal\Trainings_Learnings\SIMBA\tunisia-hub\node_modules\pega-model\src\widgets\controls\customControl\customControlCommon.ts:121:15)
+      at Case.createCaseWithTitle (C:\Users\KishoreKumarBiradavo\OneDrive - K-Expert\Documents\KE\Internal\Trainings_Learnings\SIMBA\tunisia-hub\src\model\case.ts:9:98)
+      at runNextTicks (node:internal/process/task_queues:60:5)
+      at processImmediate (node:internal/timers:447:9)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17)
+      at _0x57bdb0.fn (C:\Users\KishoreKumarBiradavo\OneDrive - K-Expert\Documents\KE\Internal\Trainings_Learnings\SIMBA\tunisia-hub\src\specs\exemple-spec.ts:25:9)
+      at phaseFn (C:\Users\KishoreKumarBiradavo\OneDrive - K-Expert\Documents\KE\Internal\Trainings_Learnings\SIMBA\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\step-fn.ts:113:17)
+      at _0x3221a8.run (C:\Users\KishoreKumarBiradavo\OneDrive - K-Expert\Documents\KE\Internal\Trainings_Learnings\SIMBA\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\phase-manager.ts:112:17)
+      at _0x57bdb0.run (C:\Users\KishoreKumarBiradavo\OneDrive - K-Expert\Documents\KE\Internal\Trainings_Learnings\SIMBA\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\step-fn.ts:109:9)
+      at _0x588755.runSteps (C:\Users\KishoreKumarBiradavo\OneDrive - K-Expert\Documents\KE\Internal\Trainings_Learnings\SIMBA\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\scenario-fn.ts:179:13)
+      at _0x588755.run (C:\Users\KishoreKumarBiradavo\OneDrive - K-Expert\Documents\KE\Internal\Trainings_Learnings\SIMBA\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\scenario-fn.ts:131:41)
+      at _0x52e80b.runScenarios (C:\Users\KishoreKumarBiradavo\OneDrive - K-Expert\Documents\KE\Internal\Trainings_Learnings\SIMBA\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:244:13)
+      at _0x52e80b.run (C:\Users\KishoreKumarBiradavo\OneDrive - K-Expert\Documents\KE\Internal\Trainings_Learnings\SIMBA\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:188:41)
+      at C:\Users\KishoreKumarBiradavo\OneDrive - K-Expert\Documents\KE\Internal\Trainings_Learnings\SIMBA\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:141:21
+      at _0x52e80b.runFn (C:\Users\KishoreKumarBiradavo\OneDrive - K-Expert\Documents\KE\Internal\Trainings_Learnings\SIMBA\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:137:13)
+      at C:\Users\KishoreKumarBiradavo\OneDrive - K-Expert\Documents\KE\Internal\Trainings_Learnings\SIMBA\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:183:49
+      at _0x2012bc (C:\Users\KishoreKumarBiradavo\OneDrive - K-Expert\Documents\KE\Internal\Trainings_Learnings\SIMBA\tunisia-hub\node_modules\test-maker\dist\test-maker-source:\node_modules\.pnpm\p-queue@6.6.2\node_modules\p-queue\dist\index.js:163:1)
+  
+  
+[2023-02-24T14:01:47.012Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:47.013Z]
+▶ Then : Skipped -----------------
+[2023-02-24T14:01:47.014Z]
+ Name      : Fill New process
+ Scenario  : Car Rent Request
+ Feature   : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Friday 24-Feb-2023 At 15:01:47:012 GMT+01:00
+
+[2023-02-24T14:01:47.014Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:47.016Z]
+▶ Then : Skipped -----------------
+[2023-02-24T14:01:47.017Z]
+ Name      : Collect information
+ Scenario  : Car Rent Request
+ Feature   : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Friday 24-Feb-2023 At 15:01:47:015 GMT+01:00
+
+[2023-02-24T14:01:47.017Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:47.019Z]
+▶ Then : Skipped -----------------
+[2023-02-24T14:01:47.020Z]
+ Name      : Shipping information
+ Scenario  : Car Rent Request
+ Feature   : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Friday 24-Feb-2023 At 15:01:47:018 GMT+01:00
+
+[2023-02-24T14:01:47.021Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:47.022Z]
+▶ Then : Skipped -----------------
+[2023-02-24T14:01:47.024Z]
+ Name      : Vehicle Proposition
+ Scenario  : Car Rent Request
+ Feature   : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Friday 24-Feb-2023 At 15:01:47:022 GMT+01:00
+
+[2023-02-24T14:01:47.024Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:47.026Z]
+▶ After Each Scenario : Start ------------------------------
+[2023-02-24T14:01:47.027Z]
+ Scenario Name: Car Rent Request
+ Feature      : Gain Access
+ Retries      : 0
+ Adapter      : playwright
+ Client       : Chrome 101.0.4951.15 / Windows 10
+ File         : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time   : Friday 24-Feb-2023 At 15:01:47:025 GMT+01:00
+
+[2023-02-24T14:01:47.027Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:47.058Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:47:058 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request][statetracker] Data state busy status is 'none'
+[2023-02-24T14:01:47.058Z]
+▶ Selector  : Start --------------------
+[2023-02-24T14:01:47.060Z]
+ Init        : Selector(".icons.avatar")
+ options     : {
+                  retries: "INFINITELY",
+                  timeout: 2000
+              }
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:47:029 GMT+01:00
+
+[2023-02-24T14:01:47.061Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:47.073Z]
+✔ Selector  : Done -------------------
+[2023-02-24T14:01:47.075Z]
+ Init        : Selector(".icons.avatar")
+ options     : {
+                  retries: "INFINITELY",
+                  timeout: 2000
+              }
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:47:029 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:47:073 GMT+01:00
+ Duration    : 00:00:00.044
+
+[2023-02-24T14:01:47.075Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:47.075Z]
+▶ Selector Action : Start --------------------------
+[2023-02-24T14:01:47.081Z]
+ Init        : Selector(".icons.avatar")
+ options     : {
+                  retries: "INFINITELY",
+                  timeout: 2000
+              }
+ Type        : Property
+ Name        : exists
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:47:029 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/test-maker.pega.ts
+ Source      : 
+> 46 |             if(await Selector(`.icons.avatar`, {timeout: 2000}).exists) {
+     |                                                                ^
+[2023-02-24T14:01:47.081Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:47.082Z]
+✔ Selector Action : Done -------------------------
+[2023-02-24T14:01:47.088Z]
+ Init        : Selector(".icons.avatar")
+ options     : {
+                  retries: "INFINITELY",
+                  timeout: 2000
+              }
+ Type        : Property
+ Name        : exists
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:47:029 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:47:082 GMT+01:00
+ Duration    : 00:00:00.053
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/test-maker.pega.ts
+ Source      : 
+> 46 |             if(await Selector(`.icons.avatar`, {timeout: 2000}).exists) {
+     |                                                                ^
+[2023-02-24T14:01:47.089Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:47.097Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:47:096 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request][statetracker] Data state busy status is 'none'
+[2023-02-24T14:01:47.098Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-24T14:01:47.136Z]
+ Type        : Method
+ Name        : I.switchToMainFrame()
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:47:089 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 84 |         await I.switchToMainFrame()
+     |               ^
+[2023-02-24T14:01:47.137Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:47.137Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-24T14:01:47.194Z]
+ Type        : Method
+ Name        : I.switchToMainFrame()
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:47:089 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:47:137 GMT+01:00
+ Duration    : 00:00:00.048
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 84 |         await I.switchToMainFrame()
+     |               ^
+[2023-02-24T14:01:47.195Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:47.208Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:47:207 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request][statetracker] Data state busy status is 'none'
+[2023-02-24T14:01:47.208Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-24T14:01:47.247Z]
+ Type        : Method
+ Name        : I.waitForSelectActionabilityCheck("[data-test-id="px-opr-image-ctrl"]",[
+    "attached",
+    "stable",
+    "visible"
+])
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:47:089 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 85 |             .waitForSelectActionabilityCheck(selector, [`attached`, 'stable', 'visible'])
+     |              ^
+[2023-02-24T14:01:47.248Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:47.256Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:47:255 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request][statetracker] Data state busy status is 'none'
+[2023-02-24T14:01:47.256Z]
+▶ Selector  : Start --------------------
+[2023-02-24T14:01:47.259Z]
+ Init        : Selector("[data-test-id="px-opr-image-ctrl"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:47:250 GMT+01:00
+
+[2023-02-24T14:01:47.260Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:47.279Z]
+✔ Selector  : Done -------------------
+[2023-02-24T14:01:47.281Z]
+ Init        : Selector("[data-test-id="px-opr-image-ctrl"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:47:250 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:47:279 GMT+01:00
+ Duration    : 00:00:00.029
+
+[2023-02-24T14:01:47.282Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:47.320Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-24T14:01:47.361Z]
+ Type        : Method
+ Name        : I.waitForSelectActionabilityCheck("[data-test-id="px-opr-image-ctrl"]",[
+    "attached",
+    "stable",
+    "visible"
+])
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:47:089 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:47:320 GMT+01:00
+ Duration    : 00:00:00.231
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 85 |             .waitForSelectActionabilityCheck(selector, [`attached`, 'stable', 'visible'])
+     |              ^
+[2023-02-24T14:01:47.362Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:47.372Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:47:372 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request][statetracker] Data state busy status is 'none'
+[2023-02-24T14:01:47.373Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-24T14:01:47.415Z]
+ Type        : Method
+ Name        : I.hover("[data-test-id="px-opr-image-ctrl"]")
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:47:089 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 86 |             .hover(selector)
+     |              ^
+[2023-02-24T14:01:47.416Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:47.423Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:47:423 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request][statetracker] Data state busy status is 'none'
+[2023-02-24T14:01:47.424Z]
+▶ Selector  : Start --------------------
+[2023-02-24T14:01:47.426Z]
+ Init        : Selector("[data-test-id="px-opr-image-ctrl"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:47:417 GMT+01:00
+
+[2023-02-24T14:01:47.427Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:47.476Z]
+✔ Selector  : Done -------------------
+[2023-02-24T14:01:47.481Z]
+ Init        : Selector("[data-test-id="px-opr-image-ctrl"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:47:417 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:47:475 GMT+01:00
+ Duration    : 00:00:00.058
+
+[2023-02-24T14:01:47.482Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:47.571Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-24T14:01:47.604Z]
+ Type        : Method
+ Name        : I.hover("[data-test-id="px-opr-image-ctrl"]")
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:47:089 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:47:570 GMT+01:00
+ Duration    : 00:00:00.481
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 86 |             .hover(selector)
+     |              ^
+[2023-02-24T14:01:47.605Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:47.612Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:47:612 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request][statetracker] Data state busy status is 'none'
+[2023-02-24T14:01:47.613Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-24T14:01:47.646Z]
+ Type        : Method
+ Name        : I.click("[data-test-id="px-opr-image-ctrl"]")
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:47:089 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 87 |             .click(selector)
+     |              ^
+[2023-02-24T14:01:47.647Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:47.652Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:47:652 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request][statetracker] Data state busy status is 'none'
+[2023-02-24T14:01:47.653Z]
+▶ Selector  : Start --------------------
+[2023-02-24T14:01:47.655Z]
+ Init        : Selector("[data-test-id="px-opr-image-ctrl"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:47:647 GMT+01:00
+
+[2023-02-24T14:01:47.655Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:47.665Z]
+✔ Selector  : Done -------------------
+[2023-02-24T14:01:47.667Z]
+ Init        : Selector("[data-test-id="px-opr-image-ctrl"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:47:647 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:47:665 GMT+01:00
+ Duration    : 00:00:00.018
+
+[2023-02-24T14:01:47.667Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:47.750Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-24T14:01:47.785Z]
+ Type        : Method
+ Name        : I.click("[data-test-id="px-opr-image-ctrl"]")
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:47:089 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:47:750 GMT+01:00
+ Duration    : 00:00:00.661
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 87 |             .click(selector)
+     |              ^
+[2023-02-24T14:01:47.786Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:47.793Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:47:792 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:47.814Z]
+Retry: 1 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:47.819Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:47:818 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:47.845Z]
+Retry: 2 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:47.851Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:47:850 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:47.877Z]
+Retry: 3 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:47.884Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:47:883 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:47.903Z]
+Retry: 4 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:47.953Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:47:952 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:47.970Z]
+Retry: 5 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:47.974Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:47:974 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:47.986Z]
+Retry: 6 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:47.991Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:47:990 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:48.002Z]
+Retry: 7 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:48.010Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:48:009 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:48.033Z]
+Retry: 8 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:48.040Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:48:039 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request][statetracker] Data state busy status is 'busy'
+[2023-02-24T14:01:48.063Z]
+Retry: 9 for Waiting for Pega state tracker not to be busy
+[debug] [2023-02-24T14:01:48.072Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:48:071 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request][statetracker] Data state busy status is 'none'
+[2023-02-24T14:01:48.073Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-24T14:01:48.110Z]
+ Type        : Method
+ Name        : I.waitForSelectorToBeVisible(Selector(".menu-item-title",{
+    timeout: 10000,
+    retries: "INFINITELY"
+}))
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:47:090 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 88 |             .waitForSelectorToBeVisible(Selector('.menu-item-title').withExactText(text))
+     |              ^
+[2023-02-24T14:01:48.111Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:48.118Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:48:117 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request][statetracker] Data state busy status is 'none'
+[2023-02-24T14:01:48.118Z]
+▶ Selector  : Start --------------------
+[2023-02-24T14:01:48.121Z]
+ Init        : Selector(".menu-item-title")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:48:113 GMT+01:00
+
+[2023-02-24T14:01:48.122Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:48.123Z]
+▶ Selector Action : Start --------------------------
+[2023-02-24T14:01:48.152Z]
+ Init        : Selector(".menu-item-title")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Type        : Method
+ Name        : withExactText("Log off")
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:48:122 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 84 |         await I.switchToMainFrame()
+     |         ^
+[2023-02-24T14:01:48.153Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:48.224Z]
+✔ Selector  : Done -------------------
+[2023-02-24T14:01:48.226Z]
+ Init        : Selector(".menu-item-title")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:48:113 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:48:223 GMT+01:00
+ Duration    : 00:00:00.110
+
+[2023-02-24T14:01:48.226Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:48.227Z]
+▶ Selector Action : Start --------------------------
+[2023-02-24T14:01:48.261Z]
+ Init        : Selector(".menu-item-title")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:48:113 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 84 |         await I.switchToMainFrame()
+     |         ^
+[2023-02-24T14:01:48.262Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:48.266Z]
+✔ Selector Action : Done -------------------------
+[2023-02-24T14:01:48.290Z]
+ Init        : Selector(".menu-item-title")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:48:113 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:48:266 GMT+01:00
+ Duration    : 00:00:00.153
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 84 |         await I.switchToMainFrame()
+     |         ^
+[2023-02-24T14:01:48.291Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:48.291Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-24T14:01:48.322Z]
+ Type        : Method
+ Name        : I.waitForSelectorToBeVisible(Selector(".menu-item-title",{
+    timeout: 10000,
+    retries: "INFINITELY"
+}))
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:47:090 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:48:291 GMT+01:00
+ Duration    : 00:00:01.201
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 88 |             .waitForSelectorToBeVisible(Selector('.menu-item-title').withExactText(text))
+     |              ^
+[2023-02-24T14:01:48.323Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:48.331Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:48:331 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request][statetracker] Data state busy status is 'none'
+[2023-02-24T14:01:48.332Z]
+▶ Controller Action : Start ----------------------------
+[2023-02-24T14:01:48.370Z]
+ Type        : Method
+ Name        : I.click(Selector(".menu-item-title",{
+    timeout: 10000,
+    retries: "INFINITELY"
+}))
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:47:090 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 89 |             .click(Selector('.menu-item-title').withExactText(text));
+     |              ^
+[2023-02-24T14:01:48.371Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[debug] [2023-02-24T14:01:48.378Z]
+[debug] [On Friday 24-Feb-2023 At 15:01:48:377 GMT+01:00] [Feature: Gain Access] [Scenario: Car Rent Request][statetracker] Data state busy status is 'none'
+[2023-02-24T14:01:48.378Z]
+▶ Selector  : Start --------------------
+[2023-02-24T14:01:48.381Z]
+ Init        : Selector(".menu-item-title")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:48:372 GMT+01:00
+
+[2023-02-24T14:01:48.382Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:48.384Z]
+▶ Selector Action : Start --------------------------
+[2023-02-24T14:01:48.421Z]
+ Init        : Selector(".menu-item-title")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Type        : Method
+ Name        : withExactText("Log off")
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:48:383 GMT+01:00
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 84 |         await I.switchToMainFrame()
+     |         ^
+[2023-02-24T14:01:48.421Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:48.492Z]
+✔ Selector  : Done -------------------
+[2023-02-24T14:01:48.494Z]
+ Init        : Selector(".menu-item-title")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:48:372 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:48:492 GMT+01:00
+ Duration    : 00:00:00.120
+
+[2023-02-24T14:01:48.494Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:48.495Z]
+✔ Selector  : Done -------------------
+[2023-02-24T14:01:48.496Z]
+ Init        : Selector(".menu-item-title")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ StartTime   : Friday 24-Feb-2023 At 15:01:48:372 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:48:492 GMT+01:00
+ Duration    : 00:00:00.120
+
+[2023-02-24T14:01:48.497Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:48.815Z]
+✔ Controller Action : Done ---------------------------
+[2023-02-24T14:01:48.838Z]
+ Type        : Method
+ Name        : I.click(Selector(".menu-item-title",{
+    timeout: 10000,
+    retries: "INFINITELY"
+}))
+ Phase       : After Each Scenario
+ Feature     : Gain Access
+ Scenario    : Car Rent Request
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 101.0.4951.15 / Windows 10
+ in isAppBusy: false
+ Start Time  : Friday 24-Feb-2023 At 15:01:47:090 GMT+01:00
+ End Time    : Friday 24-Feb-2023 At 15:01:48:815 GMT+01:00
+ Duration    : 00:00:01.725
+ File        : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/node_modules/pega-model/src/pega.ts
+ Source      : 
+> 89 |             .click(Selector('.menu-item-title').withExactText(text));
+     |              ^
+[2023-02-24T14:01:48.838Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:48.840Z]
+✔ After Each Scenario : Done -----------------------------
+[2023-02-24T14:01:48.841Z]
+ Scenario Name: Car Rent Request
+ Feature      : Gain Access
+ Retries      : 0
+ Adapter      : playwright
+ Client       : Chrome 101.0.4951.15 / Windows 10
+ File         : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time   : Friday 24-Feb-2023 At 15:01:47:025 GMT+01:00
+ End Time     : Friday 24-Feb-2023 At 15:01:48:839 GMT+01:00
+ Duration     : 00:00:16.451
+[2023-02-24T14:01:48.842Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:48.843Z]
+ⓧ Scenario : Done ------------------
+[2023-02-24T14:01:48.844Z]
+ Name      : Car Rent Request
+ Feature   : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Friday 24-Feb-2023 At 15:01:32:387 GMT+01:00
+ End Time  : Friday 24-Feb-2023 At 15:01:48:839 GMT+01:00
+ Duration  : 00:00:16.451
+[2023-02-24T14:01:48.845Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:48.848Z]
+ⓧ Feature : Done -----------------
+[2023-02-24T14:01:48.849Z]
+ Name      : Gain Access
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 101.0.4951.15 / Windows 10
+ File      : C:/Users/KishoreKumarBiradavo/OneDrive - K-Expert/Documents/KE/Internal/Trainings_Learnings/SIMBA/tunisia-hub/src/specs/exemple-spec.ts
+ Start Time: Friday 24-Feb-2023 At 15:01:28:586 GMT+01:00
+ End Time  : Friday 24-Feb-2023 At 15:01:48:846 GMT+01:00
+ Duration  : 00:00:20.258
+[2023-02-24T14:01:48.849Z]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[2023-02-24T14:01:48.850Z]
+▶ Finished 1 of 1 Implemented Features 
+[2023-02-24T14:01:48.850Z]
+
+
+[2023-02-24T14:01:48.919Z]
+
+  ┌────────────────────────────────────────────────────────────────┬──────────────────────────────────────────────────────┬──────────────────────────────────────────────────────┬──────────────────────┬──────────────────────┐
+  │                            Feature                             │                      Scenarios                       │                        Steps                         │       Duration       │        Status        │
+  ├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼──────────────────────┼──────────────────────┤
+  │                          Gain Access                           │                      Passed: 0                       │                      Passed: 0                       │     00:00:20.260     │        failed        │
+  │                   src/specs/exemple-spec.ts                    │                      Failed: 1                       │                      Failed: 1                       │                      │                      │
+  │                                                                │                      Skipped: 0                      │                      Skipped: 4                      │                      │                      │
+  │                                                                │                     Undefined: 0                     │                     Undefined: 0                     │                      │                      │
+  │                                                                │                                                      │                                                      │                      │                      │
+  └────────────────────────────────────────────────────────────────┴──────────────────────────────────────────────────────┴──────────────────────────────────────────────────────┴──────────────────────┴──────────────────────┘
